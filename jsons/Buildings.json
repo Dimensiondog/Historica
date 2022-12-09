@@ -14,6 +14,13 @@
 		"uniques": ["Indicates the capital city"]
 	},
 	{
+		"name": "Palisades",
+		"cityStrength": 3,
+		"cityHealth": 25,
+		"hurryCostModifier": 25,
+		"requiredTech": "Archery",
+	},
+	{
 		"name": "Monument",
 		"culture": 2,
 		"cost": 40,
@@ -31,6 +38,44 @@
 		"hurryCostModifier": 40,
 		"maintenance": 1,
 		"uniques": ["Destroyed when the city is captured"] //"Hidden when religion is disabled"
+	},
+	{
+		"name": "Lodge",
+		"gold": 1,
+		"requiredNearbyImprovedResources": ["Deer", "Furs", "Truffles","Ivory"],
+		"hurryCostModifier": 40,
+		"maintenance": 1,
+		"uniques": ["[+1 Production] from [Deer] tiles [in this city]","[+1 Production] from [Furs] tiles [in this city]",
+			    "[+1 Production] from [Ivory] tiles [in this city]","[+1 Production] from [Truffles] tiles [in this city]"]
+		"requiredTech": "Trapping"
+	},
+	{
+		"name": "Herbalist",
+		"food": 2,
+		"requiredNearbyImprovedResources": ["Incense", "Citrus", "Wine","Spices"],
+		"hurryCostModifier": 40,
+		"maintenance": 1,
+		"uniques": ["[+1 Production] from [Incense] tiles [in this city]","[+1 Production] from [Wine] tiles [in this city]",
+			    "[+1 Production] from [Citrus] tiles [in this city]","[+1 Production] from [Spices] tiles [in this city]"]
+		"requiredTech": "Calendar"
+	},
+	{
+		"name": "Forge",
+		"requiredNearbyImprovedResources": ["Silver", "Iron", "Gold","Copper"],
+		"hurryCostModifier": 40,
+		"maintenance": 1,
+		"uniques": ["[+1 Production] from [Silver] tiles [in this city]","[+1 Production] from [Gold] tiles [in this city]",
+			    "[+1 Production] from [Iron] tiles [in this city]","[+1 Production] from [Copper] tiles [in this city]"]
+		"requiredTech": "Iron Working"
+	},
+	{
+		"name": "Textile Manufactory",
+		"requiredNearbyImprovedResources": ["Cotton", "Silk", "Dyes"],
+		"hurryCostModifier": 40,
+		"maintenance": 1,
+		"uniques": ["["+1 Production", "+1 Gold"] from [Cotton] tiles [in this city]","["+1 Production", "+1 Gold"] from [Silk] tiles [in this city]",
+			    "["+1 Production", "+1 Gold"] from [Dyes] tiles [in this city]"]
+		"requiredTech": "Drama and Poetry"
 	},
 	// Column 1
 	{
@@ -53,14 +98,25 @@
 	},
 	{
 		"name": "Pyramid",
-		"replaces": "Shrine",
-		"uniqueTo": "The Maya",
-		"faith": 2,
-		"science": 2,
+		"faith": 1,
+		"science": 1,
+		"Culture": 1
+		"cannotBeBuiltWith": "Step Pyramid"
 		"cost": 40,
 		"maintenance": 1,
 		"requiredTech": "Pottery",
-		"uniques": ["Hidden when religion is disabled"]
+		"uniques": ["Hidden when religion is disabled", "Must be next to [Desert]"]
+	},
+	{
+		"name": "Step Pyramid",
+		"faith": 1,
+		"science": 1,
+		"Culture": 1
+		"cannotBeBuiltWith": "Pyramid"
+		"cost": 40,
+		"maintenance": 1,
+		"requiredTech": "Pottery",
+		"uniques": ["Hidden when religion is disabled", "Must be next to [Jungle]"]
 	},
 	{
 		"name": "Temple of Artemis",
@@ -77,13 +133,14 @@
 		"name": "Stone Works",
 		"happiness": 1,
 		"production": 1,
-		"requiredNearbyImprovedResources": ["Marble", "Stone"],
+		"requiredNearbyImprovedResources": ["Marble", "Stone", "Salt"],
 		"maintenance": 1,
 		"hurryCostModifier": 0,
 		"uniques": ["Must not be on [Plains]",
 			"[+1 Production] from [Stone] tiles [in this city]",
-			"[+1 Production] from [Marble] tiles [in this city]"],
-		"requiredTech": "Calendar"
+			"[+1 Production] from [Marble] tiles [in this city]"
+			   "[+1 Production] from [Salt] tiles [in this city]"],
+		"requiredTech": "Masonry"
 	},
 	{
 		"name": "Stonehenge",
@@ -275,6 +332,16 @@
 	},
 	{
 		"name": "Colosseum",
+		"maintenance": 1,
+		"happiness": 2,
+		"hurryCostModifier": 25,
+		"uniques": ["New [Military] units start with [15] Experience [in this city]"],
+		"requiredTech": "Construction"
+	},
+	{
+		"name": "Ball Court",
+		"replaces": "Colosseum",
+		"uniqueTo": "Maya",
 		"maintenance": 1,
 		"happiness": 2,
 		"hurryCostModifier": 25,
@@ -523,14 +590,12 @@
 		"requiredTech": "Metal Casting"
 	},
 	{
-		"name": "Forge",
+		"name": "Blacksmith",
 		"maintenance": 1,
 		"hurryCostModifier": 25,
-		"requiredNearbyImprovedResources": ["Iron"],
 		"requiredTech": "Metal Casting",
-		"uniques": ["[+15]% Production when constructing [Spaceship part] units [in this city]",
-			"[+15]% Production when constructing [Land] units [in this city]",
-			"[+1 Production] from [Iron] tiles [in this city]"]
+		"uniques": ["[+25]% Production when constructing [Land] units [in this city]",
+			"[+1 Production] from [Mine] tiles [in this city]"]
 	},
 	// Column 6
 	{
