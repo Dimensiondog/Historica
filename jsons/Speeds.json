@@ -1,25 +1,65 @@
 [
     {
+        "name": "Blitz",
+        "modifier": 0.33,
+        "productionCostModifier": 0.33,
+        "goldCostModifier": 0.33,
+        "scienceCostModifier": 0.33,
+        "cultureCostModifier": 0.33,
+        "faithCostModifier": 0.33,
+        "improvementBuildLengthModifier": 0.33,
+        "barbarianModifier": 0.33,
+        "goldGiftModifier": 0.33,
+        "cityStateTributeScalingInterval": 2.16,
+        "goldenAgeLengthModifier": 0.33,
+        "religiousPressureAdjacentCity": 18,
+        "peaceDealDuration": 4,
+        "dealDuration": 10,
+        "startYear": -4000,
+        "turns": [
+            {"yearsPerTurn":  120, "untilTurn": 25},
+            {"yearsPerTurn":  75, "untilTurn": 45},
+            {"yearsPerTurn":  60, "untilTurn": 53},
+            {"yearsPerTurn":  30, "untilTurn": 70},
+            {"yearsPerTurn":   15, "untilTurn": 90},
+            {"yearsPerTurn":   5, "untilTurn": 107},
+            {"yearsPerTurn":   3, "untilTurn": 146},
+            {"yearsPerTurn": 1.5, "untilTurn": 167}
+        ]
+    },
+
+    {
+        "name": "Online",
+        "modifier": 0.5,
+        "productionCostModifier": 0.5,
+        "goldCostModifier": 0.5,
+        "scienceCostModifier": 0.5,
+        "cultureCostModifier": 0.5,
+        "faithCostModifier": 0.5,
+        "improvementBuildLengthModifier": 0.5,
+        "barbarianModifier": 0.5,
+        "goldGiftModifier": 0.5,
+        "cityStateTributeScalingInterval": 3.25,
+        "goldenAgeLengthModifier": 0.5,
+        "religiousPressureAdjacentCity": 12,
+        "peaceDealDuration": 5,
+        "dealDuration": 15,
+        "startYear": -4000,
+        "turns": [
+            {"yearsPerTurn":  80, "untilTurn": 36},
+            {"yearsPerTurn":  50, "untilTurn": 67},
+            {"yearsPerTurn":  40, "untilTurn": 80},
+            {"yearsPerTurn":  20, "untilTurn": 105},
+            {"yearsPerTurn":   10, "untilTurn": 235},
+            {"yearsPerTurn":   4, "untilTurn": 160},
+            {"yearsPerTurn":   2, "untilTurn": 220},
+            {"yearsPerTurn": 1, "untilTurn": 250}
+        ]
+    },
+
+    {
         "name": "Quick",
         "modifier": 0.67,
-        /*
-        Why are all of these raw values and not uniques? This is like EXACTLY what uniques are for,
-        and speeds even support uniques?
-        E.g.: [
-            "[-67]% Production cost of [All] buildings",
-            "[-67]% Produciton cost of [All] units",
-            "Gold cost of purchasing [All] units [-67]%"
-            "Gold cost of purchasing [All] buildings [-67]%"
-            "[-67]% Science cost of reseaching new Techs" // Needs to be added
-            "[-67]% Culture cost of adopting new policies"
-            etc.
-        I suppose this is how it is done in civ V, but uniques are one of the major features we have
-        that Civ V doesn't, so why are we not using them?
-        This approach requires adding these modifies for specific things that need to be added, while
-        uniques can just be added anywhere. Only need to change CivilizationInfo.getMatchingUniques()
-        to get the uniques of the current game speed and everything works out of the box.
-        -xlenstra
-        */
         "productionCostModifier": 0.67,
         "goldCostModifier": 0.67,
         "scienceCostModifier": 0.67,
@@ -128,4 +168,34 @@
             {"yearsPerTurn": 0.083333, "untilTurn": 1500}
         ]
     }
+        {
+        "name": "Eternity",
+        "modifier": 4.0,
+        "productionCostModifier": 4.0,
+        "goldCostModifier": 4.0,
+        "scienceCostModifier": 4.0,
+        "cultureCostModifier": 4.0,
+        "faithCostModifier": 4.0,
+        "improvementBuildLengthModifier": 4.0,
+        "barbarianModifier": 4.0,
+        "goldGiftModifier": 4.0,
+        "cityStateTributeScalingInterval": 26,
+        "goldenAgeLengthModifier": 4.0,
+        "religiousPressureAdjacentCity": 1.5,
+        "peaceDealDuration": 40,
+        "dealDuration": 120,
+        "startYear": -4000,
+        "turns": [
+            {"yearsPerTurn":  10, "untilTurn": 300},
+            {"yearsPerTurn":  6.25, "untilTurn": 540},
+            {"yearsPerTurn":  5, "untilTurn": 660},
+            {"yearsPerTurn":  2.5, "untilTurn": 840},
+            {"yearsPerTurn":   1.25, "untilTurn": 1080},
+            {"yearsPerTurn":   0.5, "untilTurn": 1280},
+            {"yearsPerTurn":   0.25, "untilTurn": 1760},
+            {"yearsPerTurn": 0.125, "untilTurn": 2000}
+        ]
+    },
+
+
 ]
