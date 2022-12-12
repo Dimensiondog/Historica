@@ -120,9 +120,9 @@
 		"wonderCost": 250,
 		"techs": [ //Seafaring when trade routes come out
 			{
-				"name": "Irrigation",
+				"name": "Code of Laws",
 				"row": 2,
-				"prerequisites": ["Calendar","Sailing"],
+				"prerequisites": ["Calendar","Writing"],
 				"quote": "'Wisdom and virtue are like the two wheels of a cart.' - Japanese proverb"
 			},
 			{
@@ -132,15 +132,15 @@
 				"quote": "'Wisdom and virtue are like the two wheels of a cart.' - Japanese proverb"
 			},
 			{
-				"name": "Code of Laws",
+				"name": "Irrigation",
 				"row": 6,
-				"prerequisites": ["The Wheel","Militias"],
+				"prerequisites": ["The Wheel"],
 				"quote": "'Wisdom and virtue are like the two wheels of a cart.' - Japanese proverb"
 			},
 			{
 				"name": "Bronze Working",
 				"row": 8,
-				"prerequisites": ["Masonry"],
+				"prerequisites": ["Masonry","Militias"],
 				"quote": "'Here Hector entered, with a spear eleven cubits long in his hand; the bronze point gleamed in front of him, and was fastened to the shaft of the spear by a ring of gold.' - Homer"
 			}
 		]
@@ -153,30 +153,34 @@
 		"wonderCost": 250,
 		"techs": [
 			{
-				"name": "Optics",
-				"cost": 85,
-				"row": 1,
-				"prerequisites": ["Sailing"],
-				"uniques": ["Enables embarkation for land units"],
-				"quote": "'He made an instrument to know if the moon shine at full or no.' - Samuel Butler"
+				"name": "Literature",
+				"row": 2,
+				"prerequisites": ["Code of Laws"],
+				"quote": "'A Horse! A Horse! My kingdom for a horse!' - Shakespeare (Richard III)"
 			},
 			{
 				"name": "Horseback Riding",
-				"row": 5,
+				"row": 3,
 				"prerequisites": ["Chariotry"],
 				"quote": "'A Horse! A Horse! My kingdom for a horse!' - Shakespeare (Richard III)"
 			},
 			{
 				"name": "Mathematics",
-				"row": 7,
-				"prerequisites": ["The Wheel"],
+				"row": 6,
+				"prerequisites": ["Irrigation","Chariotry],
 				"quote": "'Mathematics is the gate and key to the sciences.' - Roger Bacon"
 			},
 			{
 				"name": "Construction",
-				"row": 9,
-				"prerequisites": ["Bronze Working"],
+				"row": 7,
+				"prerequisites": ["Irrigation","Bronze Working"],
 				"quote": "'Three things are to be looked to in a building: that it stands on the right spot; that it be securely founded; that it be successfully executed.' - Johann Wolfgang von Goethe"
+			},
+			{
+				"name": "Iron Working",
+				"row": 8,
+				"prerequisites": ["Bronze Working"],
+				"quote": "'Do not wait to strike til the iron is hot, but make it hot by striking.' - William Butler Yeats"
 			}
 		]
 	},
@@ -188,36 +192,37 @@
 		"wonderCost": 250,
 		"techs": [
 			{
+				"name": "Shipbuilding",
+				"row": 1,
+				"prerequisites": ["Sailing"],
+				"uniques": ["Enables embarkation for land units"],
+				"quote": "'There is only one good, knowledge, and one evil, ignorance.' - Socrates"
+			},		
+			{
 				"name": "Philosophy",
 				"row": 2,
-				"prerequisites": ["Writing","Calendar"],
+				"prerequisites": ["Literature"],
 				"quote": "'There is only one good, knowledge, and one evil, ignorance.' - Socrates"
 			},
 			{
-				"name": "Drama and Poetry",
+				"name": "Drama",
 				"row": 3,
-				"prerequisites": ["Writing"],
+				"prerequisites": ["Literature"],
 				"quote": "'What is drama but life with the dull bits cut out.' - Alfred Hitchcock"
 			},
 			{
 				"name": "Currency",
-				"row": 7,
-				"prerequisites": ["Mathematics"],
+				"row": 4,
+				"prerequisites": ["Mathematics","Horseback Riding"],
 				"quote": "'Better is bread with a happy heart than wealth with vexation.' - Amenemope"
 			},
 			{
 				"name": "Engineering",
 				"row": 8,
-				"prerequisites": ["Mathematics","Construction"],
+				"prerequisites": ["Mathematics","Construction","Iron Working"],
 				"uniques": ["Roads connect tiles across rivers"],
 				"quote": "'Instrumental or mechanical science is the noblest and, above all others, the most useful.' - Leonardo da Vinci"
 			},
-			{
-				"name": "Iron Working",
-				"row": 10,
-				"prerequisites": ["Bronze Working"],
-				"quote": "'Do not wait to strike til the iron is hot, but make it hot by striking.' - William Butler Yeats"
-			}
 		]
 	},
 	{
@@ -228,9 +233,27 @@
 		"wonderCost": 250,
 		"techs": [
 			{
+				"name": "Optics",
+				"row": 1,
+				"prerequisites": ["Shipbuilding"],
+				"quote": "'He made an instrument to know if the moon shine at full or no.' - Samuel Butler"
+			},
+			{
 				"name": "Mounted Archery",
 				"row": 5,
-				"prerequisites": ["Horseback Riding"],
+				"prerequisites": ["Currency"],
+				"quote": "'I think we agree, the past is over.' - George W. Bush"
+			},
+			{
+				"name": "City Planning",
+				"row": 6,
+				"prerequisites": ["Engineering"],
+				"quote": "'I think we agree, the past is over.' - George W. Bush"
+			}
+			{
+				"name": "Sanitation",
+				"row": 8,
+				"prerequisites": ["Engineerinh"],
 				"quote": "'I think we agree, the past is over.' - George W. Bush"
 			}
 		]
