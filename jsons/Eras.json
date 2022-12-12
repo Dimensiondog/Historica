@@ -17,6 +17,20 @@
         "iconRGB": [255, 87, 35]
     },
     {
+        "name": "Age of Bronze",
+        "researchAgreementCost": 150,
+        "startingSettlerCount": 1, // These values should not include the values given in Difficulties.json
+        "startingWorkerCount": 1,
+        "startingMilitaryUnitCount": 1,
+        "startingMilitaryUnit": "Warrior",
+        "settlerPopulation": 2,
+        "baseUnitBuyCost": 210,
+        "embarkDefense": 6,
+        "startPercent": 0,
+        "citySound": "cityAncient",
+        "iconRGB": [205, 127, 50]
+    },
+    {
         "name": "Classical era",
         "researchAgreementCost": 150,
         "startingSettlerCount": 1,
