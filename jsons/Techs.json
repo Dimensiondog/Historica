@@ -30,6 +30,11 @@
 				"row": 8,
 				"quote": "'The haft of the arrow has been feathered with one of the eagle's own plumes, we often give our enemies the means of our own destruction' - Aesop"
 			},
+			{
+				"name": "Mining",
+				"row": 10,
+				"quote": "'The meek shall inherit the Earth, but not its mineral rights.' - J. Paul Getty"
+			}
 		]
 	},
 	{
@@ -58,11 +63,11 @@
 				"quote": "'The haft of the arrow has been feathered with one of the eagle's own plumes, we often give our enemies the means of our own destruction' - Aesop"
 			},
 			{
-				"name": "Mining",
+				"name": "Masonry",
 				"row": 9,
-				"prerequisites": ["Carpentry"],
-				"quote": "'The meek shall inherit the Earth, but not its mineral rights.' - J. Paul Getty"
-			}
+				"prerequisites": ["Mining","Carpentry"],
+				"quote": "'How happy are those whose walls already rise!' - Virgil"
+			},
 
 		]
 	},
@@ -104,15 +109,15 @@
 				"quote": "'Wisdom and virtue are like the two wheels of a cart.' - Japanese proverb"
 			},
 			{
-				"name": "Masonry",
+				"name": "Militias",
 				"row": 9,
-				"prerequisites": ["Mining"],
-				"quote": "'How happy are those whose walls already rise!' - Virgil"
-			},
+				"prerequisites": ["Masonry"],
+				"quote": "'Here Hector entered, with a spear eleven cubits long in his hand; the bronze point gleamed in front of him, and was fastened to the shaft of the spear by a ring of gold.' - Homer"
+			}
 			{
 				"name": "Bronze Working",
 				"row": 10,
-				"prerequisites": ["Mining"],
+				"prerequisites": ["Masonry"],
 				"quote": "'Here Hector entered, with a spear eleven cubits long in his hand; the bronze point gleamed in front of him, and was fastened to the shaft of the spear by a ring of gold.' - Homer"
 			}
 		]
