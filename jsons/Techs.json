@@ -98,8 +98,8 @@
 			},
 			{
 				"name": "The Wheel",
-				"row": 7,
-				"prerequisites": ["Archery"],
+				"row": 6,
+				"prerequisites": ["Archery","Animal Husbandry"],
 				"quote": "'Wisdom and virtue are like the two wheels of a cart.' - Japanese proverb"
 			},
 			{
@@ -117,11 +117,23 @@
 		"techCost": 105,
 		"buildingCost": 100,
 		"wonderCost": 250,
-		"techs": [
+		"techs": [ //Seafaring when trade routes come out
+			{
+				"name": "Irrigation",
+				"row": 3,
+				"prerequisites": ["Calendar","Sailing"],
+				"quote": "'Wisdom and virtue are like the two wheels of a cart.' - Japanese proverb"
+			},
 			{
 				"name": "Chariotry",
 				"row": 5,
-				"prerequisites": ["Animal Husbandry", "Archery"],
+				"prerequisites": ["The Wheel"],
+				"quote": "'Wisdom and virtue are like the two wheels of a cart.' - Japanese proverb"
+			},
+			{
+				"name": "Code of Laws",
+				"row": 8,
+				"prerequisites": ["The Wheel","Militias"],
 				"quote": "'Wisdom and virtue are like the two wheels of a cart.' - Japanese proverb"
 			},
 			{
