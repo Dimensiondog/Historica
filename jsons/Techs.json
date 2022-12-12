@@ -167,7 +167,7 @@
 			{
 				"name": "Mathematics",
 				"row": 6,
-				"prerequisites": ["Irrigation","Chariotry],
+				"prerequisites": ["Irrigation","Chariotry"],
 				"quote": "'Mathematics is the gate and key to the sciences.' - Roger Bacon"
 			},
 			{
