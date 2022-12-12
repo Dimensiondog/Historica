@@ -64,7 +64,7 @@
 		"requiredNearbyImprovedResources": ["Silver", "Iron", "Gold","Copper"],
 		"hurryCostModifier": 40,
 		"maintenance": 1,
-		"uniques": ["[+1 Production] from [Silver] tiles [in this city]","[+1 Production] from [Gold] tiles [in this city]",
+		"uniques": ["[+1 Production] from [Silver] tiles [in this city]","[+1 Production] from [Gold Ore] tiles [in this city]",
 			    "[+1 Production] from [Iron] tiles [in this city]","[+1 Production] from [Copper] tiles [in this city]"]
 		"requiredTech": "Iron Working"
 	},
