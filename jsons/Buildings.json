@@ -73,8 +73,8 @@
 		"requiredNearbyImprovedResources": ["Cotton", "Silk", "Dyes"],
 		"hurryCostModifier": 40,
 		"maintenance": 1,
-		"uniques": ["["+1 Production", "+1 Gold"] from [Cotton] tiles [in this city]","["+1 Production", "+1 Gold"] from [Silk] tiles [in this city]",
-			    "["+1 Production", "+1 Gold"] from [Dyes] tiles [in this city]"]
+		"uniques": ["[+1 Production, +1 Gold] from [Cotton] tiles [in this city]","[+1 Production, +1 Gold] from [Silk] tiles [in this city]",
+			    "[+1 Production, +1 Gold] from [Dyes] tiles [in this city]"]
 		"requiredTech": "Drama and Poetry"
 	},
 	// Column 1
