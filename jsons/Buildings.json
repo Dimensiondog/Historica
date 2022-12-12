@@ -18,7 +18,7 @@
 		"cityStrength": 3,
 		"cityHealth": 25,
 		"hurryCostModifier": 25,
-		"requiredTech": "Archery",
+		"requiredTech": "Carpentry",
 	},
 	{
 		"name": "Monument",
@@ -93,7 +93,7 @@
 		"faith": 1,
 		"cost": 40,
 		"maintenance": 1,
-		"requiredTech": "Pottery",
+		"requiredTech": "Mysticism",
 		"uniques": ["Hidden when religion is disabled"]
 	},
 	{
@@ -104,7 +104,7 @@
 		"cannotBeBuiltWith": "Step Pyramid"
 		"cost": 40,
 		"maintenance": 1,
-		"requiredTech": "Pottery",
+		"requiredTech": "Mysticism",
 		"uniques": ["Hidden when religion is disabled", "Must be next to [Desert]"]
 	},
 	{
@@ -115,7 +115,7 @@
 		"cannotBeBuiltWith": "Pyramid"
 		"cost": 40,
 		"maintenance": 1,
-		"requiredTech": "Pottery",
+		"requiredTech": "Mysticism",
 		"uniques": ["Hidden when religion is disabled", "Must be next to [Jungle]"]
 	},
 	{
@@ -147,7 +147,7 @@
 		"faith": 5,
 		"isWonder": true,
 		"greatPersonPoints": {"Great Engineer": 1},
-		"requiredTech": "Calendar",
+		"requiredTech": "Mysticism",
 		"quote": "'Time crumbles things; everything grows old and is forgotten under the power of time' - Aristotle"
 	},
 	{
