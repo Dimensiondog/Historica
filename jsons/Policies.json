@@ -21,7 +21,7 @@
                     "[+1 Happiness] per [10] population [in all cities]"
                 ],
                 "row": 1,
-                "column": 1
+                "column": 10
             },
             {
                 "name": "Legalism",
@@ -29,7 +29,7 @@
                     "Provides the cheapest [Culture] building in your first [4] cities for free"
                 ],
                 "row": 2,
-                "column": 3
+                "column": 10
             },
             {
                 "name": "Oligarchy",
@@ -38,7 +38,7 @@
                     "[+50]% Strength for cities <with a garrison> <when attacking>"
                 ],
                 "row": 3,
-                "column": 5
+                "column": 10
             },
             {
                 "name": "Landed Elite",
@@ -48,7 +48,7 @@
                 ],
                 "requires": ["Legalism"],
                 "row": 4,
-                "column": 2
+                "column": 10
             },
             {
                 "name": "Monarchy",
@@ -57,7 +57,7 @@
                 ],
                 "requires": ["Legalism"],
                 "row": 5,
-                "column": 4
+                "column": 10
             },
             {
                 "name": "Tradition Complete",
