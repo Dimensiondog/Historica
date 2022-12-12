@@ -24,6 +24,10 @@
         "movementType": "Land"
     },
     {
+        "name": "Skirmisher",
+        "movementType": "Land"
+    },
+    {
         "name": "Mounted",
         "movementType": "Land"
     },
