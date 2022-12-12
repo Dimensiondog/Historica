@@ -11,6 +11,11 @@
 				"quote": "'Where tillage begins, other arts follow. The farmers therefore are the founders of human civilization.' - Daniel Webster",
 			},
 			{
+				"name": "Mysticism",
+				"row": 2,
+				"quote": "'Where tillage begins, other arts follow. The farmers therefore are the founders of human civilization.' - Daniel Webster",
+			},
+			{
 				"name": "Agriculture",
 				"row": 3,
 				"quote": "'Where tillage begins, other arts follow. The farmers therefore are the founders of human civilization.' - Daniel Webster",
@@ -87,9 +92,15 @@
 				"quote": "'He who destroys a good book kills reason itself.' - John Milton"
 			},
 			{
+				"name": "Chariotry",
+				"row": 5,
+				"prerequisites": ["Animal Husbandry", "Archery"],
+				"quote": "'Wisdom and virtue are like the two wheels of a cart.' - Japanese proverb"
+			},
+			{
 				"name": "The Wheel",
 				"row": 7,
-				"prerequisites": ["Animal Husbandry", "Archery"],
+				"prerequisites": ["Archery"],
 				"quote": "'Wisdom and virtue are like the two wheels of a cart.' - Japanese proverb"
 			},
 			{
