@@ -209,7 +209,7 @@
 		"cityStrength": 5,
 		"cityHealth": 50,
 		"hurryCostModifier": 25,
-		"requiredTech": "Masonry",
+		"requiredTech": "Militias",
 		"uniques": ["Destroyed when the city is captured"]
 	},
 	{
@@ -220,7 +220,7 @@
 		"cityStrength": 6,
 		"cityHealth": 100,
 		"hurryCostModifier": 25,
-		"requiredTech": "Masonry",
+		"requiredTech": "Militias",
 		"uniques": ["Destroyed when the city is captured"]
 	},
 	{
@@ -247,7 +247,7 @@
 		"hurryCostModifier": 25,
 		"maintenance": 1,
 		"uniques": ["New [Military] units start with [15] Experience [in this city]", "Destroyed when the city is captured"],
-		"requiredTech": "Bronze Working"
+		"requiredTech": "Militias"
 	},
 	{
 		"name": "Krepost",
@@ -257,7 +257,7 @@
 		"maintenance": 1,
 		"uniques": ["[-25]% Culture cost of natural border growth [in this city]","[-25]% Gold cost of acquiring tiles [in this city]",
 			"New [Military] units start with [15] Experience [in this city]", "Destroyed when the city is captured"],
-		"requiredTech": "Bronze Working"
+		"requiredTech": "Militias"
 	},
 	{
 		"name": "Statue of Zeus",
