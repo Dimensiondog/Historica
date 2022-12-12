@@ -42,7 +42,7 @@
     {
         "name": "God of the Sea",
         "type": "Pantheon",
-        "uniques": ["[+1 Production, +1 Faith] from every [Fishing Boats]", "[+2 Faith] from every [Lighthouse]", "[+4 Faith] from every [Harbour]", "[+6 Faith] from every [Seaport]"]
+        "uniques": ["[+1 Production, +1 Faith] from every [Fishing Boats]", "[+2 Faith] from every [Lighthouse]", "[+4 Faith] from every [Harbor]", "[+6 Faith] from every [Seaport]"]
     },
     {
         "name": "God of War",
@@ -52,7 +52,7 @@
     {
         "name": "Goddess of Festivals",
         "type": "Pantheon",
-        "uniques": ["[+4 Culture, +4 Faith] [in this city] <during We Love the King Day>"]
+        "uniques": ["[+4 Culture, +4 Faith] [in this city] <during We Love The King Day>"]
     },
     {
         "name": "Goddess of Love",
