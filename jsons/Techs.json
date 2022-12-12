@@ -6,7 +6,7 @@
 		"buildingCost": 40,
 		"techs": [
 			{
-				"name": "Fisihing",
+				"name": "Fishing",
 				"row": 1,
 				"quote": "'Where tillage begins, other arts follow. The farmers therefore are the founders of human civilization.' - Daniel Webster",
 			},
@@ -124,7 +124,7 @@
 			{
 				"name": "Horseback Riding",
 				"row": 5,
-				"prerequisites": ["Trapping","The Wheel"],
+				"prerequisites": ["The Wheel"],
 				"quote": "'A Horse! A Horse! My kingdom for a horse!' - Shakespeare (Richard III)"
 			},
 			{
