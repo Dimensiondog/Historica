@@ -166,6 +166,13 @@
 		"requiredTech": "Writing"
 	},
 	{
+		"name": "Cultural Library",
+		"hurryCostModifier": 25,
+		"maintenance": 1,
+		"uniques": ["[+1 Culture] per [4] population [in this city]"],
+		"requiredTech": "Literature"
+	},
+	{
 		"name": "Paper Maker",
 		"replaces": "Library",
 		"uniqueTo": "China",
@@ -305,10 +312,10 @@
 		"maintenance": 1,
 		"requiredNearbyImprovedResources": ["Horses","Sheep","Cattle"],
 		"hurryCostModifier": 25,
-		"uniques": ["[+15]% Production when constructing [Mounted] units [in this city]",
-			"[+1 Production] from [Cattle] tiles [in this city]",
-			"[+1 Production] from [Horses] tiles [in this city]",
-			"[+1 Production] from [Sheep] tiles [in this city]"],
+		"uniques": ["[+25]% Production when constructing [Mounted] units [in this city]",
+			"[+2 Production] from [Cattle] tiles [in this city]",
+			"[+2 Production] from [Horses] tiles [in this city]",
+			"[+2 Production] from [Sheep] tiles [in this city]"],
 		"requiredTech": "Horseback Riding"
 	},
 	{
@@ -318,7 +325,7 @@
 		"culture": 1,
 		"isNationalWonder": true,
 		"uniques": ["Requires a [Colosseum] in all cities", "Cost increases by [30] per owned city"],
-		"requiredTech": "Horseback Riding"
+		"requiredTech": "Mounted Archery"
 	},
 	{
 		"name": "Courthouse",
@@ -344,7 +351,7 @@
 		"happiness": 2,
 		"hurryCostModifier": 25,
 		"uniques": ["New [Military] units start with [15] Experience [in this city]"],
-		"requiredTech": "Construction"
+		"requiredTech": "Drama"
 	},
 	{
 		"name": "Ball Court",
@@ -353,7 +360,7 @@
 		"maintenance": 1,
 		"happiness": 2,
 		"hurryCostModifier": 25,
-		"requiredTech": "Construction"
+		"requiredTech": "Drama"
 	},
 	{
 		"name": "Terracotta Army",
@@ -475,7 +482,7 @@
 		"maintenance": 1,
 		"hurryCostModifier": 0,
 		"uniques": ["[40]% Food is carried over after population increases [in this city]"],
-		"requiredTech": "Engineering"
+		"requiredTech": "Sanitation"
 	},
 	{
 		"name": "Great Wall",
