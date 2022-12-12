@@ -140,7 +140,7 @@
 			{
 				"name": "Bronze Working",
 				"row": 8,
-				"prerequisites": ["Masonry","Militias"],
+				"prerequisites": ["Masonry"],
 				"quote": "'Here Hector entered, with a spear eleven cubits long in his hand; the bronze point gleamed in front of him, and was fastened to the shaft of the spear by a ring of gold.' - Homer"
 			}
 		]
@@ -288,7 +288,7 @@
 			{
 				"name": "Metal Casting",
 				"row": 9,
-				"prerequisites": ["Engineering","Iron Working"],
+				"prerequisites": ["Engineering"],
 				"quote": "'When pieces of bronze or gold or iron break, the metal-smith welds them together again in the fire, and the bond is established.' - Sri Guru Granth Sahib"
 			}
 		]
