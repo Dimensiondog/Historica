@@ -77,6 +77,14 @@
 			    "[+1 Production, +1 Gold] from [Dyes] tiles [in this city]"]
 		"requiredTech": "Drama and Poetry"
 	},
+	{
+		"name": "Scribal Order",
+		"maintenance": 2,
+		"hurryCostModifier": 30,
+		"specialistSlots": {"Scientist": 2},
+		"uniques": ["[+1 Science] from every speciaist [in this city]"],
+		"requiredTech": "Writing"
+	},
 	// Column 1
 	{
 		"name": "Granary",
@@ -316,9 +324,9 @@
 		"name": "Courthouse",
 		"maintenance": 4,
 		"hurryCostModifier": 50,
-		"uniques": ["Remove extra unhappiness from annexed cities",
-			"Can only be built [in annexed cities]"],
-		"requiredTech": "Mathematics"
+		"happiness": 2,
+		"uniques": ["Remove extra unhappiness from annexed cities"],
+		"requiredTech": "Code of Laws"
 	},
 	{
 		"name": "Hanging Gardens",
