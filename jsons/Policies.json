@@ -88,7 +88,7 @@
     },
     {
         "name": "Monarchy",
-        "era": "Ancient era",
+        "era": "Age of Bronze",
         "priorities": {
             "Neutral": 0,
             "Cultural": 10,
@@ -160,7 +160,7 @@
                 ],
                 "requires": ["Military Tradition","Imperial Cult", "Monarchic Splendour"],
                 "row": 3,
-                "column": 5
+                "column": 3
             },
             {
                 "name": "Monarchy Complete",
@@ -170,7 +170,7 @@
     },
     {
         "name": "Liberty",
-        "era": "Ancient era",
+        "era": "Age of Bronze",
         "priorities": {
             "Neutral": 0,
             "Cultural": 0,
@@ -236,7 +236,7 @@
     },
     {
         "name": "Honor",
-        "era": "Ancient era",
+        "era": "Age of Bronze",
         "priorities": {
             "Neutral": 0,
             "Cultural": 0,
