@@ -82,7 +82,7 @@
 		"maintenance": 2,
 		"hurryCostModifier": 30,
 		"specialistSlots": {"Scientist": 2},
-		"uniques": ["[+1 Science] from every speciaist [in this city]"],
+		"uniques": ["[+1 Science] from every specialist [in this city]"],
 		"requiredTech": "Writing"
 	},
 	// Column 1
