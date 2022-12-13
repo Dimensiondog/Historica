@@ -88,14 +88,14 @@
 		"name": "Apadana Palace",
 		"culture": 1,
 		"isWonder": true,
-		"uniques": ["Resting point for Influence with CIty-States is increased by [10]"]
+		"uniques": ["Resting point for Influence with City-States is increased by [10]"]
 		"requiredTech": "Philosophy"
 	},
 	{
 		"name": "Ziggurat of Ur",
 		"culture": 2,
 		"isWonder": true,
-		"uniques": ["Empire enters Golden Age", "Gain a free [Pantheon] belief", "Must be on [Floodplains]"]
+		"uniques": ["Empire enters golden ge", "Gain a free [Pantheon] belief", "Must be on [Flood plains]"]
 		"requiredTech": "Writing"
 	},
 	{
