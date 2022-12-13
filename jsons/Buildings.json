@@ -85,6 +85,27 @@
 		"requiredTech": "Irrigation"
 	},
 	{
+		"name": "Apadana Palace",
+		"culture": 1,
+		"isWonder": true,
+		"uniques": ["Resting point for Influence with CIty-States is increased by [10]"]
+		"requiredTech": "Philosophy"
+	},
+	{
+		"name": "Ziggurat of Ur",
+		"culture": 2,
+		"isWonder": true,
+		"uniques": ["Empire enters Golden Age", "Gain a free [Pantheon] belief", "Must be on [Floodplains]"]
+		"requiredTech": "Writing"
+	},
+	{
+		"name": "Pont Du Gard",
+		"culture": 1,
+		"isWonder": true,
+		"uniques": ["[5]% Food is carried over after population increases [in all cities]", "Must be on [River]"]
+		"requiredTech": "City Planning"
+	},
+	{
 		"name": "Bath",
 		"maintenance": 1,
 		"food": 2,
@@ -92,6 +113,15 @@
 		"hurryCostModifier": 25,
 		"uniques": ["Must be on [Fresh Water]"],
 		"requiredTech": "Irrigation"
+	},
+	{
+		"name": "Potter",
+		"maintenance": 1,
+		"Production": 1,
+		"Gold": 2,
+		"culture": 1,
+		"hurryCostModifier": 25,
+		"requiredTech": "Pottery"
 	},
 	{
 		"name": "Scribal Order",
@@ -203,7 +233,7 @@
 		"culture": 1,
 		"greatPersonPoints": {"Great Scientist": 1},
 		"isWonder": true,
-		"requiredTech": "Writing",
+		"requiredTech": "Philosophy",
 		"uniques": ["Free Technology", "Gain a free [Library] [in this city]"],
 		"quote": "'Libraries are as the shrine where all the relics of the ancient saints, full of true virtue, and all that without delusion or imposture are preserved and reposed.' - Sir Francis Bacon"
 	},
@@ -366,7 +396,6 @@
 		"maintenance": 1,
 		"happiness": 2,
 		"hurryCostModifier": 25,
-		"uniques": ["New [Military] units start with [15] Experience [in this city]"],
 		"requiredTech": "Drama"
 	},
 	{
@@ -375,6 +404,7 @@
 		"uniqueTo": "Maya",
 		"maintenance": 1,
 		"happiness": 2,
+		"uniques": ["New [Military] units start with [15] Experience [in this city]"],
 		"hurryCostModifier": 25,
 		"requiredTech": "Drama"
 	},
@@ -435,7 +465,7 @@
 		"greatPersonPoints": {"Great Scientist": 1},
 		"isWonder": true,
 		"uniques": ["Free Social Policy"],
-		"requiredTech": "Philosophy",
+		"requiredTech": "Literature",
 		"quote": "'The ancient Oracle said that I was the wisest of all the Greeks. It is because I alone, of all the Greeks, know that I know nothing' - Socrates"
 	},
 	{
