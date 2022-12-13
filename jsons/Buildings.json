@@ -78,6 +78,22 @@
 		"requiredTech": "Drama"
 	},
 	{
+		"name": "Great Bath",
+		"culture": 1,
+		"isWonder": true,
+		"uniques": ["[+1 Faith, +1 Food] from [Fresh Water] tiles [in this city]", "Must be on [Fresh Water]"]
+		"requiredTech": "Irrigation"
+	},
+	{
+		"name": "Bath",
+		"maintenance": 1,
+		"food": 2,
+		"culture": 2,
+		"hurryCostModifier": 25,
+		"uniques": ["Must be on [Fresh Water]"],
+		"requiredTech": "Irrigation"
+	},
+	{
 		"name": "Scribal Order",
 		"maintenance": 2,
 		"hurryCostModifier": 30,
