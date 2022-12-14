@@ -18,6 +18,12 @@
 		"color": [160,32,240]
 	},
 	{
+		"name":"Priest",
+		"faith":2,
+		"greatPersonPoints": {"Great Prophet":3},
+		"color": [255,255,255]
+	},
+	{
 		"name":"Engineer",
 		"production":2,
 		"greatPersonPoints": {"Great Engineer":3},
