@@ -185,7 +185,7 @@
 		"name": "Monastery",
 		"culture": 2,
 		"faith": 2,
-		"uniques": ["[+1 Culture, +1 Faith] from [Luxury Resource] tiles [in this city]"]
+		"uniques": ["[+1 Culture, +1 Faith] from [Luxury resource] tiles [in this city]"]
 		"requiredTech": "Monasticism",
 	},
 	{
