@@ -95,7 +95,7 @@
 		"name": "Ziggurat of Ur",
 		"culture": 2,
 		"isWonder": true,
-		"uniques": ["Empire enters golden ge", "Gain a free [Pantheon] belief", "Must be on [Flood plains]"]
+		"uniques": ["Empire enters golden age", "Gain a free [Pantheon] belief", "Must be on [Flood plains]"]
 		"requiredTech": "Writing"
 	},
 	{
