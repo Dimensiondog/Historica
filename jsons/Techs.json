@@ -279,13 +279,13 @@
 			{
 				"name": "Monasticism",
 				"row": 2,
-				"prerequisites": ["Philosophy"],
+				"prerequisites": ["Philosophy","Optics"],
 				"quote": "'I think we agree, the past is over.' - George W. Bush"
 			},
 			{
 				"name": "Theology",
 				"row": 3,
-				"prerequisites": ["Philosophy", "Drama"],
+				"prerequisites": ["Philosophy", "Drama", "Mounted Archery"],
 				"quote": "'Three things are necessary for the salvation of man: to know what he ought to believe; to know what he ought to desire; and to know what he ought to do' - St. Thomas Aquinas"
 			},
 			{
