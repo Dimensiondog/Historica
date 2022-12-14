@@ -145,7 +145,7 @@
                 "column": 3
             },
            {
-                "name": "Military Tradition",
+                "name": "Noble Tradition",
                 "uniques": [
                     "[+15]% Strength <for [Military] units> <when adjacent to a [Melee] unit>"
                 ],
