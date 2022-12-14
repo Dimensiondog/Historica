@@ -298,7 +298,6 @@
 				"name": "Paper",
 				"row": 6,
 				"prerequisites": ["City Planning"],
-				"uniques": ["Enables Open Borders agreements", "Enables Research agreements"],
 				"quote": "'I think we agree, the past is over.' - George W. Bush"
 			},
 			{
@@ -312,25 +311,37 @@
 	},
 	{
 		"columnNumber": 8,
-		"era": "Medieval era",
+		"era": "Low Medieval era",
 		"techCost": 275,
 		"buildingCost": 120,
 		"wonderCost": 300,
 		"techs": [
 			{
-				"name": "Civil Service",
+				"name": "Education",
+				"row": 2,
+				"prerequisites": ["Monasticism","Theology"],
+				"quote": "'Education is the best provision for old age.' - Aristotle"
+			},
+			{
+				"name": "Chivalry",
+				"row": 4,
+				"prerequisites": ["Theology","Fortification"],
+				"quote": "'Whoso pulleth out this sword of this stone and anvil, is rightwise king born of all England.' - Malory"
+			},
+			{
+				"name": "Charters",
 				"row": 5,
-				"prerequisites": ["Theology"],
-				"uniques": ["Enables Open Borders agreements"],
+				"prerequisites": ["Fortification","Paper"],
+				"uniques": ["Enables Open Borders agreements", "Enables Research agreements"],
+				"quote": "'Whoso pulleth out this sword of this stone and anvil, is rightwise king born of all England.' - Malory"
+			},
+			{
+				"name": "Civil Service",
+				"row": 7,
+				"prerequisites": ["Paper","Crop Rotation"],
 				"quote": "'The only thing that saves us from the bureaucracy is its inefficiency' - Eugene McCarthy"
 			},
-			{
-				"name": "Guilds",
-				"row": 7,
-				"prerequisites": ["Fortification"],
-				"quote": "'The merchants and the traders have come; their profits are pre-ordained...' - Sri Guru Granth Sahib"
-			},
-			{
+v			{
 				"name": "Metal Casting",
 				"row": 8,
 				"prerequisites": ["Crop Rotation"],
@@ -340,47 +351,40 @@
 	},
 	{
 		"columnNumber": 9,
-		"era": "Medieval era",
+		"era": "High Medieval era",
 		"techCost": 485,
 		"buildingCost": 160,
 		"wonderCost": 400,
 		"techs": [
 			{
 				"name": "Compass",
-				"cost": 375,
 				"row": 1,
-				"prerequisites": ["Optics","Theology"],
+				"prerequisites": ["Education"],
 				"quote": "'I find the great thing in this world is not so much where we stand, as in what direction we are moving.' - Oliver Wendell Holmes"
 			},
 			{
-				"name": "Education",
+				"name": "Physics",
 				"row": 3,
-				"prerequisites": ["Civil Service"],
-				"quote": "'Education is the best provision for old age.' - Aristotle"
+				"prerequisites": ["Education","Chivalry"],
+				"quote": "'Measure what is measurable, and make measurable what is not so.' - Galileo Galilei"
 			},
 			{
-				"name": "Chivalry",
+				"name": "Guilds",
 				"row": 5,
-				"prerequisites": ["Civil Service","Guilds"],
-				"quote": "'Whoso pulleth out this sword of this stone and anvil, is rightwise king born of all England.' - Malory"
+				"prerequisites": ["Charters","Chivalry"],
+				"quote": "'The merchants and the traders have come; their profits are pre-ordained...' - Sri Guru Granth Sahib"
 			},
 			{
 				"name": "Machinery",
 				"row": 6,
-				"prerequisites": ["Guilds"],
+				"prerequisites": ["Civil Service","Charters"],
 				"uniques": ["Improves movement speed on roads"],
 				"quote": "'The press is the best instrument for enlightening the mind of man, and improving him as a rational, moral and social being.' - Thomas Jefferson"
 			},
 			{
-				"name": "Physics",
-				"row": 7,
-				"prerequisites": ["Metal Casting"],
-				"quote": "'Measure what is measurable, and make measurable what is not so.' - Galileo Galilei"
-			},
-			{
 				"name": "Steel",
 				"row": 8,
-				"prerequisites": ["Metal Casting"],
+				"prerequisites": ["Metal Casting","Civil Service],
 				"quote": "'John Henry said to his Captain, / 'A man ain't nothin' but a man, / And before I'll let your steam drill beat me down, / I'll die with the hammer in my hand.'' - Anonymous: The Ballad of John Henry, the Steel-Drivin' Man"
 			}
 		]
