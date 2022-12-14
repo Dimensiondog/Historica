@@ -182,6 +182,36 @@
 		"uniques": ["Hidden when religion is disabled", "Must be next to [Jungle]"]
 	},
 	{
+		"name": "Monastery",
+		"culture": 2,
+		"faith": 2,
+		"uniques": ["[+1 Culture, +1 Faith] from [Luxury] tiles [in this city]"]
+		"requiredTech": "Monasticism",
+	},
+	{
+		"name": "Scriptorium",
+		"culture": 1,
+		"faith": 1,
+		"Science": 3,
+		"requiredTech": "Monasticism",
+	},
+	{
+		"name": "Mount Athos",
+		"culture": 1,
+		"faith": 1,
+		"requiredTech": "Monasticism",
+		"uniques": ["[+100]% Natural religion spread [in this city]","[Faith] cost of purchasing items in cities [-10]%"]
+		"isWonder": true,
+	},
+	{
+		"name": "House of Wisdom",
+		"culture": 2,
+		"Science": 2,
+		"requiredTech": "Paper",
+		"uniques": ["[+20]% [Science] [in all cities] <during a Golden Age>", "[+20]% [Science] [in all cities] <during a Golden Age>"]
+		"isWonder": true,
+	},
+	{
 		"name": "Temple of Artemis",
 		"culture": 1,
 		"isWonder": true,
@@ -724,7 +754,7 @@
 		"cityHealth": 25,
 		"hurryCostModifier": 25,
 		"requiredBuilding": "Walls",
-		"requiredTech": "Chivalry",
+		"requiredTech": "Fortification",
 		"uniques": ["Destroyed when the city is captured"]
 	},
 	{
@@ -736,7 +766,7 @@
 		"cityHealth": 25,
 		"culture": 2,
 		"hurryCostModifier": 25,
-		"requiredBuilding": "Walls",
+		"requiredBuilding": "Fortification",
 		"uniques": ["[+1 Gold] [in this city] <after discovering [Flight]>", "Destroyed when the city is captured"],
 		"requiredTech": "Chivalry"
 	},
@@ -1287,15 +1317,6 @@
 		"happiness": 1,
 		"specialistSlots": {"Artist": 1},
 		"uniques": ["Unbuildable", "Hidden when religion is disabled"]
-	},
-	{
-		"name": "Monastery",
-		"cost": 0,
-		"culture": 2,
-		"faith": 2,
-		"uniques": ["[+1 Culture, +1 Faith] from [Wine] tiles [in this city]",
-			"[+1 Culture, +1 Faith] from [Incense] tiles [in this city]",
-			"Unbuildable", "Hidden when religion is disabled", "Destroyed when the city is captured"]
 	},
 	{
 		"name": "Mosque",
