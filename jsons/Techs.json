@@ -384,7 +384,7 @@
 			{
 				"name": "Steel",
 				"row": 8,
-				"prerequisites": ["Metal Casting","Civil Service],
+				"prerequisites": ["Metal Casting","Civil Service"],
 				"quote": "'John Henry said to his Captain, / 'A man ain't nothin' but a man, / And before I'll let your steam drill beat me down, / I'll die with the hammer in my hand.'' - Anonymous: The Ballad of John Henry, the Steel-Drivin' Man"
 			}
 		]
