@@ -140,14 +140,14 @@
 			{
 				"name": "Bronze Working",
 				"row": 8,
-				"prerequisites": ["Masonry"],
+				"prerequisites": ["Militias", "The Wheel"],
 				"quote": "'Here Hector entered, with a spear eleven cubits long in his hand; the bronze point gleamed in front of him, and was fastened to the shaft of the spear by a ring of gold.' - Homer"
 			}
 		]
 	}
 	{
 		"columnNumber": 4,
-		"era": "Classical era",
+		"era": "Age of Iron",
 		"techCost": 105,
 		"buildingCost": 100,
 		"wonderCost": 250,
@@ -186,7 +186,7 @@
 	},
 	{
 		"columnNumber": 5,
-		"era": "Classical era",
+		"era": "Age of Empire",
 		"techCost": 175,
 		"buildingCost": 100,
 		"wonderCost": 250,
@@ -227,7 +227,7 @@
 	},
 	{
 		"columnNumber": 6,
-		"era": "Classical era",
+		"era": "Age of Crumbling",
 		"techCost": 250,
 		"buildingCost": 110,
 		"wonderCost": 250,
