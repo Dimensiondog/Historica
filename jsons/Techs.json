@@ -341,7 +341,7 @@
 				"prerequisites": ["Paper","Crop Rotation"],
 				"quote": "'The only thing that saves us from the bureaucracy is its inefficiency' - Eugene McCarthy"
 			},
-v			{
+			{
 				"name": "Metal Casting",
 				"row": 8,
 				"prerequisites": ["Crop Rotation"],
