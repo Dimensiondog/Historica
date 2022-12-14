@@ -43,12 +43,14 @@
 				"name": "Pottery",
 				"row": 2,
 				"prerequisites": ["Agriculture","Fishing"],
+				"uniques": ["Enables conversion of city production to [Food]"],
 				"quote": "'Shall the clay say to him that fashioneth it, what makest thou?' - Bible Isaiah 45:9"
 			},
 			{
 				"name": "Mysticism",
 				"row": 3,
 				"prerequisites": ["Agriculture"],
+				"uniques": ["Enables conversion of city production to [Faith]"],
 				"quote": "'Where tillage begins, other arts follow. The farmers therefore are the founders of human civilization.' - Daniel Webster",
 			},
 			{
@@ -123,6 +125,7 @@
 				"name": "Code of Laws",
 				"row": 2,
 				"prerequisites": ["Calendar","Writing"],
+				"uniques": ["Enables conversion of city production to [Happiness]"],
 				"quote": "'Wisdom and virtue are like the two wheels of a cart.' - Japanese proverb"
 			},
 			{
@@ -156,6 +159,7 @@
 				"name": "Literature",
 				"row": 2,
 				"prerequisites": ["Code of Laws"],
+				"uniques": ["Enables conversion of city production to [Culture]"],
 				"quote": "'A Horse! A Horse! My kingdom for a horse!' - Shakespeare (Richard III)"
 			},
 			{
@@ -202,6 +206,7 @@
 				"name": "Philosophy",
 				"row": 2,
 				"prerequisites": ["Literature"],
+				"uniques": ["Enables conversion of city production to [Science]"],
 				"quote": "'There is only one good, knowledge, and one evil, ignorance.' - Socrates"
 			},
 			{
@@ -214,6 +219,7 @@
 				"name": "Currency",
 				"row": 4,
 				"prerequisites": ["Mathematics","Horseback Riding"],
+				"uniques": ["Enables conversion of city production to [Gold]"],
 				"quote": "'Better is bread with a happy heart than wealth with vexation.' - Amenemope"
 			},
 			{
@@ -282,7 +288,6 @@
 				"name": "Guilds",
 				"row": 7,
 				"prerequisites": ["Currency"],
-				"uniques": ["Enables conversion of city production to [Gold]"],
 				"quote": "'The merchants and the traders have come; their profits are pre-ordained...' - Sri Guru Granth Sahib"
 			},
 			{
@@ -311,7 +316,7 @@
 				"name": "Education",
 				"row": 3,
 				"prerequisites": ["Theology","Civil Service"],
-				"uniques": ["Enables conversion of city production to [Science]","Enables Research agreements"],
+				"uniques": ["Enables Research agreements"],
 				"quote": "'Education is the best provision for old age.' - Aristotle"
 			},
 			{
