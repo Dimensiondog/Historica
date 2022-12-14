@@ -140,6 +140,49 @@
 		"uniques": ["[+1 Science] from every specialist [in this city]"],
 		"requiredTech": "Writing"
 	},
+	{
+		"name": "Clergical Guild",
+		"maintenance": 2,
+		"hurryCostModifier": 30,
+		"cannotBeBuiltWith": "Merchant's Guild",
+		"cannotBeBuiltWith": "Scientist's Guild",
+		"specialistSlots": {"Priest": 2},
+		"uniques": ["[+2 Faith] from every specialist [in this city]"],
+		"requiredTech": "Guilds"
+	},
+	{
+		"name": "Merchant's Guild",
+		"maintenance": 2,
+		"hurryCostModifier": 30,
+		"specialistSlots": {"Merchant": 2},
+		"uniques": ["[+2 Gold] from every specialist [in this city]"],
+		"requiredTech": "Guilds"
+	},
+	{
+		"name": "Scientist's Guild",
+		"maintenance": 2,
+		"hurryCostModifier": 30,
+		"specialistSlots": {"Scientist": 2},
+		"uniques": ["[+1 Science] from every specialist [in this city]"],
+		"requiredTech": "Guilds"
+	},
+	{
+		"name": "Engineer's Guild",
+		"maintenance": 2,
+		"hurryCostModifier": 30,
+		"specialistSlots": {"Engineer": 2},
+		"uniques": ["[+1 Production] from every specialist [in this city]"],
+		"requiredTech": "Guilds"
+	},
+	{
+		"name": "Artist's GUild",
+		"maintenance": 2,
+		"hurryCostModifier": 30,
+		"specialistSlots": {"Artist": 2},
+		"uniques": ["[+1 Culture] from every specialist [in this city]"],
+		"requiredTech": "Guilds"
+	},
+
 	// Column 1
 	{
 		"name": "Granary",
@@ -157,6 +200,7 @@
 		"cost": 40,
 		"maintenance": 1,
 		"requiredTech": "Mysticism",
+		"specialistSlots": {"Priest": 1},
 		"uniques": ["Hidden when religion is disabled"]
 	},
 	{
@@ -185,6 +229,7 @@
 		"name": "Monastery",
 		"culture": 2,
 		"faith": 2,
+		"specialistSlots": {"Priest": 1},
 		"uniques": ["[+1 Culture, +1 Faith] from [Luxury resource] tiles [in this city]"]
 		"requiredTech": "Monasticism",
 	},
@@ -463,6 +508,7 @@
 		"maintenance": 2,
 		"hurryCostModifier": 25,
 		"requiredTech": "Philosophy",
+		"specialistSlots": {"Priest": 1},
 		"uniques": ["Hidden when religion is disabled", "Destroyed when the city is captured"]
 	},
 	{
