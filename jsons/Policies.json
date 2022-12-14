@@ -118,7 +118,7 @@
             {
                 "name": "Crown Guard",
                 "uniques": [
-                    "[+33]% Production when constructing [{Military}{Land}] units [in capital]",
+                    "[+33]% Production when constructing [{Military} {Land}] units [in capital]",
                     "Free [Great General] appears"
                 ],
                 "row": 1,
