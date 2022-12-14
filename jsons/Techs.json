@@ -43,7 +43,6 @@
 				"name": "Pottery",
 				"row": 2,
 				"prerequisites": ["Agriculture","Fishing"],
-				"uniques": ["Enables conversion of city production to [Food]"],
 				"quote": "'Shall the clay say to him that fashioneth it, what makest thou?' - Bible Isaiah 45:9"
 			},
 			{
@@ -125,7 +124,6 @@
 				"name": "Code of Laws",
 				"row": 2,
 				"prerequisites": ["Calendar","Writing"],
-				"uniques": ["Enables conversion of city production to [Happiness]"],
 				"quote": "'Wisdom and virtue are like the two wheels of a cart.' - Japanese proverb"
 			},
 			{
