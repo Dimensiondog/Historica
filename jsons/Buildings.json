@@ -185,7 +185,7 @@
 		"name": "Monastery",
 		"culture": 2,
 		"faith": 2,
-		"uniques": ["[+1 Culture, +1 Faith] from [Luxury] tiles [in this city]"]
+		"uniques": ["[+1 Culture, +1 Faith] from [Luxury Resource] tiles [in this city]"]
 		"requiredTech": "Monasticism",
 	},
 	{
@@ -766,9 +766,9 @@
 		"cityHealth": 25,
 		"culture": 2,
 		"hurryCostModifier": 25,
-		"requiredBuilding": "Fortification",
+		"requiredBuilding": "Walls",
 		"uniques": ["[+1 Gold] [in this city] <after discovering [Flight]>", "Destroyed when the city is captured"],
-		"requiredTech": "Chivalry"
+		"requiredTech": "Fortification"
 	},
 	{
 		"name": "Alhambra",
