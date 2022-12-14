@@ -31,7 +31,7 @@
         "iconRGB": [205, 127, 50]
     },
     {
-        "name": "Classical era",
+        "name": "Age of Rebuilding",
         "researchAgreementCost": 150,
         "startingSettlerCount": 1,
         "startingWorkerCount": 0,
@@ -44,7 +44,39 @@
         "embarkDefense": 4,
         "startPercent": 10,
         "citySound": "cityClassical",
-        "iconRGB": [233, 31, 99]
+        "iconRGB": [196, 182, 166]
+    },
+    {
+        "name": "Age of Empire",
+        "researchAgreementCost": 150,
+        "startingSettlerCount": 2,
+        "startingWorkerCount": 1,
+        "startingMilitaryUnitCount": 2,
+        "startingMilitaryUnit": "Spearman",
+        "startingGold": 100,
+        "startingCulture": 200,
+        "settlerPopulation": 4,
+        "baseUnitBuyCost": 200,
+        "embarkDefense": 10,
+        "startPercent": 10,
+        "citySound": "cityClassical",
+        "iconRGB": [166, 29, 204]
+    },
+    {
+        "name": "Age of Crumbling",
+        "researchAgreementCost": 150,
+        "startingSettlerCount": 2,
+        "startingWorkerCount": 2,
+        "startingMilitaryUnitCount": 8,
+        "startingMilitaryUnit": "Spearman",
+        "startingGold": 300,
+        "startingCulture": 300,
+        "settlerPopulation": 4,
+        "baseUnitBuyCost": 200,
+        "embarkDefense": 4,
+        "startPercent": 10,
+        "citySound": "cityClassical",
+        "iconRGB": [166, 78, 12]
     },
     {
         "name": "Age of Darkness",
