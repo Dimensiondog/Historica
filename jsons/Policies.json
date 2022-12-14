@@ -373,7 +373,7 @@
     },
     {
         "name": "Patronage",
-        "era": "Medieval era",
+        "era": "Low Medieval era",
         "priorities": {
             "Neutral": 0,
             "Cultural": 10,
@@ -438,7 +438,7 @@
     },
     {
         "name": "Commerce",
-        "era": "Medieval era",
+        "era": "Low Medieval era",
         "priorities": {
             "Neutral": 0,
             "Cultural": 10,
