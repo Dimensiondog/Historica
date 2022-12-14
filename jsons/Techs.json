@@ -127,6 +127,12 @@
 				"quote": "'Wisdom and virtue are like the two wheels of a cart.' - Japanese proverb"
 			},
 			{
+				"name": "Trade",
+				"row": 4,
+				"prerequisites": ["The Wheel","Writing"],
+				"quote": "'Wisdom and virtue are like the two wheels of a cart.' - Japanese proverb"
+			},
+			{
 				"name": "Chariotry",
 				"row": 5,
 				"prerequisites": ["The Wheel"],
@@ -156,14 +162,14 @@
 			{
 				"name": "Literature",
 				"row": 2,
-				"prerequisites": ["Code of Laws"],
+				"prerequisites": ["Code of Laws","Trade"],
 				"uniques": ["Enables conversion of city production to [Culture]"],
 				"quote": "'A Horse! A Horse! My kingdom for a horse!' - Shakespeare (Richard III)"
 			},
 			{
 				"name": "Horseback Riding",
 				"row": 3,
-				"prerequisites": ["Chariotry"],
+				"prerequisites": ["Chariotry","Trade"],
 				"quote": "'A Horse! A Horse! My kingdom for a horse!' - Shakespeare (Richard III)"
 			},
 			{
