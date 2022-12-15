@@ -255,6 +255,20 @@
 		"attackSound": "arrow"
 	},
 	{
+		"name": "Jinete",
+		"unitType": "Skirmisher",
+		"movement": 5,
+		"uniqueTo": "Spain",
+		"replaces": "Horse Archer",
+		"strength": 19,
+		"cost": 75,
+		"requiredTech": "Fortification",
+		"upgradesTo": "Knight",
+		"obsoleteTech": "Chivalry",
+		"uniques": ["No defensive terrain bonus"],
+		"attackSound": "arrow"
+	},
+	{
 		"name": "War Elephant",
 		"unitType": "Archery",
 		"uniqueTo": "India",
@@ -754,6 +768,18 @@
 		"strength": 21,
 		"cost": 120,
 		"requiredTech": "Steel",
+		"upgradesTo": "Musketman",
+		"obsoleteTech": "Gunpowder",
+		"requiredResource": "Iron",
+		"attackSound": "metalhit"
+	},
+	{
+		"name": "Varangian Guard",
+		"unitType": "Sword",
+		"movement": 2,
+		"strength": 23,
+		"cost": 150,
+		"requiredTech": "Civil Service",
 		"upgradesTo": "Musketman",
 		"obsoleteTech": "Gunpowder",
 		"requiredResource": "Iron",
