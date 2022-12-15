@@ -146,6 +146,8 @@
 		"hurryCostModifier": 30,
 		"cannotBeBuiltWith": "Merchant's Guild",
 		"cannotBeBuiltWith": "Scientist's Guild",
+		"cannotBeBuiltWith": "Engineer's Guild",
+		"cannotBeBuiltWith": "Artist's Guild",
 		"specialistSlots": {"Priest": 2},
 		"uniques": ["[+2 Faith] from every specialist [in this city]"],
 		"requiredTech": "Guilds"
@@ -154,6 +156,10 @@
 		"name": "Merchant's Guild",
 		"maintenance": 2,
 		"hurryCostModifier": 30,
+		"cannotBeBuiltWith": "Clergical's Guild",
+		"cannotBeBuiltWith": "Scientist's Guild",
+		"cannotBeBuiltWith": "Engineer's Guild",
+		"cannotBeBuiltWith": "Artist's Guild",
 		"specialistSlots": {"Merchant": 2},
 		"uniques": ["[+2 Gold] from every specialist [in this city]"],
 		"requiredTech": "Guilds"
@@ -162,6 +168,10 @@
 		"name": "Scientist's Guild",
 		"maintenance": 2,
 		"hurryCostModifier": 30,
+		"cannotBeBuiltWith": "Merchant's Guild",
+		"cannotBeBuiltWith": "Clergical's Guild",
+		"cannotBeBuiltWith": "Engineer's Guild",
+		"cannotBeBuiltWith": "Artist's Guild",
 		"specialistSlots": {"Scientist": 2},
 		"uniques": ["[+1 Science] from every specialist [in this city]"],
 		"requiredTech": "Guilds"
@@ -170,14 +180,22 @@
 		"name": "Engineer's Guild",
 		"maintenance": 2,
 		"hurryCostModifier": 30,
+		"cannotBeBuiltWith": "Merchant's Guild",
+		"cannotBeBuiltWith": "Scientist's Guild",
+		"cannotBeBuiltWith": "Clergical's Guild",
+		"cannotBeBuiltWith": "Artist's Guild",
 		"specialistSlots": {"Engineer": 2},
 		"uniques": ["[+1 Production] from every specialist [in this city]"],
 		"requiredTech": "Guilds"
 	},
 	{
-		"name": "Artist's GUild",
+		"name": "Artist's Guild",
 		"maintenance": 2,
 		"hurryCostModifier": 30,
+		"cannotBeBuiltWith": "Merchant's Guild",
+		"cannotBeBuiltWith": "Scientist's Guild",
+		"cannotBeBuiltWith": "Engineer's Guild",
+		"cannotBeBuiltWith": "Clergical's Guild",
 		"specialistSlots": {"Artist": 2},
 		"uniques": ["[+1 Culture] from every specialist [in this city]"],
 		"requiredTech": "Guilds"
@@ -711,7 +729,7 @@
 		"culture": 1,
 		"isWonder": true,
 		"uniques": ["[+25]% [Gold] from Trade Routes","Must have an owned [Mountain] within [2] tiles"],
-		"requiredTech": "Guilds",
+		"requiredTech": "Crop Rotation",
 		"quote": "'Few romances can ever surpass that of the granite citadel on top of the beetling precipices of Machu Picchu, the crown of Inca Land.' - Hiram Bingham"
 	},
 	{
