@@ -32,7 +32,7 @@
 		"name": "Stele",
 		"replaces": "Monument",
 		"uniqueTo": "Ethiopia",
-		"culture": 2,
+		"culture": 1,
 		"faith": 2,
 		"cost": 40,
 		"hurryCostModifier": 40,
@@ -321,15 +321,6 @@
 		"requiredTech": "Literature"
 	},
 	{
-		"name": "Paper Maker",
-		"replaces": "Library",
-		"uniqueTo": "China",
-		"hurryCostModifier": 25,
-		"gold": 2,
-		"uniques": ["[+1 Science] per [2] population [in this city]"],
-		"requiredTech": "Writing"
-	},
-	{
 		"name": "The Great Library",
 		"science": 3,
 		"culture": 1,
@@ -359,7 +350,6 @@
 		"name": "Floating Gardens",
 		"replaces": "Water Mill",
 		"uniqueTo": "Aztecs",
-		"food": 2,
 		"production": 1,
 		"uniques": ["[+2 Food] from [Lakes] tiles [in this city]", "Must be next to [Fresh water]"],
 		"hurryCostModifier": 25,
@@ -419,7 +409,7 @@
 		"hurryCostModifier": 25,
 		"maintenance": 1,
 		"uniques": ["[-25]% Culture cost of natural border growth [in this city]","[-25]% Gold cost of acquiring tiles [in this city]",
-			"New [Military] units start with [15] Experience [in this city]", "Destroyed when the city is captured"],
+			"New [Military] units start with [10] Experience [in this city]", "Destroyed when the city is captured"],
 		"requiredTech": "Militias"
 	},
 	{
@@ -505,7 +495,7 @@
 		"replaces": "Colosseum",
 		"uniqueTo": "Maya",
 		"maintenance": 1,
-		"happiness": 2,
+		"happiness": 1,
 		"uniques": ["New [Military] units start with [15] Experience [in this city]"],
 		"hurryCostModifier": 25,
 		"requiredTech": "Drama"
@@ -536,7 +526,7 @@
 		"maintenance": 0,
 		"uniques": ["Doubles Gold given to enemy if city is captured"],
 		"faith": 2,
-		"happiness": 2,
+		"happiness": 1,
 		"requiredBuilding": "Shrine",
 		"hurryCostModifier": 25,
 		"requiredTech": "Philosophy"
@@ -545,7 +535,7 @@
 		"name": "Mud Pyramid Mosque",
 		"replaces": "Temple",
 		"uniqueTo": "Songhai",
-		"maintenance": 0,
+		"maintenance": 2,
 		"hurryCostModifier": 25,
 		"culture": 2,
 		"faith": 2,
@@ -604,7 +594,6 @@
 		"gold": 2,
 		"specialistSlots": {"Merchant": 1},
 		"hurryCostModifier": 25,
-		"percentStatBonus": {"gold": 25},
 		"uniques": ["Provides 1 extra copy of each improved luxury resource near this City",
 			"[+2 Gold] from [Oil] tiles [in this city]", "[+2 Gold] from [Oasis] tiles [in this city]"],
 		"requiredTech": "Trade"
@@ -791,7 +780,6 @@
 		"specialistSlots": {"Scientist": 2},
 		"culture": 3,
 		"requiredBuilding": "Library",
-		"uniques": ["[+2 Science] from [Jungle] tiles [in this city]"],
 		"requiredTech": "Education"
 	},
 	{
@@ -823,7 +811,7 @@
 	},
 	{
 		"name": "Mughal Fort",
-		"cost": 150,
+		"cost": 180,
 		"replaces": "Castle",
 		"uniqueTo": "India",
 		"cityStrength": 7,
@@ -903,7 +891,7 @@
 		"specialistSlots": {"Artist": 1},
 		"hurryCostModifier": 10,
 		"requiredBuilding": "Amphitheater",
-		"maintenance": 2,
+		"maintenance": 6,
 		"requiredTech": "Acoustics",
 		"uniques": ["Destroyed when the city is captured"]
 	},
@@ -933,7 +921,7 @@
 		"specialistSlots": {"Merchant": 1},
 		"happiness": 2,
 		"hurryCostModifier": 15,
-		"percentStatBonus": {"gold": 25},
+		"percentStatBonus": {"gold": 15},
 		"requiredBuilding": "Market",
 		"requiredTech": "Banking"
 	},
@@ -1037,7 +1025,6 @@
 		"name": "Coffee House",
 		"replaces": "Windmill",
 		"uniqueTo": "Austria",
-		"production": 2,
 		"percentStatBonus": {"production": 10},
 		"specialistSlots": {"Engineer": 1},
 		"hurryCostModifier": 25,
