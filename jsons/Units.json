@@ -777,6 +777,8 @@
 		"name": "Varangian Guard",
 		"unitType": "Sword",
 		"movement": 2,
+		"replaces": "Longswordsman",
+		"uniqueTo": "Byzantium",
 		"strength": 23,
 		"cost": 150,
 		"requiredTech": "Civil Service",
