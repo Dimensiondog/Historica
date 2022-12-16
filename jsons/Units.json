@@ -685,8 +685,8 @@
 		"rangedStrength": 18,
 		"cost": 120,
 		"requiredTech": "Machinery",
-		"upgradesTo": "Gatling Gun",
-		"obsoleteTech": "Industrialization",
+		"upgradesTo": "Grenadier",
+		"obsoleteTech": "Chemistry",
 		"attackSound": "arrow"
 	},
 	{
@@ -699,8 +699,8 @@
 		"replaces": "Crossbowman",
 		"cost": 120,
 		"requiredTech": "Machinery",
-		"upgradesTo": "Gatling Gun",
-		"obsoleteTech": "Industrialization",
+		"upgradesTo": "Grenadier",
+		"obsoleteTech": "Chemistry",
 		"promotions": ["[Chu-Ko-Nu] ability"],
 		"attackSound": "arrow"
 	},
@@ -858,6 +858,30 @@
 		"strength": 24,
 		"cost": 150,
 		"requiredTech": "Gunpowder",
+		"upgradesTo": "Rifleman",
+		"obsoleteTech": "Rifling",
+		"attackSound": "shot"
+	},
+	{
+		"name": "Grenadier",
+		"unitType": "Ranged Gunpowder",
+		"movement": 2,
+		"strength": 15,
+		"rangedStrength": 21,
+		"cost": 150,
+		"requiredTech": "Chemistry",
+		"upgradesTo": "Gatling Gun",
+		"obsoleteTech": "Industrialization",
+		"attackSound": "shot"
+	},
+	{
+		"name": "Cuirissier",
+		"unitType": "Skirmisher",
+		"movement": 4,
+		"strength": 18,
+		"rangedStrength": 21,
+		"cost": 150,
+		"requiredTech": "Grand War",
 		"upgradesTo": "Rifleman",
 		"obsoleteTech": "Rifling",
 		"attackSound": "shot"
