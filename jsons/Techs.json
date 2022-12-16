@@ -251,7 +251,7 @@
 			{
 				"name": "Mounted Archery",
 				"row": 5,
-				"prerequisites": ["Currency"],
+				"prerequisites": ["Currency","Drama"],
 				"quote": "'I think we agree, the past is over.' - George W. Bush"
 			},
 			{
