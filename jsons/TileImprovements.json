@@ -16,6 +16,18 @@
 		"shortcutKey": "F"
 	},
 	{
+		"name": "Colony",
+		"terrainsCanBeBuiltOn": ["Land"],
+		"gold": 1,
+		"techRequired": "Colonialism",
+		"uniques": ["Can only be built to improve a resource",
+			    "Can only be built on [Coastal] tiles",
+			"Can be built just outside your borders",
+        	"Constructing it will take over the tiles around it and assign them to your closest city",
+			"Removes removable features when built",
+		]
+	},
+	{
 		"name": "Lumber mill",
 		"terrainsCanBeBuiltOn": ["Forest"],
 		"production": 1,
