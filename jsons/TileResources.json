@@ -74,7 +74,7 @@
 		"improvement": "Fishing Boats",
 		"uniques": ["Generated on every [10] tiles <in [Featureless] [Coast] tiles>"]
 	},
-	/*
+
 	{
 		"name": "Bison",
 		"resourceType": "Bonus",
@@ -82,8 +82,9 @@
 		"food": 1,
 		"improvement": "Camp",
 		"improvementStats": {"production": 1}
+"uniques": ["Generated on every [20] tiles <in [Featureless] [Grassland] tiles>","Generated on every [20] tiles <in [Featureless] [Plains] tiles>]
 	},
-	*/
+
 	
 	// Strategic resources
 	{
@@ -449,16 +450,19 @@
 					"Doesn't generate naturally <in [Jungle] tiles> <in tiles without [Hill]>",
 					"Doesn't generate naturally <in [Forest] tiles> <in tiles without [Hill]> <in tiles without [Tundra]>"]
 	},
-	/* 
+
 	{
 		"name": "Cocoa",
 		"resourceType": "Luxury",
-		"terrainsCanBeFoundOn": ["Jungle","Forest"], // Forest only if flat, non-tundra
+		"terrainsCanBeFoundOn": ["Jungle","Forest"], 
 		"food": 1,
 		"gold": 1,
 		"improvement": "Plantation"
+		"uniques": ["Generated with weight [15] <in [Tundra] Regions>",
+					"Generated with weight [25] <in [Jungle] Regions>",
+					"Generated with weight [25] <in [Forest] Regions> <in tiles without [Hill]> <in tiles without [Tundra]>"]
 	},
-	*/
+
 	{
 		"name": "Crab",
 		"resourceType": "Luxury",
