@@ -1383,7 +1383,7 @@
 		"food": 10,
 		"happiness": 2,
 		"uniques": ["[+1 Food] from [Truffles] tiles [in all cities]","[+1 Food] from [Wine] tiles [in all cities]","[+1 Food] from [Wheat] tiles [in all cities]","[+1 Food] from [Bananas] tiles [in all cities]","[+1 Food] from [Citrus] tiles [in all cities]",
-"[+10]% [Food] [in all cities]", "[+20]% Unhappiness from [Population] [in all cities]", "Consumes [6] ["Wine","Truffles"]"]
+"[+10]% [Food] [in all cities]", "[+20]% Unhappiness from [Population] [in all cities]", "Consumes [6] [Wine]","Consumes [6] [Truffles]"]
 	},
 	{
 		"name": "",
