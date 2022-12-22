@@ -915,6 +915,23 @@
 		"quote": "'I live and love in God's peculiar light.' - Michelangelo Buonarroti"
 	},
 	{
+		"name": "Customs House",
+		"gold": 4,
+		"specialistSlots": {"Merchant": 1},
+		"hurryCostModifier": 15,
+		"requiredBuilding": "Bank",
+		"uniques": ["[+1 Gold, +1 Cullture] from each Trade Route<on foreign continents>"],
+		"requiredTech": "Colonialism"
+	},
+	{
+		"name": "Colonial Office",
+		"hurryCostModifier": 15,
+		"requiredBuilding": "Customs House",
+		"uniques": ["Free [Gunpowder] appears", "[+2 Gold] from every [Plantation] [in this city]", "[+20]% Unhappiness from [Population] [in this city]"
+],
+		"requiredTech": "Colonialism"
+	},
+	{
 		"name": "Bank",
 		"gold": 2,
 		"specialistSlots": {"Merchant": 1},
