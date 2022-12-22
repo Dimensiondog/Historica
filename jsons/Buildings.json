@@ -920,14 +920,14 @@
 		"specialistSlots": {"Merchant": 1},
 		"hurryCostModifier": 15,
 		"requiredBuilding": "Bank",
-		"uniques": ["[+1 Gold, +1 Cullture] from each Trade Route<on foreign continents>"],
+		"uniques": ["[+1 Gold, +1 Cullture] from each Trade Route"],
 		"requiredTech": "Colonialism"
 	},
 	{
 		"name": "Colonial Office",
 		"hurryCostModifier": 15,
 		"requiredBuilding": "Customs House",
-		"uniques": ["Free [Gunpowder] appears", "[+2 Gold] from every [Plantation] [in this city]", "[+20]% Unhappiness from [Population] [in this city]"
+		"uniques": ["Free [Gunpowder] appears", "[+4 Gold] from [Plantation] [in this city]", "[+20]% Unhappiness from [Population] [in this city]"
 ],
 		"requiredTech": "Colonialism"
 	},
