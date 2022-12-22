@@ -338,12 +338,21 @@
 		"requiredTech": "Trapping"
 	},
 	{
+		"name": "Well",
+		"maintenance": 2,
+		"food": 1,
+		"production": 2,
+		"hurryCostModifier": 25,
+		"uniques": ["Must not be on [River]", "[+1 Production] per [5] population [in this city]"],
+		"requiredTech": "Agriculture"
+	},
+	{
 		"name": "Water Mill",
 		"maintenance": 2,
 		"food": 2,
-		"production": 1,
+		"production": 3,
 		"hurryCostModifier": 25,
-		"uniques": ["Must be on [River]"],
+		"uniques": ["Must be on [River]", "[+1 Production] per [4] population [in this city]"],
 		"requiredTech": "The Wheel"
 	},
 	{
@@ -585,6 +594,13 @@
 		"specialistSlots": {"Merchant": 1},
 		"hurryCostModifier": 25,
 		"percentStatBonus": {"gold": 25},
+		"requiredTech": "Trade"
+	},
+	{
+		"name": "Caravnsary",
+		"gold": 2,
+		"hurryCostModifier": 25,
+		"uniques": ["[+1 Gold] from each Trade Route"],
 		"requiredTech": "Trade"
 	},
 	{
