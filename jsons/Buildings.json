@@ -920,7 +920,7 @@
 		"specialistSlots": {"Merchant": 1},
 		"hurryCostModifier": 15,
 		"requiredBuilding": "Bank",
-		"uniques": ["[+1 Gold, +1 Cullture] from each Trade Route"],
+		"uniques": ["[+1 Gold, +1 Culture] from each Trade Route"],
 		"requiredTech": "Colonialism"
 	},
 	{
