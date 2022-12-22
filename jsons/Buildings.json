@@ -873,6 +873,16 @@
 		"requiredTech": "Astronomy"
 	},
 	{
+		"name": "Gallery",
+		"culture": 4,
+		"specialistSlots": {"Artist": 1},
+		"hurryCostModifier": 10,
+		"requiredBuilding": "Opera House",
+		"maintenance": 2,
+		"requiredTech": "Architecture",
+		"uniques": ["Destroyed when the city is captured"]
+	},
+	{
 		"name": "Opera House",
 		"culture": 4,
 		"specialistSlots": {"Artist": 1},
@@ -1033,14 +1043,22 @@
 		"requiredTech": "Economics"
 	},
 	{
-		"name": "Arsenal",
-		"cost": 300,
-		"cityStrength": 9,
+		"name": "Bastion Fort",
+		"cityStrength": 6,
 		"cityHealth": 25,
 		"hurryCostModifier": 25,
 		"requiredBuilding": "Castle",
 		"requiredTech": "Metallurgy",
 		"uniques": ["Destroyed when the city is captured"]
+	},
+	{
+		"name": "Arsenal",
+		"cityStrength": 2,
+		"cityHealth": 25,
+		"hurryCostModifier": 25,
+		"requiredBuilding": "Bastion Fort",
+		"requiredTech": "Rifiling",
+		"uniques": ["Destroyed when the city is captured", "[+1] Range<in cities with a [Arsenal]>"]
 	},
 	{
 		"name": "Kremlin",
@@ -1107,10 +1125,18 @@
 		"quote": "'To achieve great things, two things are needed: a plan, and not quite enough time.' - Leonard Bernstein"
 	},
 	{
-		"name": "Military Academy",
+		"name": "Gunsmith",
 		"hurryCostModifier": 0,
 		"maintenance": 1,
 		"requiredBuilding": "Armory",
+		"uniques": ["New [Military] units start with [15] Experience [in this city]", "Destroyed when the city is captured"],
+		"requiredTech": "Chemistry"
+	},
+	{
+		"name": "Military Academy",
+		"hurryCostModifier": 0,
+		"maintenance": 1,
+		"requiredBuilding": "Gunsmith",
 		"uniques": ["New [Military] units start with [15] Experience [in this city]", "Destroyed when the city is captured"],
 		"requiredTech": "Military Science"
 	},
