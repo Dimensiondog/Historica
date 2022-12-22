@@ -1057,7 +1057,7 @@
 		"cityHealth": 25,
 		"hurryCostModifier": 25,
 		"requiredBuilding": "Bastion Fort",
-		"requiredTech": "Rifiling",
+		"requiredTech": "Rifling",
 		"uniques": ["Destroyed when the city is captured", "[+1] Range<in cities with a [Arsenal]>"]
 	},
 	{
