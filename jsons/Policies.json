@@ -164,6 +164,89 @@
                 "row": 2,
                 "column": 2
             },
+    {
+        "name": "Cultural Superioty",
+        "uniques": [
+            "[+25]% Strength <vs [Barbarian] units>",
+            "Earn [100]% of killed [Barbarian] unit's [Strength] as [Culture]",
+            "Notified of new Barbarian encampments",
+                    "[+1 Production] [in all cities]",
+        ],
+                "row": 3,
+                "column": 1
+    },
+            {
+                "name": "Liberty",
+                "uniques": [
+                    "[-25]% tile improvement construction time",
+                    "Free [Worker] appears",
+                    "[+3 Gold] [in all cities]",
+                ],
+                "requires": ["Cultural Superioty"],
+                "row": 3,
+                "column": 3
+            },
+    {
+        "name": "Democracy",
+                "requires": ["Liberty","Crown Guard"],
+                "row": 3,
+                "column": 5
+    }
+            {
+                "name": "Fraternity",
+                "uniques": [
+                    "[+3 Science] from each Trade Route",
+                    "[+3 Food] [in all cities]"
+                ],
+                "requires": ["Demoocracy","Expertise"],
+                "row": 3,
+                "column": 7
+            },
+    {
+        "name": "Statecraft",
+        "uniques": ["[+1 Gold, +1 Production, +1 Food, +1 Science, +1 Faith, +1 Culture] per [20] population [in all cities]", "[+1 Gold] [in all cities]",
+],
+                "requires": ["Fraternity","Equality"],
+                "row": 3,
+                "column": 9
+    },
+            {
+                "name": "Mercantilism",
+                "uniques": [
+                    "[Gold] cost of purchasing items in cities [-5]%",
+ "[+3]% [Science] from every [Mint]", "[+3]% [Culture] from every [Mint]",
+ "[+3]% [Science] from every [Market]", "[+3]% [Culture] from every [Market]", 
+"[+3]% [Science] from every [Stock Exchange]", "[+3]% [Culture] from every [Stock Exchange]",
+ "[+3]% [Science] from every [Bank]", "[+3]% [Culture] from every [Bank]",
+                ],
+                "requires": ["Consultes","Shadow Network"],
+                "row": 3,
+                "column": 13
+            },
+            {
+                "name": "Civilizing Mission",
+                "uniques": ["[+10]% Production when constructing [All] buildings [in all cities]<in cities with a [Courthouse]>"],"[+5]% Production when constructing [Military] units [in all cities]", "[-5]% Gold cost of upgrading",
+                "requires": ["Imperialism","Entrepreneurship"],
+                "row": 3,
+                "column": 17
+            },
+            {
+                "name": "Martial Law",
+                "uniques": ["Units in cities cost no Maintenance", "[+1 Happiness] from every [Constabulary]",
+                    "[+5]% Production when constructing [Military] units [in all cities]", "[-5]% Gold cost of upgrading"],
+                "requires": ["Civilizing Mission"],
+                "row": 3,
+                "column": 19
+            },
+            {
+                "name": "Regimental System",
+                "uniques": [
+                   "[Great General] is earned [+33]% faster", "[+5]% Production when constructing [Military] units [in all cities]", "[-5]% Gold cost of upgrading"
+                ],
+                "requires": ["Expoltation","Empiricism"],
+                "row": 3,
+                "column": 23
+            },
             {
                 "name": "Civic Tree Complete",
                 "uniques": [
