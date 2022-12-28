@@ -248,6 +248,177 @@
                 "column": 23
             },
             {
+                "name": "Tributaries",
+                "uniques": ["[+1 Production] [in all cities]"],
+                "requires": ["Cultural Superiority","Organisation],
+                "row": 4,
+                "column": 3
+            },
+            {
+                "name": "Expertise",
+                "uniques": [     
+ "[+15]% Production when constructing [All] buildings [in all cities]"
+                ],
+                "requires": ["Liberty","Tributaries"],
+                "row": 4,
+                "column": 5
+            },
+            {
+                "name": "Discipline",
+                "uniques": [ "[+1 Happiness, +2 Culture] [in all cities with a garrison]",
+                    "[+1 Production] [in all cities]"],
+                "row": 4,
+                "column": 7
+                "requires": ["Expertise","Dominance"],
+            },
+        "policies": [
+            {
+                "name": "Foreign Service",
+                "uniques": ["[+1 Gold] [in all cities]",
+"[+33]% resources gifted by City-States"
+                ],
+                "requires": ["Discipline","Fraternity"],
+                "row": 4,
+                "column": 9
+            },
+            {
+                "name": "Shadow Network",
+                "uniques": ["[+1 Gold] [in all cities]",
+                    "Allied City-States provide [Science] equal to [25]% of what they produce for themselves",
+"[+1 Science] from every specialist [in all cities]"
+                ],
+                "requires": ["Foreign Service","Statecraft"],
+                "row": 4,
+                "column": 11
+            },
+    {
+        "name": "Imperialism",
+        "uniques": ["[+1] Movement <for [{Military} {Water}] units>", "[+1] Movement <for [Embarked] units>",
+"[+1] Movement <for [Great Genral] units>", "[+1] Sight <for [Naval Melee] units>", "[+1] Sight <for [Melee] units>", 
+"[+10]% Production when constructing [Military] units [in all cities]", "[-10]% Gold cost of upgrading"],
+                "requires": ["Mercantilism","Colonialism"],
+                "row": 4,
+                "column": 15
+    },
+            {
+                "name": "Organisation",
+                "uniques": ["[+1] Movement <for [Civillian] units>",
+                    "[+3 Production] [in all cities]",
+                   "[+25]% Production when constructing [Civillian] units [in all cities]",
+                ],
+                "row": 5,
+                "column": 1
+            },
+            {
+                "name": "Dominance",
+                "uniques": [
+                    "Heals [15] damage if it kills a unit",
+                    "[+1 Production] [in all cities]",
+                   "Earn [100]% of killed [Military] unit's [Strength] as [Science]",
+"[1] Unit Supply per [20] population [in all cities]",
+                ],
+                "requires": ["Tributaries","Organised Religion"],
+                "row": 5,
+                "column": 5
+            },
+            {
+                "name": "Serfdom",
+                "uniques": ["[+2 Gold, +1 Production] from [Pasture] tiles [in all cities]", "[+1 Food] [in all cities]",
+"[+1 Culture] per [4] population [in all cities]"],
+                "requires": ["Imperial Rule","Discipline"],
+                "row": 5,
+                "column": 9
+            },
+            {
+                "name": "Divine Right",
+                "uniques": ["[+1 Food] [in all cities]",
+                    "[+25]% of excess happiness converted to [Culture]",
+                    "[-3.75]% Unhappiness from [Population] [in all cities]"
+                ],
+                "requires": ["Nobility","Serfdom"],
+                "row": 5,
+                "column": 11
+            },
+            {
+                "name": "Colonialism",
+                "uniques": ["[+5]% Production when constructing [Military] units [in all cities]", "[-5]% Gold cost of upgrading",
+                    "[+2 Science, +1 Culture] from every [Barracks]",
+"[+2 Science, +1 Culture] from every [Fort]",
+"[+2 Science, +1 Culture] from every [Citadel]",
+"[+2 Science, +1 Culture] from every [Armory]",
+"[+2 Science, +1 Culture] from every [Military Academy]",
+                ],
+                "requires": ["Divime Right","Shadow Network"],
+                "row": 5,
+                "column": 13
+            },
+    {
+        "name": "Royal Societies",
+        "uniques": [
+            "[+3 Science, +2 Production] from every [Strategic resource]", "[-5]% Unhappiness from [Population] [in all cities]",
+"[+5]% [Science]"
+        ],
+                "requires": ["Patronage","Colonialism"],
+                "row": 5,
+                "column": 15
+        },
+            {
+                "name": "Scientific Revolution",
+                "uniques": ["[+2 Science] from every [Jungle]", "[+2 Science] from every [Snow]"
+"[-2]% Unhappiness from [Population] [in all cities]",
+"[+2]% [Science]"
+                ],
+                "requires": ["Enlightenment"],
+                "row": 5,
+                "column": 19
+            },
+            {
+                "name": "Empiricism",
+                "uniques": [
+                    "[-20]% Food consumption by specialists [in all cities]", "[-2]% Unhappiness from [Population] [in all cities]",
+"[+2]% [Science]"
+                ],
+                "requires": ["Scientific Revolution"],
+                "row": 5,
+                "column": 21
+            },
+            {
+                "name": "Free Thought",
+                "uniques": ["[-16]% Unhappiness from [Followers of this Religion] [in all cities]", "[-2]% Unhappiness from [Population] [in all cities]",
+"[+2]% [Science]"],
+                "requires": ["Empiricism","National Treasure"],
+                "row": 5,
+                "column": 23
+            },
+          {
+                "name": "Organised Religion",
+                "uniques": ["[+1 Food] [in all cities]", "[+1 Faith] from every specialist [in all cities]"],
+                "requires": ["Ceremony","Organised Religion],
+                "row": 6,
+                "column": 3
+            },
+           {
+                "name": "Imperial Rule",
+                "uniques": ["Free [Settler] appears",
+                    "Upon capturing a city, receive [7] times its [Food] production as [Culture] immediately",
+                            "Upon capturing a city, receive [7] times its [Food] production as [Science] immediately"
+                ],
+                "requires": ["Dominance","State Religion"],
+                "row": 6,
+                "column": 7
+            },
+            {
+                "name": "Nobility",
+                "uniques": ["[+1 Food] [in all cities]",
+                    "[+1 Happiness, +2 Gold] from every [Castle]",
+                    "[+2 Gold] from every [Armory]"
+            "[+100]% Production when constructing [Armory] buildings [in all cities]",
+            "[+100]% Production when constructing [Castle] buildings [in all cities]",
+                ],
+                "row": 1,
+                "column": 3
+            },
+            {
                 "name": "Civic Tree Complete",
                 "uniques": [
                 ]
