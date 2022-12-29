@@ -96,7 +96,7 @@
          {
                 "name": "Organised Religion",
                 "uniques": ["[+1 Food] [in all cities]", "[+1 Faith] from every specialist [in all cities]"],
-                "requires": ["Ceremony","Organised Religion"],
+                "requires": ["Ceremony","Organisation"],
                 "row": 2,
                 "column": 11
             },
