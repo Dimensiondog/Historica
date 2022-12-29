@@ -143,7 +143,7 @@
             {
                 "name": "Entrepreneurship",
                 "uniques": ["[Gold] cost of purchasing items in cities [-5]%", "[+1 Gold, +2 Production] from [Mine] tiles [in all cities]", 
-"[+1 Gold, +2 Production] from [Lumbermill] tiles [in all cities]", "[+1 Gold, +2 Production] from [Quarry] tiles [in all cities]", "[+25]% Gold from Great Merchant trade missions"
+"[+1 Gold, +2 Production] from [Lumber mill] tiles [in all cities]", "[+1 Gold, +2 Production] from [Quarry] tiles [in all cities]", "[+25]% Gold from Great Merchant trade missions"
 "[+1 Happiness] from every [Workshop]"],
                 "requires": ["Free Trade","Mercantilism"],
                 "row": 2,
@@ -198,7 +198,7 @@
                     "[+3 Science] from each Trade Route",
                     "[+3 Food] [in all cities]"
                 ],
-                "requires": ["Demoocracy","Expertise"],
+                "requires": ["Democracy","Expertise"],
                 "row": 3,
                 "column": 7
             },
@@ -206,7 +206,7 @@
         "name": "Statecraft",
         "uniques": ["[+1 Gold, +1 Production, +1 Food, +1 Science, +1 Faith, +1 Culture] per [20] population [in all cities]", "[+1 Gold] [in all cities]",
 ],
-                "requires": ["Fraternity","Equality"],
+                "requires": ["Fraternity","Citizenship"],
                 "row": 3,
                 "column": 9
     },
@@ -219,22 +219,22 @@
 "[+3]% [Science] from every [Stock Exchange]", "[+3]% [Culture] from every [Stock Exchange]",
  "[+3]% [Science] from every [Bank]", "[+3]% [Culture] from every [Bank]",
                 ],
-                "requires": ["Consultes","Shadow Network"],
+                "requires": ["Consulates","Shadow Network"],
                 "row": 3,
                 "column": 13
             },
             {
-                "name": "Civilizing Mission",
-                "uniques": ["[+10]% Production when constructing [All] buildings [in all cities]<in cities with a [Courthouse]>"],"[+5]% Production when constructing [Military] units [in all cities]", "[-5]% Gold cost of upgrading",
+                "name": "Civilising Mission",
+                "uniques": ["[+10]% Production when constructing [All] buildings [in all cities]<in cities with a [Courthouse]>","[+5]% Production when constructing [Military] units [in all cities]","[-5]% Gold cost of upgrading"],
                 "requires": ["Imperialism","Entrepreneurship"],
                 "row": 3,
                 "column": 17
             },
             {
                 "name": "Martial Law",
-                "uniques": ["Units in cities cost no Maintenance", "[+1 Happiness] from every [Constabulary]",
+                "uniques": ["Units in cities cost no Maintenance", 
                     "[+5]% Production when constructing [Military] units [in all cities]", "[-5]% Gold cost of upgrading"],
-                "requires": ["Civilizing Mission"],
+                "requires": ["Civilising Mission"],
                 "row": 3,
                 "column": 19
             },
@@ -243,14 +243,14 @@
                 "uniques": [
                    "[Great General] is earned [+33]% faster", "[+5]% Production when constructing [Military] units [in all cities]", "[-5]% Gold cost of upgrading"
                 ],
-                "requires": ["Expoltation","Empiricism"],
+                "requires": ["Explotation","Empiricism"],
                 "row": 3,
                 "column": 23
             },
             {
                 "name": "Tributaries",
                 "uniques": ["[+1 Production] [in all cities]"],
-                "requires": ["Cultural Superiority","Organisation],
+                "requires": ["Cultural Superioty","Organisation"],
                 "row": 4,
                 "column": 3
             },
@@ -271,7 +271,6 @@
                 "column": 7
                 "requires": ["Expertise","Dominance"],
             },
-        "policies": [
             {
                 "name": "Foreign Service",
                 "uniques": ["[+1 Gold] [in all cities]",
@@ -348,7 +347,7 @@
 "[+2 Science, +1 Culture] from every [Armory]",
 "[+2 Science, +1 Culture] from every [Military Academy]",
                 ],
-                "requires": ["Divime Right","Shadow Network"],
+                "requires": ["Divine Right","Shadow Network"],
                 "row": 5,
                 "column": 13
             },
@@ -393,7 +392,7 @@
           {
                 "name": "Organised Religion",
                 "uniques": ["[+1 Food] [in all cities]", "[+1 Faith] from every specialist [in all cities]"],
-                "requires": ["Ceremony","Organised Religion],
+                "requires": ["Ceremony","Organised Religion"],
                 "row": 6,
                 "column": 3
             },
@@ -422,7 +421,7 @@
     {
         "name": "Patronage",
         "uniques": [
-            "[+25]% Great Person generation [in all cities]", "[+10]% [Culture] [in all cities] <during a Golden Age>",}
+            "[+25]% Great Person generation [in all cities]", "[+10]% [Culture] [in all cities] <during a Golden Age>"]
                 "row": 6,
                 "column": 13
                 "requires": ["Divine Right","Heritage"]
@@ -439,7 +438,7 @@
             },
             {
                 "name": "Rights of Man",
-                "uniques": ["[+1 Food] per [2] population [in all cities]", "[+2 Production, +2 Gold] from every [Trading Post]"],
+                "uniques": ["[+1 Food] per [2] population [in all cities]", "[+2 Production, +2 Gold] from every [Trading post]"],
                 "requires": ["National Treasure","Empiricism"],
                 "row": 6,
                 "column": 23
@@ -481,7 +480,7 @@
             },
     {
         "name": "Monasticism",
-        "uniques": ["May buy [Monastry] buildings for [160] [Culture] [in all cities]", "[Faith] cost of purchasing items in cities [-25]%",
+        "uniques": ["May buy [Monastery] buildings for [160] [Faith] [in all cities]", "[Faith] cost of purchasing items in cities [-25]%",
         ],
                 "requires": ["Imperial Rule"],
                 "row": 7,
@@ -499,7 +498,7 @@
             {
                 "name": "Cultural Exchange",
                 "uniques": [
-                    "[+2 Culture, +2 Production] from all [Ampitheatre] buildings", "[+2 Culture, +2 Production] from all [Opera House] buildings", "[+1 Science] [in all cities]"
+                    "[+2 Culture, +2 Production] from all [Amphitheater] buildings", "[+2 Culture, +2 Production] from all [Opera House] buildings", "[+1 Science] [in all cities]"
                 ],
                 "requires": ["Heritage"],
                 "row": 7,
