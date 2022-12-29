@@ -285,7 +285,7 @@
 			{
 				"name": "Theology",
 				"row": 3,
-				"prerequisites": ["Philosophy", "Drama", "Mounted Archery"],
+				"prerequisites": ["Philosophy","Mounted Archery"],
 				"quote": "'Three things are necessary for the salvation of man: to know what he ought to believe; to know what he ought to desire; and to know what he ought to do' - St. Thomas Aquinas"
 			},
 			{
@@ -550,7 +550,7 @@
 			{
 				"name": "Biology",
 				"row": 2,
-				"prerequisites": ["Archaeology","Scientific Theory"],
+				"prerequisites": ["Archaeology"],
 				"quote": "'If the brain were so simple we could understand it, we would be so simple we couldn't.' - Lyall Watson"
 			},
 			{
@@ -563,7 +563,7 @@
 				"name": "Steam Power",
 				"row": 6,
 				"uniques": ["[+1] Movement <for [Embarked] units>"],
-				"prerequisites": ["Industrialization","Scientific Theory","Rifling"],
+				"prerequisites": ["Industrialization","Rifling"],
 				"quote": "'The nations of the West hope that by means of steam communication all the world will become as one family.' - Townsend Harris"
 			},
 			{
