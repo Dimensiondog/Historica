@@ -415,8 +415,116 @@
             "[+100]% Production when constructing [Armory] buildings [in all cities]",
             "[+100]% Production when constructing [Castle] buildings [in all cities]",
                 ],
-                "row": 1,
+                "row": 6,
+                "column": 9
+                "requires": ["Imperial Rule"]
+            },
+    {
+        "name": "Patronage",
+        "uniques": [
+            "[+25]% Great Person generation [in all cities]", "[+10]% [Culture] [in all cities] <during a Golden Age>",}
+                "row": 6,
+                "column": 13
+                "requires": ["Divine Right","Heritage"]
+            },
+            {
+                "name": "Enlightenment",
+                "uniques": [
+                    "[+1 Happiness] from every [University]", "Free Technology", "[+10]% [Science]<during a Golden Age>", "[-2]% Unhappiness from [Population] [in all cities]",
+"[+2]% [Science]"
+                ],
+                "row": 6,
+                "column": 17
+                "requires": ["Royal Societies","Humanism"]
+            },
+            {
+                "name": "Rights of Man",
+                "uniques": ["[+1 Food] per [2] population [in all cities]", "[+2 Production, +2 Gold] from every [Trading Post]"],
+                "requires": ["National Treasure","Empiricism"],
+                "row": 6,
+                "column": 23
+            },
+            {
+                "name": "Ceremony",
+                "uniques": [
+                    "[+1 Happiness] from all [National Wonder] buildings",
+                    "[+3]% Growth [in all cities]",
+"[+4 Science] [in capital]"
+                ],
+                "row": 7,
+                "column": 1,
+            },
+            {
+                "name": "Honor",
+                "uniques": [
+"[+10]% Strength"
+"Free [Melee] appears <in cities with at least [10] [Population]>"
+"Free [Melee] appears <in cities with at least [20] [Population]>"
+"Free [Melee] appears <in cities with at least [30] [Population]>"
+                ],
+                "requires": ["Ceremony"],
+                "row": 7,
                 "column": 3
+            },
+            {
+                "name": "State Religion",
+                "uniques": [
+"[+50 Culture] whenever a Great Person is expended",
+                    "[+5 Food, +1 Science] [in capital]",
+                    "[+3]% Growth [in all cities]",
+                    "[+2 Culture] from all [Monument] buildings",
+                    "[+2 Culture] from all [Garden] buildings",
+                ],
+                "requires": ["Organised Religion","Honor"],
+                "row": 7,
+                "column": 5
+            },
+    {
+        "name": "Monasticism",
+        "uniques": ["May buy [Monastry] buildings for [160] [Culture] [in all cities]", "[Faith] cost of purchasing items in cities [-25]%",
+        ],
+                "requires": ["Imperial Rule"],
+                "row": 7,
+                "column": 9
+            },
+            {
+                "name": "Heritage",
+                "uniques": ["[+25]% [Culture] from every [Land]",
+                    "[+25]% [Culture] from every [World Wonder]", "[+1 Science] [in all cities]"
+                ],
+                "requires": ["Nobility","Monasticism"],
+                "row": 7,
+                "column": 11
+            },
+            {
+                "name": "Cultural Exchange",
+                "uniques": [
+                    "[+2 Culture, +2 Production] from all [Ampitheatre] buildings", "[+2 Culture, +2 Production] from all [Opera House] buildings", "[+1 Science] [in all cities]"
+                ],
+                "requires": ["Heritage"],
+                "row": 7,
+                "column": 13
+            },
+            {
+                "name": "Humanism",
+                "uniques": ["[+25]% Golden Age length", "[+1 Science] [in all cities]"],
+                "requires": ["Patronage","Cultural Exchange"],
+                "row": 7,
+                "column": 15,
+            },
+            {
+                "name": "Refinement",
+                "uniques": ["[+1 Culture] from every specialist [in all cities]", "[+1 Science] [in all cities]"],
+                "row": 7,
+                "column": 19,
+                "requires": ["Enlightenment"],
+            },
+            {
+                "name": "National Treasure",
+                "uniques": ["[+50 Gold] whenever a Great Person is expended", "Free Great Person", "[+1 Science] [in all cities]"],
+                "requires": ["Refinement"],
+                "row": 7,
+                "column": 21
             },
             {
                 "name": "Civic Tree Complete",
