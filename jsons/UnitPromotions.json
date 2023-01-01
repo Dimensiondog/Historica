@@ -3,7 +3,7 @@
 	{
 		"name": "Heal Instantly",
 		"uniques": ["Heal this unit by [50] HP", "Doing so will consume this opportunity to choose a Promotion"],
-		"unitTypes": ["Sword","Gunpowder","Mounted","Scout","Siege","Archery","Ranged Gunpowder","Armored","Melee Water","Ranged Water","Submarine"],
+		"unitTypes": ["Melee""Mobile","Scout","Siege","Ranged","Melee Water","Ranged Water","Submarine"],
         "row": 0,
         "column": 0
     },
@@ -12,7 +12,7 @@
 	{
 		"name": "Accuracy I",
 		"uniques": ["[+15]% Strength <when fighting in [Open terrain] tiles> <when attacking>"],
-		"unitTypes": ["Siege","Archery","Ranged Gunpowder"],
+		"unitTypes": ["Siege","Ranged"],
         "column": 1,
         "row": 1
     },
@@ -20,7 +20,7 @@
 		"name": "Accuracy II",
 		"prerequisites": ["Accuracy I"],
 		"uniques": ["[+15]% Strength <when fighting in [Open terrain] tiles> <when attacking>"],
-		"unitTypes": ["Siege","Archery","Ranged Gunpowder"],
+		"unitTypes": ["Siege","Ranged"],
         "column": 1,
         "row": 2
     },
@@ -28,7 +28,7 @@
 		"name": "Accuracy III",
 		"prerequisites": ["Accuracy II"],
 		"uniques": ["[+15]% Strength <when fighting in [Open terrain] tiles> <when attacking>"],
-		"unitTypes": ["Siege","Archery","Ranged Gunpowder"],
+		"unitTypes": ["Siege","Ranged"],
         "column": 1,
         "row": 3
     },
@@ -36,7 +36,7 @@
 	{
 		"name": "Barrage I",
 		"uniques": ["[+15]% Strength <when fighting in [Rough terrain] tiles> <when attacking>"],
-		"unitTypes": ["Siege","Archery","Ranged Gunpowder"],
+		"unitTypes": ["Siege","Ranged"],
         "column": 2,
         "row": 1
 	},
@@ -44,7 +44,7 @@
 		"name": "Barrage II",
 		"prerequisites": ["Barrage I"],
 		"uniques": ["[+15]% Strength <when fighting in [Rough terrain] tiles> <when attacking>"],
-		"unitTypes": ["Siege","Archery","Ranged Gunpowder"],
+		"unitTypes": ["Siege","Ranged"],
         "column": 2,
         "row": 2
 	},
@@ -52,7 +52,7 @@
 		"name": "Barrage III",
 		"prerequisites": ["Barrage II"],
 		"uniques": ["[+15]% Strength <when fighting in [Rough terrain] tiles> <when attacking>"],
-		"unitTypes": ["Siege","Archery","Ranged Gunpowder"],
+		"unitTypes": ["Siege","Ranged"],
         "column": 2,
         "row": 3
 	},
@@ -69,7 +69,7 @@
 		"name": "Extended Range",
 		"prerequisites": ["Accuracy III","Barrage III","Targeting II","Bombardment II", "Wolfpack II"],
 		"uniques": ["[+1] Range"],
-		"unitTypes": ["Archery","Ranged Gunpowder","Siege","Ranged Water","Submarine"],
+		"unitTypes": ["Ranged","Siege","Ranged Water","Submarine"],
         "column": 3,
         "row": 3
 	},
@@ -77,7 +77,7 @@
 		"name": "Indirect Fire",
 		"prerequisites": ["Accuracy III", "Barrage III", "Bombardment II", "Targeting II"],
 		"uniques": ["Ranged attacks may be performed over obstacles"],
-		"unitTypes": ["Archery","Ranged Gunpowder","Siege","Ranged Water"],
+		"unitTypes": ["Ranged","Siege","Ranged Water"],
         "column": 3,
         "row": 4
 	},
@@ -86,7 +86,7 @@
 	{
 		"name": "Shock I",
 		"uniques": ["[+15]% Strength <when fighting in [Open terrain] tiles>"],
-		"unitTypes": ["Sword","Gunpowder","Mounted","Armored"],
+		"unitTypes": ["Melee","Heavy Mobile"],
         "column": 4,
         "row": 1
 	},
@@ -94,7 +94,7 @@
 		"name": "Shock II",
 		"prerequisites": ["Shock I"],
 		"uniques": ["[+15]% Strength <when fighting in [Open terrain] tiles>"],
-		"unitTypes": ["Sword","Gunpowder","Mounted","Armored"],
+		"unitTypes": ["Melee","Heavy Mobile"],
         "column": 4,
         "row": 2
 	},
@@ -102,7 +102,7 @@
 		"name": "Shock III",
 		"prerequisites": ["Shock II"],
 		"uniques": ["[+15]% Strength <when fighting in [Open terrain] tiles>"],
-		"unitTypes": ["Sword","Gunpowder","Mounted","Armored"],
+		"unitTypes": ["Melee","Heavy Mobile"],
         "column": 4,
         "row": 3
 	},
@@ -110,7 +110,7 @@
 	{
 		"name": "Drill I",
 		"uniques": ["[+15]% Strength <when fighting in [Rough terrain] tiles>"],
-		"unitTypes": ["Sword","Gunpowder","Mounted","Armored"],
+		"unitTypes": ["Melee","Heavy Mobile"],
         "column": 5,
         "row": 1
 	},
@@ -118,7 +118,7 @@
 		"name": "Drill II",
 		"prerequisites": ["Drill I"],
 		"uniques": ["[+15]% Strength <when fighting in [Rough terrain] tiles>"],
-		"unitTypes": ["Sword","Gunpowder","Mounted","Armored"],
+		"unitTypes": ["Melee","Heavy Mobile"],
         "column": 5,
         "row": 2
 	},
@@ -126,7 +126,7 @@
 		"name": "Drill III",
 		"prerequisites": ["Drill II"],
 		"uniques": ["[+15]% Strength <when fighting in [Rough terrain] tiles>"],
-		"unitTypes": ["Sword","Gunpowder","Mounted","Armored"],
+		"unitTypes": ["Melee","Heavy Mobile"],
         "column": 5,
         "row": 3
 	},
@@ -134,7 +134,7 @@
 		"name": "Charge",
 		"prerequisites": ["Shock II","Drill II"],
 		"uniques": ["[+33]% Strength <vs [Wounded] units>"],
-		"unitTypes": ["Mounted","Armored"],
+		"unitTypes": ["Heavy Mobile"],
         "column": 6,
         "row": 2
 	},
@@ -142,23 +142,23 @@
 		"name": "Besiege", // Not called "Siege" in order to not conflict with siege type units for translations
 		"prerequisites": ["Shock II","Drill II"],
 		"uniques": ["[+50]% Strength <vs cities>"],
-		"unitTypes": ["Sword","Gunpowder"],
+		"unitTypes": ["Melee"],
         "column": 6,
         "row": 3
 	},
 	{
 		"name": "Formation I",
 		"prerequisites": ["Shock II","Drill II"], // G&K also has Accuracy II & Barrage II as possible prerequisites for this, but I couldn't find a source for the unittypes
-		"uniques": ["[+33]% Strength <vs [Mounted] units>"],
-		"unitTypes": ["Sword","Gunpowder","Mounted"],
+		"uniques": ["[+33]% Strength <vs [Heavy Mobile] units>"],
+		"unitTypes": ["Melee","Heavy Mobile"],
         "column": 7,
         "row": 2
 	},
 	{
 		"name": "Formation II",
 		"prerequisites": ["Formation I"],
-		"uniques": ["[+33]% Strength <vs [Mounted] units>"],
-		"unitTypes": ["Sword","Gunpowder","Mounted"],
+		"uniques": ["[+33]% Strength <vs [Heavy Mobile] units>"],
+		"unitTypes": ["Melee","Heavy Mobile"],
         "column": 7,
         "row": 3
 	},
@@ -167,7 +167,7 @@
 		"name": "Blitz",
 		"prerequisites": ["Shock III","Drill III"],
 		"uniques": ["[1] additional attacks per turn"],
-		"unitTypes": ["Sword","Gunpowder","Mounted","Armored"],
+		"unitTypes": ["Melee","Heavy Mobile"],
         "column": 6,
         "row": 4
 	},
@@ -183,7 +183,7 @@
 		"name": "Amphibious",
 		"prerequisites": ["Shock I", "Drill I"],
 		"uniques": ["Eliminates combat penalty for attacking over a river", "Eliminates combat penalty for attacking across a coast"],
-		"unitTypes": ["Sword","Gunpowder"],
+		"unitTypes": ["Heavy Mobile"],
         "column": 6,
         "row": 1
 	},
@@ -191,7 +191,7 @@
 		"name": "Medic",
 		"prerequisites": ["Shock I", "Drill I", "Scouting II", "Survivalism II"],
 		"uniques": ["All adjacent units heal [+5] HP when healing"],
-		"unitTypes": ["Sword","Gunpowder","Mounted","Scout"],
+		"unitTypes": ["Melee","Heavy Mobile","Scout"],
         "column": 10, // after scout base
         "row": 1
 	},
@@ -199,7 +199,7 @@
 		"name": "Medic II",
 		"prerequisites": ["Medic"],
 		"uniques": ["[+5] HP when healing <in [Foreign Land] tiles>", "All adjacent units heal [+5] HP when healing"],
-		"unitTypes": ["Sword","Gunpowder","Mounted","Scout"],
+		"unitTypes": ["Melee","Heavy Mobile","Scout"],
         "column": 10,
         "row": 2
 	},
@@ -544,7 +544,7 @@
 	{
 		"name": "Mobility I",
 		"uniques": ["[+1] Movement"],
-		"unitTypes": ["Helicopter"],
+		"unitTypes": ["Anti Mobile"],
         "column": 22,
         "row": 1
 	},
@@ -552,22 +552,22 @@
 		"name": "Mobility II",
 		"prerequisites": ["Mobility I"],
 		"uniques": ["[+1] Movement"],
-		"unitTypes": ["Helicopter"],
+		"unitTypes": ["Anti Mobile"],
         "column": 22,
         "row": 2
 	},
 	{
 		"name": "Anti-Armor I",
-		"uniques": ["[+25]% Strength <vs [Armored] units>"],
-		"unitTypes": ["Helicopter"],
+		"uniques": ["[+25]% Strength <vs [Heavy Mobile] units>"],
+		"unitTypes": ["Anti Mobile"],
         "column": 23,
         "row": 1
 	},
 	{
 		"name": "Anti-Armor II",
 		"prerequisites": ["Anti-Armor I"],
-		"uniques": ["[+25]% Strength <vs [Armored] units>"],
-		"unitTypes": ["Helicopter"],
+		"uniques": ["[+25]% Strength <vs [Heavy Mobile] units>"],
+		"unitTypes": ["Anti Mobile"],
         "column": 23,
         "row": 2
 	},
@@ -576,7 +576,7 @@
 	{
 		"name": "Cover I",
 		"uniques": ["[+33]% Strength <vs [Ranged] units> <when defending>"],
-		"unitTypes": ["Sword","Gunpowder","Archery","Ranged Gunpowder","Siege"],
+		"unitTypes": ["Melee","Ranged","Siege"],
         "column": 24,
         "row": 1
 	},
@@ -584,7 +584,7 @@
 		"name": "Cover II",
 		"prerequisites": ["Cover I"],
 		"uniques": ["[+33]% Strength <vs [Ranged] units> <when defending>"],
-		"unitTypes": ["Sword","Gunpowder","Archery","Ranged Gunpowder","Siege"],
+		"unitTypes": ["Melee","Ranged","Siege"],
         "column": 24,
         "row": 2
 	},
@@ -593,7 +593,7 @@
 		"name": "March",
 		"prerequisites": ["Accuracy II","Barrage II","Shock III","Drill III"],
 		"uniques": ["Unit will heal every turn, even if it performs an action"],
-		"unitTypes": ["Sword","Gunpowder","Archery","Ranged Gunpowder","Siege","Mounted"],
+		"unitTypes": ["Melee","Ranged","Siege","Heavy Mobile"],
         "column": 10,
         "row": 3
 	},
@@ -602,7 +602,7 @@
 		"prerequisites": ["Shock II","Drill II","Targeting I",
 			"Bombardment I","Boarding Party I", "Coastal Raider I", "Wolfpack I"],
 		"uniques": ["[+1] Movement"],
-		"unitTypes": ["Mounted","Melee Water","Ranged Water","Armored","Submarine"],
+		"unitTypes": ["Heavy Mobile","Melee Water","Ranged Water","Submarine"],
         "column": 24,
         "row": 3
 	},
@@ -610,7 +610,7 @@
 		"name": "Sentry",
 		"prerequisites": ["Accuracy I","Barrage I","Shock II","Drill II","Bombardment I","Targeting I","Boarding Party I","Coastal Raider I"],
 		"uniques": ["[+1] Sight"],
-		"unitTypes": ["Sword","Gunpowder","Mounted","Ranged Water","Armored","Melee Water"],
+		"unitTypes": ["Melee","Heavy Mobile","Ranged Water","Melee Water"],
         "column": 24,
         "row": 4
 	},
@@ -619,23 +619,23 @@
 		"prerequisites": ["Accuracy III","Barrage III","Targeting III", "Wolfpack III",
 			"Bombardment III", "Coastal Raider III","Boarding Party III","Siege III", "Mobility II", "Anti-Armor II"],
 		"uniques": ["[1] additional attacks per turn", "Can move after attacking"],
-		"unitTypes": ["Archery","Ranged Gunpowder","Siege","Melee Water","Ranged Water","Submarine","Fighter","Bomber","Helicopter"],
+		"unitTypes": ["Ranged","Siege","Melee Water","Ranged Water","Submarine","Fighter","Bomber","Helicopter"],
         "column": 24,
         "row": 5
 	},
 
 	{
 		"name": "Ambush I",
-		"uniques": ["[+33]% Strength <vs [Armored] units>"],
-		"unitTypes": ["Sword","Gunpowder","Fighter","Bomber"],
+		"uniques": ["[+33]% Strength <vs [Heavy Mobile] units>"],
+		"unitTypes": ["Melee","Fighter","Bomber"],
         "column": 25,
         "row": 1
 	},
 	{
 		"name": "Ambush II",
 		"prerequisites": ["Ambush I"],
-		"uniques": ["[+33]% Strength <vs [Armored] units>"],
-		"unitTypes": ["Sword","Gunpowder","Fighter","Bomber"],
+		"uniques": ["[+33]% Strength <vs [Heavy Mobile] units>"],
+		"unitTypes": ["Melee","Fighter","Bomber"],
         "column": 25,
         "row": 2
 	},
