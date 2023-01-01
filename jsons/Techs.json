@@ -440,7 +440,7 @@
 			{
 				"name": "Colonialism",
 				"row": 2,
-				"prerequisites": ["Astronomy"],
+				"prerequisites": ["Astronomy","Acoustics"],
 				"quote": "'The winds and the waves are always on the side of the ablest navigators.' - Edward Gibbon"
 			},
 			{
