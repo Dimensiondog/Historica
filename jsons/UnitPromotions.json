@@ -3,7 +3,7 @@
 	{
 		"name": "Heal Instantly",
 		"uniques": ["Heal this unit by [50] HP", "Doing so will consume this opportunity to choose a Promotion"],
-		"unitTypes": ["Melee","Mobile","Scout","Siege","Ranged","Melee Water","Ranged Water","Submarine"],
+		"unitTypes": ["Melee","Heavy Mobile","Scout","Siege","Ranged","Melee Water","Ranged Water","Submarine"],
         "row": 0,
         "column": 0
     },
@@ -175,7 +175,7 @@
 		"name": "Woodsman",
 		"prerequisites": ["Shock III","Drill III"],
 		"uniques": ["Double movement in [Forest]","Double movement in [Jungle]"],
-		"unitTypes": ["Sword","Gunpowder"],
+		"unitTypes": ["Melee"],
         "column": 6,
         "row": 5
 	},
