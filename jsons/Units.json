@@ -32,7 +32,7 @@
 	},
 	{
 		"name": "Warrior",
-		"unitType": "Sword",
+		"unitType": "Melee",
 		"movement": 2,
 		"strength": 8,
 		"cost": 40,
@@ -46,7 +46,7 @@
 	},
 	{
 		"name": "Maori Warrior",
-		"unitType": "Sword",
+		"unitType": "Melee",
 		"uniqueTo": "Polynesia",
 		"replaces": "Warrior",
 		"movement": 2,
@@ -59,7 +59,7 @@
 	},
 	{
 		"name": "Jaguar",
-		"unitType": "Sword",
+		"unitType": "Melee",
 		"uniqueTo": "Aztecs",
 		"replaces": "Warrior",
 		"movement": 2,
@@ -73,7 +73,7 @@
 	},
 	{
 		"name": "Brute",
-		"unitType": "Sword",
+		"unitType": "Melee",
 		"uniqueTo": "Barbarians",
 		"replaces": "Warrior",
 		"movement": 2,
@@ -85,7 +85,7 @@
 	},
 	{
 		"name": "Archer",
-		"unitType": "Archery",
+		"unitType": "Ranged",
 		"movement": 2,
 		"strength": 5,
 		"rangedStrength": 7,
@@ -97,7 +97,7 @@
 	},
 	{
 		"name": "Bowman",
-		"unitType": "Archery",
+		"unitType": "Ranged",
 		"movement": 2,
 		"strength": 7,
 		"rangedStrength": 9,
@@ -111,7 +111,7 @@
 	},
 	{
 		"name": "Slinger",
-		"unitType": "Archery",
+		"unitType": "Ranged",
 		"uniqueTo": "Inca",
 		"replaces": "Archer",
 		"movement": 2,
@@ -126,7 +126,7 @@
 	},
 	{
 		"name": "Atlatlist",
-		"unitType": "Archery",
+		"unitType": "Ranged",
 		"movement": 2,
 		"strength": 5,
 		"rangedStrength": 6,
@@ -140,7 +140,7 @@
 	},
 	{
 		"name": "Skirmisher",
-		"unitType": "Archery",
+		"unitType": "Ranged",
 		"uniqueTo": "Barbarians",
 		"replaces": "Archer",
 		"movement": 2,
@@ -216,7 +216,7 @@
 	},
 	{
 		"name": "Chariot Archer",
-		"unitType": "Skirmisher",
+		"unitType": "Light Mobile",
 		"movement": 4,
 		"strength": 6,
 		"rangedStrength": 10,
@@ -230,7 +230,7 @@
 	},
 	{
 		"name": "War Chariot",
-		"unitType": "Mounted",
+		"unitType": "Heavy Mobile",
 		"movement": 4,
 		"strength": 12,
 		"cost": 56,
@@ -243,7 +243,7 @@
 	},
 	{
 		"name": "Horse Archer",
-		"unitType": "Skirmisher",
+		"unitType": "Light Mobile",
 		"movement": 4,
 		"strength": 10,
 		"rangedStrength": 13,
@@ -255,22 +255,8 @@
 		"attackSound": "arrow"
 	},
 	{
-		"name": "Jinete",
-		"unitType": "Skirmisher",
-		"movement": 5,
-		"uniqueTo": "Spain",
-		"replaces": "Horse Archer",
-		"strength": 19,
-		"cost": 75,
-		"requiredTech": "Fortification",
-		"upgradesTo": "Knight",
-		"obsoleteTech": "Chivalry",
-		"uniques": ["No defensive terrain bonus"],
-		"attackSound": "arrow"
-	},
-	{
 		"name": "War Elephant",
-		"unitType": "Archery",
+		"unitType": "Light Mobile",
 		"uniqueTo": "India",
 		"replaces": "Chariot Archer",
 		"movement": 3,
@@ -285,7 +271,7 @@
 	},
 	{
 		"name": "Spearman",
-		"unitType": "Sword",
+		"unitType": "Anti Mobile",
 		"movement": 2,
 		"strength": 11,
 		"cost": 56,
@@ -297,7 +283,7 @@
 	},
 	{
 		"name": "Hoplite",
-		"unitType": "Sword",
+		"unitType": "Anti Mobile",
 		"replaces": "Spearman",
 		"uniqueTo": "Greece",
 		"movement": 2,
@@ -311,7 +297,7 @@
 	},
 	{
 		"name": "Persian Immortal",
-		"unitType": "Sword",
+		"unitType": "Anti Mobile",
 		"replaces": "Spearman",
 		"uniqueTo": "Persia",
 		"movement": 2,
@@ -326,7 +312,7 @@
 	},
 	{
 		"name": "Battering Ram",
-		"unitType": "Sword", // You might expect this to be a siege unit, but apparently it is not
+		"unitType": "Anti Mobile", // You might expect this to be a siege unit, but apparently it is not
 		"replaces": "Spearman",
 		"uniqueTo": "The Huns",
 		"movement": 2,
@@ -342,7 +328,7 @@
 	},
 	{
 		"name": "Pictish Warrior",
-		"unitType": "Sword",
+		"unitType": "Anti Mobile",
 		"replaces": "Spearman",
 		"uniqueTo": "Celts",
 		"movement": 2,
@@ -357,7 +343,7 @@
 	},
 	{
 		"name": "Marauder",
-		"unitType": "Sword",
+		"unitType": "Anti Mobile",
 		"replaces": "Spearman",
 		"uniqueTo": "Barbarians",
 		"movement": 2,
@@ -373,7 +359,7 @@
 	/* Classical Era */
 	{
 		"name": "Horseman",
-		"unitType": "Mounted",
+		"unitType": "Heavy Mobile",
 		"movement": 4,
 		"strength": 12,
 		"cost": 75,
@@ -387,7 +373,7 @@
 	},
 	{
 		"name": "Companion Cavalry",
-		"unitType": "Mounted",
+		"unitType": "Heavy Mobile",
 		"uniqueTo": "Greece",
 		"replaces": "Horseman",
 		"movement": 5,
@@ -404,7 +390,7 @@
 	},
 	{
 		"name": "African Forest Elephant",
-		"unitType": "Mounted",
+		"unitType": "Heavy Mobile",
 		"uniqueTo": "Carthage",
 		"replaces": "Horseman",
 		"movement": 3,
@@ -421,7 +407,7 @@
 	},
 	{
 		"name": "Cataphract",
-		"unitType": "Mounted",
+		"unitType": "Heavy Mobile",
 		"uniqueTo": "Byzantium",
 		"replaces": "Horseman",
 		"movement": 3,
@@ -469,7 +455,7 @@
 	},
 	{
 		"name": "Composite Bowman",
-		"unitType": "Archery",
+		"unitType": "Ranged",
 		"movement": 2,
 		"strength": 7,
 		"rangedStrength": 11,
@@ -481,7 +467,7 @@
 	},
 	{
 		"name": "Swordsman",
-		"unitType": "Sword",
+		"unitType": "Melee",
 		"movement": 2,
 		"strength": 14,
 		"cost": 75,
@@ -494,7 +480,7 @@
 	},
 	{
 		"name": "Legion",
-		"unitType": "Sword",
+		"unitType": "Melee",
 		"uniqueTo": "Rome",
 		"replaces": "Swordsman",
 		"movement": 2,
@@ -510,7 +496,7 @@
 	},
 	{
 		"name": "Mohawk Warrior",
-		"unitType": "Sword",
+		"unitType": "Melee",
 		"uniqueTo": "Iroquois",
 		"replaces": "Swordsman",
 		"movement": 2,
@@ -543,7 +529,7 @@
 	// Medieval Era
 	{
 		"name": "Pikeman",
-		"unitType": "Sword",
+		"unitType": "Anti Mobile",
 		"movement": 2,
 		"strength": 16,
 		"cost": 90,
@@ -555,7 +541,7 @@
 	},
 	{
 		"name": "Landsknecht",
-		"unitType": "Sword",
+		"unitType": "Anti Mobile",
 		"replaces": "Pikeman",
 		"uniqueTo": "Germany",
 		"movement": 2,
@@ -583,7 +569,7 @@
 	},
 	{
 		"name": "Knight",
-		"unitType": "Mounted",
+		"unitType": "Heavy Mobile",
 		"movement": 4,
 		"strength": 20,
 		"cost": 120,
@@ -596,8 +582,7 @@
 	},
 	{
 		"name": "Camel Archer",
-		"unitType": "Archery",
-		"replaces": "Knight",
+		"unitType": "Light Mobile",
 		"uniqueTo": "Arabia",
 		"movement": 4,
 		"strength": 15,
@@ -613,7 +598,7 @@
 	},
 	{
 		"name": "Conquistador",
-		"unitType": "Mounted",
+		"unitType": "Heavy Mobile",
 		"replaces": "Knight",
 		"uniqueTo": "Spain",
 		"movement": 4,
@@ -631,7 +616,7 @@
 	},
 	{
 		"name": "Naresuan's Elephant",
-		"unitType": "Mounted",
+		"unitType": "Heavy Mobile",
 		"replaces": "Knight",
 		"uniqueTo": "Siam",
 		"movement": 3,
@@ -645,7 +630,7 @@
 	},
 	{
 		"name": "Mandekalu Cavalry",
-		"unitType": "Mounted",
+		"unitType": "Heavy Mobile",
 		"replaces": "Knight",
 		"uniqueTo": "Songhai",
 		"movement": 4,
@@ -660,7 +645,7 @@
 	},
 	{
 		"name": "Keshik",
-		"unitType": "Archery",
+		"unitType": "Heavy Mobile",
 		"replaces": "Knight",
 		"uniqueTo": "Mongolia",
 		"range": 2,
@@ -679,7 +664,7 @@
 	},
 	{
 		"name": "Crossbowman",
-		"unitType": "Archery",
+		"unitType": "Ranged",
 		"movement": 2,
 		"strength": 13,
 		"rangedStrength": 18,
@@ -691,7 +676,7 @@
 	},
 	{
 		"name": "Chu-Ko-Nu",
-		"unitType": "Archery",
+		"unitType": "Ranged",
 		"uniqueTo": "China",
 		"movement": 2,
 		"strength": 13,
@@ -706,7 +691,7 @@
 	},
 	{
 		"name": "Longbowman",
-		"unitType": "Archery",
+		"unitType": "Ranged",
 		"range": 2,
 		"movement": 2,
 		"strength": 13,
@@ -763,7 +748,7 @@
 	},
 	{
 		"name": "Longswordsman",
-		"unitType": "Sword",
+		"unitType": "Melee",
 		"movement": 2,
 		"strength": 21,
 		"cost": 120,
@@ -774,22 +759,8 @@
 		"attackSound": "metalhit"
 	},
 	{
-		"name": "Varangian Guard",
-		"unitType": "Sword",
-		"movement": 2,
-		"replaces": "Longswordsman",
-		"uniqueTo": "Byzantium",
-		"strength": 23,
-		"cost": 150,
-		"requiredTech": "Civil Service",
-		"upgradesTo": "Musketman",
-		"obsoleteTech": "Gunpowder",
-		"requiredResource": "Iron",
-		"attackSound": "metalhit"
-	},
-	{
 		"name": "Samurai",
-		"unitType": "Sword",
+		"unitType": "Melee",
 		"replaces": "Longswordsman",
 		"uniqueTo": "Japan",
 		"movement": 2,
@@ -805,7 +776,7 @@
 	},
 	{
 		"name": "Berserker",
-		"unitType": "Sword",
+		"unitType": "Melee",
 		"replaces": "Longswordsman",
 		"uniqueTo": "Denmark",
 		"movement": 3,
@@ -853,7 +824,7 @@
 	},
 	{
 		"name": "Musketman",
-		"unitType": "Gunpowder",
+		"unitType": "Melee",
 		"movement": 2,
 		"strength": 24,
 		"cost": 150,
@@ -864,7 +835,7 @@
 	},
 	{
 		"name": "Grenadier",
-		"unitType": "Ranged Gunpowder",
+		"unitType": "Ranged",
 		"movement": 2,
 		"strength": 15,
 		"rangedStrength": 21,
@@ -876,7 +847,7 @@
 	},
 	{
 		"name": "Cuirissier",
-		"unitType": "Skirmisher",
+		"unitType": "Light Mobile",
 		"movement": 4,
 		"strength": 18,
 		"rangedStrength": 21,
@@ -888,7 +859,7 @@
 	},
 	{
 		"name": "Musketeer",
-		"unitType": "Gunpowder",
+		"unitType": "Melee",
 		"replaces": "Musketman",
 		"uniqueTo": "France",
 		"movement": 2,
@@ -901,7 +872,7 @@
 	},
 	{
 		"name": "Janissary",
-		"unitType": "Gunpowder",
+		"unitType": "Melee",
 		"replaces": "Musketman",
 		"uniqueTo": "The Ottomans",
 		"movement": 2,
@@ -915,7 +886,7 @@
 	},
 	{
 		"name": "Minuteman",
-		"unitType": "Gunpowder",
+		"unitType": "Melee",
 		"replaces": "Musketman",
 		"uniqueTo": "America",
 		"movement": 2,
@@ -930,7 +901,7 @@
 	},
 	{
 		"name": "Tercio",
-		"unitType": "Gunpowder",
+		"unitType": "Melee",
 		"replaces": "Musketman",
 		"uniqueTo": "Spain",
 		"movement": 2,
@@ -1001,7 +972,7 @@
 	},
 	{
 		"name": "Lancer",
-		"unitType": "Mounted",
+		"unitType": "Heavy Mobile",
 		"movement": 4,
 		"strength": 25,
 		"cost": 185,
@@ -1015,7 +986,7 @@
 	},
 	{
 		"name": "Sipahi",
-		"unitType": "Mounted",
+		"unitType": "Heavy Mobile",
 		"replaces": "Lancer",
 		"uniqueTo": "The Ottomans",
 		"movement": 5,
@@ -1032,7 +1003,7 @@
 	},
 	{
 		"name": "Hakkapeliitta",
-		"unitType": "Mounted",
+		"unitType": "Heavy Mobile",
 		"replaces": "Lancer",
 		"uniqueTo": "Sweden",
 		"movement": 3,
@@ -1064,7 +1035,7 @@
 
 	{
 		"name": "Gatling Gun",
-		"unitType": "Ranged Gunpowder",
+		"unitType": "Ranged",
 		"range": 1,
 		"movement": 2,
 		"strength": 30,
@@ -1077,7 +1048,7 @@
 	},
 	{
 		"name": "Rifleman",
-		"unitType": "Gunpowder",
+		"unitType": "Melee",
 		"movement": 2,
 		"strength": 34,
 		"cost": 225,
@@ -1088,7 +1059,7 @@
 	},
 	{
 		"name": "Norwegian Ski Infantry",
-		"unitType": "Gunpowder",
+		"unitType": "Melee",
 		"replaces": "Rifleman",
 		"uniqueTo": "Denmark",
 		"movement": 2,
@@ -1102,7 +1073,7 @@
 	},
 	{
 		"name": "Carolean",
-		"unitType": "Gunpowder",
+		"unitType": "Melee",
 		"replaces": "Rifleman",
 		"uniqueTo": "Sweden",
 		"movement": 2,
@@ -1116,7 +1087,7 @@
 	},
 	{
 		"name": "Mehal Sefari",
-		"unitType": "Gunpowder",
+		"unitType": "Melee",
 		"replaces": "Rifleman",
 		"uniqueTo": "Ethiopia",
 		"movement": 2,
@@ -1130,7 +1101,7 @@
 	},
 	{
 		"name": "Cavalry",
-		"unitType": "Mounted",
+		"unitType": "Heavy Mobile",
 		"movement": 4,
 		"strength": 34,
 		"cost": 225,
@@ -1143,7 +1114,7 @@
 	},
 	{
 		"name": "Cossack",
-		"unitType": "Mounted",
+		"unitType": "Heavy Mobile",
 		"replaces": "Cavalry",
 		"uniqueTo": "Russia",
 		"movement": 4,
@@ -1159,7 +1130,7 @@
 	},
 	{
 		"name": "Hussar",
-		"unitType": "Mounted",
+		"unitType": "Heavy Mobile",
 		"replaces": "Cavalry",
 		"uniqueTo": "Austria",
 		"movement": 5,
@@ -1219,7 +1190,7 @@
 	},
 	{
 		"name": "Great War Infantry",
-		"unitType": "Gunpowder",
+		"unitType": "Melee",
 		"movement": 2,
 		"strength": 50,
 		"cost": 320,
@@ -1230,7 +1201,7 @@
 	},
 	{
 		"name": "Foreign Legion",
-		"unitType": "Gunpowder",
+		"unitType": "Melee",
 		"replaces": "Great War Infantry",
 		"uniqueTo": "France",
 		"movement": 2,
@@ -1274,7 +1245,7 @@
 	},
 	{
 		"name": "Infantry",
-		"unitType": "Gunpowder",
+		"unitType": "Melee",
 		"movement": 2,
 		"strength": 70,
 		"cost": 375,
@@ -1309,7 +1280,7 @@
 	},
 	{
 		"name": "Machine Gun",
-		"unitType": "Ranged Gunpowder",
+		"unitType": "Ranged",
 		"range": 1,
 		"movement": 2,
 		"strength": 60,
@@ -1321,21 +1292,8 @@
 		// Upgrades to Bazooka in BNW
 	},
 	{
-		"name": "Anti-Aircraft Gun",
-		"unitType": "Gunpowder",
-		"movement": 2,
-		"interceptRange": 2,
-		"strength": 50,
-		"cost": 375,
-		"requiredTech": "Ballistics",
-		"upgradesTo": "Mobile SAM",
-		"obsoleteTech": "Rocketry",
-		"uniques": ["[100]% chance to intercept air attacks", "[+150]% Strength <vs [Air] units>", "[+150]% Strength <vs [Helicopter] units>", "Never appears as a Barbarian unit"],
-		"attackSound": "machinegun"
-	},
-	{
 		"name": "Landship",
-		"unitType": "Armored",
+		"unitType": "Heavy Mobile",
 		"movement": 4,
 		"strength": 60,
 		"cost": 350,
@@ -1363,7 +1321,7 @@
 
 	{
 		"name": "Marine",
-		"unitType": "Gunpowder",
+		"unitType": "Melee",
 		"movement": 2,
 		"strength": 65,
 		"cost": 400,
@@ -1434,19 +1392,8 @@
 		"attackSound": "bombing"
 	},
 	{
-		"name": "Paratrooper",
-		"unitType": "Gunpowder",
-		"movement": 2,
-		"strength": 65,
-		"cost": 375,
-		"requiredTech": "Radar",
-		"uniques": ["May Paradrop up to [5] tiles from inside friendly territory", "Never appears as a Barbarian unit"],
-		"attackSound": "shot"
-		// upgradesTo "XCOM Squad", "No Movement Cost to Pillage" in BNW
-	},
-	{
 		"name": "Tank",
-		"unitType": "Armored",
+		"unitType": "Heavy Mobile",
 		"movement": 5,
 		"strength": 70,
 		"cost": 375,
@@ -1458,7 +1405,7 @@
 	},
 	{
 		"name": "Panzer",
-		"unitType": "Armored",
+		"unitType": "Heavy Mobile",
 		"uniqueTo": "Germany",
 		"replaces": "Tank",
 		"movement": 6,
@@ -1473,7 +1420,7 @@
 	},
 	{
 		"name": "Anti-Tank Gun",
-		"unitType": "Gunpowder",
+		"unitType": "Anti Mobile",
 		"movement": 2,
 		"strength": 50,
 		"cost": 300,
@@ -1515,18 +1462,6 @@
 		"attackSound": "artillery"
 	},
 	{
-		"name": "Mobile SAM",
-		"unitType": "Gunpowder",
-		"movement": 3,
-		"interceptRange": 2,
-		"strength": 65,
-		"cost": 425,
-		"requiredTech": "Rocketry",
-		"uniques": ["[100]% chance to intercept air attacks", "[+150]% Strength <vs [Air] units>",
-			"[+150]% Strength <vs [Helicopter] units>", "Never appears as a Barbarian unit"],
-		"attackSound": "missile"
-	},
-	{
 		"name": "Guided Missile",
 		"unitType": "Missile",
 		"movement": 1,
@@ -1555,7 +1490,7 @@
 		// "Hovering unit" unique gives ability to get into impassable tiles - and only that (no vision bonus or flying over ocean)
 		// Unit embarks like any other ground unit and has penalty for attacking over river or from embarked state
 		"name": "Helicopter Gunship",
-		"unitType": "Helicopter",
+		"unitType": "Anti Mobile",
 		"movement": 6,
 		"strength": 60,
 		"cost": 425,
@@ -1581,7 +1516,7 @@
 	},
 	{
 		"name": "Mechanized Infantry",
-		"unitType": "Gunpowder",
+		"unitType": "Melee",
 		"movement": 3,
 		"strength": 90,
 		"cost": 375,
@@ -1606,7 +1541,7 @@
 	},
 	{
 		"name": "Modern Armor",
-		"unitType": "Armored",
+		"unitType": "Heavy Mobile",
 		"movement": 5,
 		"strength": 100,
 		"cost": 425,
@@ -1632,7 +1567,7 @@
 	},
 	{
 		"name": "Giant Death Robot",
-		"unitType": "Armored",
+		"unitType": "Heavy Mobile",
 		"movement": 5,
 		"strength": 150,
 		"cost": 425,
