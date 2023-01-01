@@ -4,19 +4,16 @@
         "movementType": "Land"
     },
     {
-        "name": "Sword",
+        "name": "Melee",
         "movementType": "Land"
     },
     {
-        "name": "Gunpowder",
+        "name": "Anti Mobile",
         "movementType": "Land"
+        "uniques": ["[+50]% Strength<vs [Light Mobile] units>", "[+50]% Strength<vs [Heavy Mobile] units>"]
     },
     {
-        "name": "Archery",
-        "movementType": "Land"
-    },
-    {
-        "name": "Ranged Gunpowder",
+        "name": "Ranged",
         "movementType": "Land"
     },
     {
@@ -24,20 +21,18 @@
         "movementType": "Land"
     },
     {
-        "name": "Skirmisher",
+        "name": "Light Mobile",
         "movementType": "Land"
+        "uniques": ["[+33]% Strength<vs [Wounded] units><when attacking>"]
     },
     {
-        "name": "Mounted",
-        "movementType": "Land"
-    },
-    {
-        "name": "Armored",
+        "name": "Heavy Mobile",
         "movementType": "Land"
     },
     {
         "name": "Siege",
         "movementType": "Land"
+        "uniques": ["[+200]% Strength <vs cities>"]
     },
     {
         "name": "Civilian Water",
@@ -87,15 +82,6 @@
     },
 
     // Deprecated unit types required for mods without a UnitTypes.json file to work
-
-    {
-        "name": "Melee",
-        "movementType": "Land"
-    },
-    {
-        "name": "Ranged",
-        "movementType": "Land"
-    },
     {
         "name": "Armor",
         "movementType": "Land"
