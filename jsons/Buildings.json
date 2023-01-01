@@ -937,14 +937,28 @@
 		"hurryCostModifier": 15,
 		"requiredBuilding": "Bank",
 		"uniques": ["[+1 Gold, +1 Culture] from each Trade Route"],
-		"requiredTech": "Colonialism"
+		"requiredTech": "Compass"
+	},
+	{
+		"name": "Manor",
+		"culture": 2,
+		"hurryCostModifier": 15,
+		"uniques": ["[+15]% Great Person generation [in this city]"],
+		"requiredTech": "Newspaper"
 	},
 	{
 		"name": "Colonial Office",
 		"hurryCostModifier": 15,
 		"requiredBuilding": "Customs House",
-		"uniques": ["Free [Gunpowder] appears", "[+4 Gold] from [Plantation] [in this city]", "[+20]% Unhappiness from [Population] [in this city]"
-],
+		"uniques": ["Free [Gunpowder] appears", "[+4 Gold] from [Plantation] [in this city]", "[+20]% Unhappiness from [Population] [in this city]"],
+		"requiredTech": "Colonialism"
+	},
+	{
+		"name": "Weigh House",
+		"gold": 3,
+		"hurryCostModifier": 15,
+		"requiredBuilding": "Bank",
+		"uniques": ["[+1 Gold] per [4] population [in this city]"],
 		"requiredTech": "Colonialism"
 	},
 	{
@@ -1024,7 +1038,17 @@
 		"maintenance": 3,
 		"requiredBuilding": "Harbor",
 		"uniques": ["[+1 Production, +1 Gold] from [Water resource] tiles [in this city]",
-			"Must be next to [Coast]", "[+15]% Production when constructing [Water] units [in this city]"],
+			"Must be next to [Coast]"],
+		"requiredTech": "Navigation"
+	},
+	{
+		"name": "Drydock",
+		"hurryCostModifier": 25,
+		"maintenance": 3,
+		"cityStrength": 6,
+		"cityHealth": 25,
+		"requiredBuilding": "Harbor",
+		"uniques": ["Must be next to [Coast]", "[+25]% Production when constructing [Water] units [in this city]"],
 		"requiredTech": "Navigation"
 	},
 	{
