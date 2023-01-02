@@ -1,0 +1,265 @@
+
+game.png
+size: 2048, 2048
+format: RGBA8888
+filter: MipMapLinearLinear, MipMapLinearLinear
+repeat: none
+ResourceIcons/Amber
+  rotate: false
+  xy: 4, 1112
+  size: 400, 400
+  orig: 400, 400
+  offset: 0, 0
+  index: -1
+ResourceIcons/Coffee
+  rotate: false
+  xy: 524, 1632
+  size: 400, 400
+  orig: 400, 400
+  offset: 0, 0
+  index: -1
+ResourceIcons/Coral
+  rotate: false
+  xy: 4, 704
+  size: 400, 400
+  orig: 400, 400
+  offset: 0, 0
+  index: -1
+ResourceIcons/Glass
+  rotate: false
+  xy: 932, 1632
+  size: 400, 400
+  orig: 400, 400
+  offset: 0, 0
+  index: -1
+ResourceIcons/Jade
+  rotate: false
+  xy: 4, 296
+  size: 400, 400
+  orig: 400, 400
+  offset: 0, 0
+  index: -1
+ResourceIcons/Lapis Lazuli
+  rotate: false
+  xy: 4, 1520
+  size: 512, 512
+  orig: 512, 512
+  offset: 0, 0
+  index: -1
+ResourceIcons/Olives
+  rotate: false
+  xy: 1340, 1632
+  size: 400, 400
+  orig: 400, 400
+  offset: 0, 0
+  index: -1
+ResourceIcons/Perfume
+  rotate: false
+  xy: 412, 1112
+  size: 400, 400
+  orig: 400, 400
+  offset: 0, 0
+  index: -1
+ResourceIcons/Tea
+  rotate: false
+  xy: 412, 704
+  size: 400, 400
+  orig: 400, 400
+  offset: 0, 0
+  index: -1
+ResourceIcons/Tobacco
+  rotate: false
+  xy: 412, 296
+  size: 400, 400
+  orig: 400, 400
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/Amber
+  rotate: false
+  xy: 524, 1532
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/Coast+Coral+Fishing Boats
+  rotate: false
+  xy: 76, 130
+  size: 32, 30
+  orig: 32, 30
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/Coral+Fishing Boats
+  rotate: false
+  xy: 76, 130
+  size: 32, 30
+  orig: 32, 30
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/Coffee
+  rotate: false
+  xy: 148, 194
+  size: 32, 30
+  orig: 32, 30
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/Coral
+  rotate: false
+  xy: 220, 258
+  size: 32, 30
+  orig: 32, 30
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/Jade
+  rotate: false
+  xy: 1748, 1812
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/Lapis Lazuli
+  rotate: false
+  xy: 1820, 1876
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/Olives
+  rotate: false
+  xy: 1892, 1934
+  size: 32, 34
+  orig: 32, 34
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/Perfume
+  rotate: false
+  xy: 1964, 1998
+  size: 32, 34
+  orig: 32, 34
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/Tea
+  rotate: false
+  xy: 740, 1596
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/Tobacco
+  rotate: false
+  xy: 4, 4
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Amber
+  rotate: false
+  xy: 4, 232
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Coffee
+  rotate: false
+  xy: 1748, 1976
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Coffee+Plantation
+  rotate: false
+  xy: 524, 1568
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Coral
+  rotate: false
+  xy: 4, 168
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Coral+Fishing Boats
+  rotate: false
+  xy: 76, 232
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Coral+Fishing Boats-Industrial era
+  rotate: false
+  xy: 1748, 1912
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Jade
+  rotate: false
+  xy: 1820, 1976
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Lapis Lazuli
+  rotate: false
+  xy: 596, 1568
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Olives
+  rotate: false
+  xy: 4, 104
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Olives+Plantation
+  rotate: false
+  xy: 76, 168
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Perfume
+  rotate: false
+  xy: 148, 232
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Perfume+Plantation
+  rotate: false
+  xy: 1748, 1848
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Tea
+  rotate: false
+  xy: 1820, 1912
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Tea+Plantation
+  rotate: false
+  xy: 1892, 1976
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Tobacco
+  rotate: false
+  xy: 668, 1568
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Tobacco+Plantation
+  rotate: false
+  xy: 4, 40
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
