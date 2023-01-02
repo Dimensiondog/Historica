@@ -34,9 +34,9 @@
     },
             {
                 "name": "Organisation",
-                "uniques": ["[+1] Movement <for [Civillian] units>",
+                "uniques": ["[+1] Movement <for [Civilian] units>",
                     "[+3 Production] [in all cities]",
-                   "[+25]% Production when constructing [Civillian] units [in all cities]",
+                   "[+25]% Production when constructing [Civilian] units [in all cities]",
                 ],
                 "row": 1,
                 "column": 9
