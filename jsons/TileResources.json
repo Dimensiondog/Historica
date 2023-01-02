@@ -511,5 +511,88 @@
 					"Generated near City States with weight [15]",
 					"Doesn't generate naturally <in [Forest] [Hill] tiles>",
 					"Doesn't generate naturally <in [Tundra] [Forest] tiles>"]
+	},
+	{
+		"name": "Amber",
+		"resourceType": "Luxury",
+		"terrainsCanBeFoundOn": [ "Forest", "Tundra", "Grassland", "Plains" ],
+		"gold": 2,
+		"improvement": "Mine",
+		"improvementStats": { "gold": 1 }
+	},
+	{
+		"name": "Coffee",
+		"resourceType": "Luxury",
+		"terrainsCanBeFoundOn": [ "Grassland", "Plains" ],
+		"gold": 2,
+		"improvement": "Plantation",
+		"improvementStats": { "gold": 1 }
+	},
+	{
+		"name": "Coral",
+		"resourceType": "Luxury",
+		"terrainsCanBeFoundOn": [ "Coast" ],
+		"gold": 2,
+		"improvement": "Fishing Boats",
+		"improvementStats": { "gold": 1 }
+	},
+	{
+		"name": "Jade",
+		"resourceType": "Luxury",
+		"terrainsCanBeFoundOn": [ "Grassland", "Plains", "Desert", "Tundra" ],
+		"gold": 2,
+		"improvement": "Mine",
+		"improvementStats": { "gold": 1 }
+	},
+	{
+		"name": "Lapis Lazuli",
+		"resourceType": "Luxury",
+		"terrainsCanBeFoundOn": [ "Grassland", "Plains", "Desert", "Tundra", "Hill" ],
+		"gold": 2,
+		"improvement": "Mine",
+		"improvementStats": { "gold": 1 }
+	},
+	{
+		"name": "Olives",
+		"resourceType": "Luxury",
+		"terrainsCanBeFoundOn": [ "Grassland", "Plains" ],
+		"gold": 1,
+		"food": 1,
+		"improvement": "Plantation",
+		"improvementStats": {
+			"gold": 1,
+			"food": 1
+		}
+	},
+	{
+		"name": "Perfume",
+		"resourceType": "Luxury",
+		"terrainsCanBeFoundOn": [ "Grassland", "Plains" ],
+		"gold": 2,
+		"improvement": "Plantation",
+		"improvementStats": { "gold": 1 }
+	},
+	{
+		"name": "Tea",
+		"resourceType": "Luxury",
+		"terrainsCanBeFoundOn": [ "Grassland", "Plains" ],
+		"gold": 2,
+		"improvement": "Plantation",
+		"improvementStats": { "gold": 1 }
+	},
+	{
+		"name": "Tobacco",
+		"resourceType": "Luxury",
+		"terrainsCanBeFoundOn": [ "Grassland", "Plains" ],
+		"gold": 2,
+		"improvement": "Plantation",
+		"improvementStats": { "gold": 1 }
+	},
+	// Unique res
+	{
+		"name": "Glass",
+		"resourceType": "Luxury",
+		"gold": 2,
+		"uniques": ["Can only be created by Mercantile City-States"]
 	}
 ]
