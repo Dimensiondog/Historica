@@ -308,21 +308,6 @@
 		"attackSound": "metalhit"
 	},
 	{
-		"name": "Battering Ram",
-		"unitType": "Anti Mobile", // You might expect this to be a siege unit, but apparently it is not
-		"replaces": "Spearman",
-		"uniqueTo": "The Huns",
-		"movement": 2,
-		"strength": 10,
-		"cost": 75,
-		"obsoleteTech": "Fortification",
-		"upgradesTo": "Trebuchet",
-		"uniques": ["[+300]% Strength <vs cities> <when attacking>", "No defensive terrain bonus", "[-33]% Strength <when defending>",
-		"[-1] Sight", "Can only attack [City] units"],
-		"promotions":  ["Cover I"],
-		"attackSound": "throw"
-	},
-	{
 		"name": "Pictish Warrior",
 		"unitType": "Anti Mobile",
 		"replaces": "Spearman",
@@ -686,7 +671,7 @@
 	{
 		"name": "Longbowman",
 		"unitType": "Ranged",
-		"range": 2,
+		"range": 3,
 		"movement": 2,
 		"strength": 13,
 		"rangedStrength": 20,
@@ -696,7 +681,6 @@
 		"requiredTech": "Machinery",
 		"upgradesTo": "Gatling Gun",
 		"obsoleteTech": "Industrialization",
-		"promotions": ["Extended Range"],
 		"attackSound": "arrow"
 	},
 	{
@@ -764,7 +748,7 @@
 		"upgradesTo": "Musketman",
 		"obsoleteTech": "Gunpowder",
 		"requiredResource": "Iron",
-		"promotions": ["Shock I", "Great Generals II"],
+		"promotions": ["Shock", "Great Generals II"],
 		"attackSound": "metalhit"
 		//Samurai should also create Fishing Boats (not now, surely)
 	},
@@ -890,7 +874,7 @@
 		"upgradesTo": "Rifleman",
 		"obsoleteTech": "Rifling",
 		"uniques": ["Ignores terrain cost"],
-		"promotions": ["Drill I"],
+		"promotions": ["Drill"],
 		"attackSound": "shot"
 	},
 	{
@@ -973,7 +957,6 @@
 		"requiredTech": "Metallurgy",
 		"requiredResource": "Horses",
 		"uniques": ["Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>","Never appears as a Barbarian unit"],
-		"promotions": ["Formation I"],
 		"upgradesTo": "Anti-Tank Gun",
 		"obsoleteTech": "Combined Arms",
 		"attackSound": "horse"
@@ -990,7 +973,7 @@
 		"requiredResource": "Horses",
 		"uniques": ["Can move after attacking","No defensive terrain bonus","[-50]% Strength <vs cities> <when attacking>",
 			"[+1] Sight"],
-		"promotions": ["[Sipahi] ability","Formation I"],
+		"promotions": ["[Sipahi] ability"],
 		"upgradesTo": "Anti-Tank Gun",
 		"obsoleteTech": "Combined Arms",
 		"attackSound": "horse"
@@ -1006,7 +989,7 @@
 		"requiredTech": "Metallurgy",
 		"requiredResource": "Horses",
 		"uniques": ["Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>"],
-		"promotions": ["[Hakkapeliitta] ability","Formation I"],
+		"promotions": ["[Hakkapeliitta] ability"],
 		"upgradesTo": "Anti-Tank Gun",
 		"obsoleteTech": "Combined Arms",
 		"attackSound": "horse"
@@ -1090,7 +1073,7 @@
 		"requiredTech": "Dynamite",
 		"obsoleteTech": "Replaceable Parts",
 		"upgradesTo": "Great War Infantry",
-		"promotions": ["Drill I","Home Sweet Home"],
+		"promotions": ["Drill","Home Sweet Home"],
 		"attackSound": "shot"
 	},
 	{
@@ -1164,7 +1147,6 @@
 		"upgradesTo": "Rocket Artillery",
 		"uniques": ["[+200]% Strength <vs cities> <when attacking>","No defensive terrain bonus",
 			"Must set up to ranged attack","[-1] Sight", "Never appears as a Barbarian unit"],
-		"promotions": ["Indirect Fire"],
 		"attackSound": "artillery"
 	},
 
@@ -1268,7 +1250,6 @@
 		"requiredResource": "Oil",
 		"requiredTech": "Electronics",
 		"uniques": ["Never appears as a Barbarian unit"],
-		"promotions": ["Indirect Fire"],
 		"attackSound": "shipguns"
 		// Does not actually upgrade to Missile Cruisers
 	},
@@ -1452,7 +1433,6 @@
 		"requiredResource": "Aluminum",
 		"uniques": ["[+200]% Strength <vs cities> <when attacking>","No defensive terrain bonus",
 			"[-1] Sight", "Never appears as a Barbarian unit"],
-		"promotions": ["Indirect Fire"],
 		"attackSound": "artillery"
 	},
 	{
@@ -1530,7 +1510,6 @@
 		"requiredTech": "Robotics",
 		"uniques": ["[100]% chance to intercept air attacks", "Can see invisible [Submarine] units",
 			"Can carry [3] [Missile] units", "[+100]% Strength <vs [Submarine] units>", "Never appears as a Barbarian unit"],
-		"promotions": ["Indirect Fire"],
 		"attackSound": "shipguns"
 	},
 	{
