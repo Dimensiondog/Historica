@@ -7,7 +7,117 @@
         "row": 0,
         "column": 0
     },
-
+	// Melee
+	{
+		"name": "Shock",
+		"uniques": ["[+30]% Strength <when fighting in [Open terrain] tiles> <when attacking>"],
+		"unitTypes": ["Melee","Heavy Mobile", "Siege", "Ranged", "Scout"],
+        "column": 1,
+        "row": 3
+    },
+	{
+		"name": "Drill",
+		"uniques": ["[+30]% Strength <when fighting in [Rough terrain] tiles> <when attacking>"],
+		"unitTypes": ["Melee","Heavy Mobile", "Siege", "Ranged", "Scout"],
+        "column": 1,
+        "row": 6
+    },
+	{
+		"name": "Amphibious",
+		"prerequisites": ["Shock"],
+		"uniques": ["Eliminates combat penalty for attacking over a river", "Eliminates combat penalty for attacking across a coast", "[+15]% Strength <when fighting in [River] tiles> <when attacking>"],
+		"unitTypes": ["Melee", "Siege", "Ranged", "Scout"],
+        "column": 2,
+        "row": 2
+    },
+	{
+		"name": "Charge",
+		"prerequisites": ["Shock"],
+		"uniques": ["[+30]% Strength <vs [Wounded] units> <when attacking>"],
+		"unitTypes": ["Melee","Heavy Mobile","Scout"],
+        "column": 4,
+        "row": 2
+    },
+	{
+		"name": "Cover",
+		"prerequisites": ["Drill"],
+		"uniques": ["[+30]% Strength <when fighting in [Rough terrain] tiles> <when attacking>"],
+		"unitTypes": ["Melee","Heavy Mobile", "Ranged", "Scout"],
+        "column": 6,
+        "row": 2
+    },
+	{
+		"name": "Woodsman",
+		"prerequisites": ["Drill"],
+		"uniques": ["[+10]% Strength <when fighting in [Rough terrain] tiles> <when attacking>", "Double movement in [Forest]","Double movement in [Jungle]"],
+		"unitTypes": ["Melee","Heavy Mobile", "Ranged", "Scout"],
+        "column": 8,
+        "row": 2
+    },
+	{
+		"name": "March",
+		"prerequisites": ["Amphibious"],
+		"uniques": ["Unit will heal every turn, even if it performs an action"],
+		"unitTypes": ["Melee","Heavy Mobile", "Ranged", "Scout"],
+        "column": 1,
+        "row": 3
+    },
+	{
+		"name": "Medic",
+		"prerequisites": ["Amphibious"],
+		"uniques": ["All adjacent units heal [+15] HP when healing"],
+		"unitTypes": ["Melee","Heavy Mobile", "Ranged", "Scout"],
+        "column": 2,
+        "row": 3
+    },
+	{
+		"name": "Mobility",
+		"prerequisites": ["Charge"],
+		"uniques": ["[+1] Movement"]
+		"unitTypes": ["Melee","Heavy Mobile", "Ranged", "Scout"],
+        "column": 3,
+        "row": 3
+    },
+	{
+		"name": "Sentry",
+		"prerequisites": ["Charge"],
+		"uniques": ["[+1] Sight"],
+		"unitTypes": ["Melee","Heavy Mobile", "Ranged", "Scout"],
+        "column": 4,
+        "row": 3
+    },
+	{
+		"name": "Blitz",
+		"prerequisites": ["Cover"],
+		"uniques": ["[1] additional attacks per turn"],
+		"unitTypes": ["Melee","Heavy Mobile", "Ranged", "Scout"],
+        "column": 5,
+        "row": 3
+    },
+	{
+		"name": "Besiege",
+		"prerequisites": ["Cover"],
+		"uniques": ["[+50]% Strength <vs cities>"],
+		"unitTypes": ["Melee","Heavy Mobile", "Ranged", "Scout"],
+        "column": 6,
+        "row": 3
+    },
+	{
+		"name": "Stalwart",
+		"prerequisites": ["Woodsman"],
+		"uniques": ["[+75]% Strength <when defending>"],
+		"unitTypes": ["Melee", "Ranged", "Scout"],
+        "column": 7,
+        "row": 3
+    },
+	{
+		"name": "Flanking",
+		"prerequisites": ["Woodsman"],
+		"uniques": ["[+20]% to Flank Attack bonuses"],
+		"unitTypes": ["Melee","Heavy Mobile", "Ranged", "Scout"],
+        "column": 8,
+        "row": 8
+    },
 	// Ranged+Siege
 	{
 		"name": "Accuracy I",
@@ -81,129 +191,6 @@
         "column": 3,
         "row": 4
 	},
-
-	// Melee, Mounted+Armor
-	{
-		"name": "Shock I",
-		"uniques": ["[+15]% Strength <when fighting in [Open terrain] tiles>"],
-		"unitTypes": ["Melee","Heavy Mobile"],
-        "column": 4,
-        "row": 1
-	},
-	{
-		"name": "Shock II",
-		"prerequisites": ["Shock I"],
-		"uniques": ["[+15]% Strength <when fighting in [Open terrain] tiles>"],
-		"unitTypes": ["Melee","Heavy Mobile"],
-        "column": 4,
-        "row": 2
-	},
-	{
-		"name": "Shock III",
-		"prerequisites": ["Shock II"],
-		"uniques": ["[+15]% Strength <when fighting in [Open terrain] tiles>"],
-		"unitTypes": ["Melee","Heavy Mobile"],
-        "column": 4,
-        "row": 3
-	},
-
-	{
-		"name": "Drill I",
-		"uniques": ["[+15]% Strength <when fighting in [Rough terrain] tiles>"],
-		"unitTypes": ["Melee","Heavy Mobile"],
-        "column": 5,
-        "row": 1
-	},
-	{
-		"name": "Drill II",
-		"prerequisites": ["Drill I"],
-		"uniques": ["[+15]% Strength <when fighting in [Rough terrain] tiles>"],
-		"unitTypes": ["Melee","Heavy Mobile"],
-        "column": 5,
-        "row": 2
-	},
-	{
-		"name": "Drill III",
-		"prerequisites": ["Drill II"],
-		"uniques": ["[+15]% Strength <when fighting in [Rough terrain] tiles>"],
-		"unitTypes": ["Melee","Heavy Mobile"],
-        "column": 5,
-        "row": 3
-	},
-	{
-		"name": "Charge",
-		"prerequisites": ["Shock II","Drill II"],
-		"uniques": ["[+33]% Strength <vs [Wounded] units>"],
-		"unitTypes": ["Heavy Mobile"],
-        "column": 6,
-        "row": 2
-	},
-	{
-		"name": "Besiege", // Not called "Siege" in order to not conflict with siege type units for translations
-		"prerequisites": ["Shock II","Drill II"],
-		"uniques": ["[+50]% Strength <vs cities>"],
-		"unitTypes": ["Melee"],
-        "column": 6,
-        "row": 3
-	},
-	{
-		"name": "Formation I",
-		"prerequisites": ["Shock II","Drill II"], // G&K also has Accuracy II & Barrage II as possible prerequisites for this, but I couldn't find a source for the unittypes
-		"uniques": ["[+33]% Strength <vs [Heavy Mobile] units>"],
-		"unitTypes": ["Melee","Heavy Mobile"],
-        "column": 7,
-        "row": 2
-	},
-	{
-		"name": "Formation II",
-		"prerequisites": ["Formation I"],
-		"uniques": ["[+33]% Strength <vs [Heavy Mobile] units>"],
-		"unitTypes": ["Melee","Heavy Mobile"],
-        "column": 7,
-        "row": 3
-	},
-
-	{
-		"name": "Blitz",
-		"prerequisites": ["Shock III","Drill III"],
-		"uniques": ["[1] additional attacks per turn"],
-		"unitTypes": ["Melee","Heavy Mobile"],
-        "column": 6,
-        "row": 4
-	},
-	{
-		"name": "Woodsman",
-		"prerequisites": ["Shock III","Drill III"],
-		"uniques": ["Double movement in [Forest]","Double movement in [Jungle]"],
-		"unitTypes": ["Melee"],
-        "column": 6,
-        "row": 5
-	},
-	{
-		"name": "Amphibious",
-		"prerequisites": ["Shock I", "Drill I"],
-		"uniques": ["Eliminates combat penalty for attacking over a river", "Eliminates combat penalty for attacking across a coast"],
-		"unitTypes": ["Heavy Mobile"],
-        "column": 6,
-        "row": 1
-	},
-	{
-		"name": "Medic",
-		"prerequisites": ["Shock I", "Drill I", "Scouting II", "Survivalism II"],
-		"uniques": ["All adjacent units heal [+5] HP when healing"],
-		"unitTypes": ["Melee","Heavy Mobile","Scout"],
-        "column": 10, // after scout base
-        "row": 1
-	},
-	{
-		"name": "Medic II",
-		"prerequisites": ["Medic"],
-		"uniques": ["[+5] HP when healing <in [Foreign Land] tiles>", "All adjacent units heal [+5] HP when healing"],
-		"unitTypes": ["Melee","Heavy Mobile","Scout"],
-        "column": 10,
-        "row": 2
-	},
-
 	// Scout
 	{
 		"name": "Scouting I",
