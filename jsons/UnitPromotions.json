@@ -11,14 +11,14 @@
 	{
 		"name": "Shock",
 		"uniques": ["[+30]% Strength <when fighting in [Open terrain] tiles> <when attacking>"],
-		"unitTypes": ["Melee","Heavy Mobile", "Siege", "Ranged", "Scout"],
+		"unitTypes": ["Melee","Heavy Mobile","Scout","Siege","Ranged","Light Mobile","Anti Mobile"],
         "column": 1,
         "row": 3
     },
 	{
 		"name": "Drill",
 		"uniques": ["[+30]% Strength <when fighting in [Rough terrain] tiles> <when attacking>"],
-		"unitTypes": ["Melee","Heavy Mobile", "Siege", "Ranged", "Scout"],
+		"unitTypes": ["Melee","Heavy Mobile","Scout","Siege","Ranged","Light Mobile","Anti Mobile"],
         "column": 1,
         "row": 6
     },
@@ -26,7 +26,7 @@
 		"name": "Amphibious",
 		"prerequisites": ["Shock"],
 		"uniques": ["Eliminates combat penalty for attacking over a river", "Eliminates combat penalty for attacking across a coast", "[+15]% Strength <when fighting in [River] tiles> <when attacking>"],
-		"unitTypes": ["Melee", "Siege", "Ranged", "Scout"],
+		"unitTypes": ["Melee","Heavy Mobile","Scout","Siege","Ranged","Light Mobile","Anti Mobile"],
         "column": 2,
         "row": 2
     },
@@ -34,7 +34,7 @@
 		"name": "Charge",
 		"prerequisites": ["Shock"],
 		"uniques": ["[+30]% Strength <vs [Wounded] units> <when attacking>"],
-		"unitTypes": ["Melee","Heavy Mobile","Scout"],
+		"unitTypes": ["Melee","Heavy Mobile","Scout","Siege","Ranged","Light Mobile","Anti Mobile"],
         "column": 4,
         "row": 2
     },
@@ -42,7 +42,7 @@
 		"name": "Cover",
 		"prerequisites": ["Drill"],
 		"uniques": ["[+30]% Strength <when fighting in [Rough terrain] tiles> <when attacking>"],
-		"unitTypes": ["Melee","Heavy Mobile", "Ranged", "Scout"],
+		"unitTypes": ["Melee","Heavy Mobile","Scout","Siege","Ranged","Light Mobile","Anti Mobile"],
         "column": 6,
         "row": 2
     },
@@ -50,7 +50,7 @@
 		"name": "Woodsman",
 		"prerequisites": ["Drill"],
 		"uniques": ["[+10]% Strength <when fighting in [Rough terrain] tiles> <when attacking>", "Double movement in [Forest]","Double movement in [Jungle]"],
-		"unitTypes": ["Melee","Heavy Mobile", "Ranged", "Scout"],
+		"unitTypes": ["Melee","Heavy Mobile","Scout","Siege","Ranged","Light Mobile","Anti Mobile"],
         "column": 8,
         "row": 2
     },
@@ -58,7 +58,7 @@
 		"name": "March",
 		"prerequisites": ["Amphibious"],
 		"uniques": ["Unit will heal every turn, even if it performs an action"],
-		"unitTypes": ["Melee","Heavy Mobile", "Ranged", "Scout"],
+		"unitTypes": ["Melee","Heavy Mobile","Scout","Siege","Ranged","Light Mobile","Anti Mobile"],
         "column": 1,
         "row": 3
     },
@@ -66,7 +66,7 @@
 		"name": "Medic",
 		"prerequisites": ["Amphibious"],
 		"uniques": ["All adjacent units heal [+15] HP when healing"],
-		"unitTypes": ["Melee","Heavy Mobile", "Ranged", "Scout"],
+		"unitTypes": ["Melee","Heavy Mobile","Scout","Siege","Ranged","Light Mobile","Anti Mobile"],
         "column": 2,
         "row": 3
     },
@@ -74,7 +74,7 @@
 		"name": "Mobility",
 		"prerequisites": ["Charge"],
 		"uniques": ["[+1] Movement"]
-		"unitTypes": ["Melee","Heavy Mobile", "Ranged", "Scout"],
+		"unitTypes": ["Melee","Heavy Mobile","Scout","Siege","Ranged","Light Mobile","Anti Mobile"],
         "column": 3,
         "row": 3
     },
@@ -82,7 +82,7 @@
 		"name": "Sentry",
 		"prerequisites": ["Charge"],
 		"uniques": ["[+1] Sight"],
-		"unitTypes": ["Melee","Heavy Mobile", "Ranged", "Scout"],
+		"unitTypes": ["Melee","Heavy Mobile","Scout","Siege","Ranged","Light Mobile","Anti Mobile"],
         "column": 4,
         "row": 3
     },
@@ -90,7 +90,7 @@
 		"name": "Blitz",
 		"prerequisites": ["Cover"],
 		"uniques": ["[1] additional attacks per turn"],
-		"unitTypes": ["Melee","Heavy Mobile", "Ranged", "Scout"],
+		"unitTypes": ["Melee","Heavy Mobile","Scout","Siege","Ranged","Light Mobile","Anti Mobile"],
         "column": 5,
         "row": 3
     },
@@ -98,7 +98,7 @@
 		"name": "Besiege",
 		"prerequisites": ["Cover"],
 		"uniques": ["[+50]% Strength <vs cities>"],
-		"unitTypes": ["Melee","Heavy Mobile", "Ranged", "Scout"],
+		"unitTypes": ["Melee","Heavy Mobile","Scout","Siege","Ranged","Light Mobile","Anti Mobile"],
         "column": 6,
         "row": 3
     },
@@ -106,7 +106,7 @@
 		"name": "Stalwart",
 		"prerequisites": ["Woodsman"],
 		"uniques": ["[+75]% Strength <when defending>"],
-		"unitTypes": ["Melee", "Ranged", "Scout"],
+		"unitTypes": ["Melee","Heavy Mobile","Scout","Siege","Ranged","Light Mobile","Anti Mobile"],
         "column": 7,
         "row": 3
     },
@@ -114,132 +114,10 @@
 		"name": "Flanking",
 		"prerequisites": ["Woodsman"],
 		"uniques": ["[+20]% to Flank Attack bonuses"],
-		"unitTypes": ["Melee","Heavy Mobile", "Ranged", "Scout"],
+		"unitTypes": ["Melee","Heavy Mobile","Scout","Siege","Ranged","Light Mobile","Anti Mobile"],
         "column": 8,
         "row": 8
     },
-	// Ranged+Siege
-	{
-		"name": "Accuracy I",
-		"uniques": ["[+15]% Strength <when fighting in [Open terrain] tiles> <when attacking>"],
-		"unitTypes": ["Siege","Ranged"],
-        "column": 1,
-        "row": 1
-    },
-	{
-		"name": "Accuracy II",
-		"prerequisites": ["Accuracy I"],
-		"uniques": ["[+15]% Strength <when fighting in [Open terrain] tiles> <when attacking>"],
-		"unitTypes": ["Siege","Ranged"],
-        "column": 1,
-        "row": 2
-    },
-	{
-		"name": "Accuracy III",
-		"prerequisites": ["Accuracy II"],
-		"uniques": ["[+15]% Strength <when fighting in [Open terrain] tiles> <when attacking>"],
-		"unitTypes": ["Siege","Ranged"],
-        "column": 1,
-        "row": 3
-    },
-
-	{
-		"name": "Barrage I",
-		"uniques": ["[+15]% Strength <when fighting in [Rough terrain] tiles> <when attacking>"],
-		"unitTypes": ["Siege","Ranged"],
-        "column": 2,
-        "row": 1
-	},
-	{
-		"name": "Barrage II",
-		"prerequisites": ["Barrage I"],
-		"uniques": ["[+15]% Strength <when fighting in [Rough terrain] tiles> <when attacking>"],
-		"unitTypes": ["Siege","Ranged"],
-        "column": 2,
-        "row": 2
-	},
-	{
-		"name": "Barrage III",
-		"prerequisites": ["Barrage II"],
-		"uniques": ["[+15]% Strength <when fighting in [Rough terrain] tiles> <when attacking>"],
-		"unitTypes": ["Siege","Ranged"],
-        "column": 2,
-        "row": 3
-	},
-
-	{
-		"name": "Volley",
-		"prerequisites": ["Accuracy I","Barrage I"],
-		"uniques": ["[+50]% Strength <vs cities>"],
-		"unitTypes": ["Siege"],
-        "column": 3,
-        "row": 1
-	},
-	{
-		"name": "Extended Range",
-		"prerequisites": ["Accuracy III","Barrage III","Targeting II","Bombardment II", "Wolfpack II"],
-		"uniques": ["[+1] Range"],
-		"unitTypes": ["Ranged","Siege","Ranged Water","Submarine"],
-        "column": 3,
-        "row": 3
-	},
-	{
-		"name": "Indirect Fire",
-		"prerequisites": ["Accuracy III", "Barrage III", "Bombardment II", "Targeting II"],
-		"uniques": ["Ranged attacks may be performed over obstacles"],
-		"unitTypes": ["Ranged","Siege","Ranged Water"],
-        "column": 3,
-        "row": 4
-	},
-	// Scout
-	{
-		"name": "Scouting I",
-		"uniques": ["[+1] Sight"],
-		"unitTypes": ["Scout"],
-        "column": 8,
-        "row": 1
-	},
-	{
-		"name": "Scouting II",
-		"prerequisites": ["Scouting I"],
-		"uniques": ["[+1] Sight"],
-		"unitTypes": ["Scout"],
-        "column": 8,
-        "row": 2
-	},
-	{
-		"name": "Scouting III",
-		"prerequisites": ["Scouting II"],
-		"uniques": ["[+1] Movement"],
-		"unitTypes": ["Scout"],
-        "column": 8,
-        "row": 3
-	},
-	{
-		"name": "Survivalism I",
-		"uniques": ["[+5] HP when healing <in [Foreign Land] tiles>", "[+25]% Strength <when defending>"],
-		"unitTypes": ["Scout"],
-        "column": 9,
-        "row": 1
-	},
-	{
-		"name": "Survivalism II",
-		"prerequisites": ["Survivalism I"],
-		"uniques": ["[+5] HP when healing <in [Foreign Land] tiles>", "[+25]% Strength <when defending>"],
-		"unitTypes": ["Scout"],
-        "column": 9,
-        "row": 2
-	},
-	{
-		"name": "Survivalism III",
-		"prerequisites": ["Survivalism II"],
-		"uniques": ["Unit will heal every turn, even if it performs an action", "May withdraw before melee ([75]%)"], // This number is not based on any source
-		"unitTypes": ["Scout"],
-        "column": 9,
-        "row": 3
-	},
-
-
 	// Water melee
 	{
 		"name": "Boarding Party I",
@@ -526,108 +404,6 @@
         "column": 21,
         "row": 3
 	},
-
-	// Helicopter
-	{
-		"name": "Mobility I",
-		"uniques": ["[+1] Movement"],
-		"unitTypes": ["Anti Mobile"],
-        "column": 22,
-        "row": 1
-	},
-	{
-		"name": "Mobility II",
-		"prerequisites": ["Mobility I"],
-		"uniques": ["[+1] Movement"],
-		"unitTypes": ["Anti Mobile"],
-        "column": 22,
-        "row": 2
-	},
-	{
-		"name": "Anti-Armor I",
-		"uniques": ["[+25]% Strength <vs [Heavy Mobile] units>"],
-		"unitTypes": ["Anti Mobile"],
-        "column": 23,
-        "row": 1
-	},
-	{
-		"name": "Anti-Armor II",
-		"prerequisites": ["Anti-Armor I"],
-		"uniques": ["[+25]% Strength <vs [Heavy Mobile] units>"],
-		"unitTypes": ["Anti Mobile"],
-        "column": 23,
-        "row": 2
-	},
-
-	// Mixed
-	{
-		"name": "Cover I",
-		"uniques": ["[+33]% Strength <vs [Ranged] units> <when defending>"],
-		"unitTypes": ["Melee","Ranged","Siege"],
-        "column": 24,
-        "row": 1
-	},
-	{
-		"name": "Cover II",
-		"prerequisites": ["Cover I"],
-		"uniques": ["[+33]% Strength <vs [Ranged] units> <when defending>"],
-		"unitTypes": ["Melee","Ranged","Siege"],
-        "column": 24,
-        "row": 2
-	},
-
-	{
-		"name": "March",
-		"prerequisites": ["Accuracy II","Barrage II","Shock III","Drill III"],
-		"uniques": ["Unit will heal every turn, even if it performs an action"],
-		"unitTypes": ["Melee","Ranged","Siege","Heavy Mobile"],
-        "column": 10,
-        "row": 3
-	},
-	{
-		"name": "Mobility",
-		"prerequisites": ["Shock II","Drill II","Targeting I",
-			"Bombardment I","Boarding Party I", "Coastal Raider I", "Wolfpack I"],
-		"uniques": ["[+1] Movement"],
-		"unitTypes": ["Heavy Mobile","Melee Water","Ranged Water","Submarine"],
-        "column": 24,
-        "row": 3
-	},
-	{
-		"name": "Sentry",
-		"prerequisites": ["Accuracy I","Barrage I","Shock II","Drill II","Bombardment I","Targeting I","Boarding Party I","Coastal Raider I"],
-		"uniques": ["[+1] Sight"],
-		"unitTypes": ["Melee","Heavy Mobile","Ranged Water","Melee Water"],
-        "column": 24,
-        "row": 4
-	},
-	{
-		"name": "Logistics",
-		"prerequisites": ["Accuracy III","Barrage III","Targeting III", "Wolfpack III",
-			"Bombardment III", "Coastal Raider III","Boarding Party III","Siege III", "Mobility II", "Anti-Armor II"],
-		"uniques": ["[1] additional attacks per turn", "Can move after attacking"],
-		"unitTypes": ["Ranged","Siege","Melee Water","Ranged Water","Submarine","Fighter","Bomber","Helicopter"],
-        "column": 24,
-        "row": 5
-	},
-
-	{
-		"name": "Ambush I",
-		"uniques": ["[+33]% Strength <vs [Heavy Mobile] units>"],
-		"unitTypes": ["Melee","Fighter","Bomber"],
-        "column": 25,
-        "row": 1
-	},
-	{
-		"name": "Ambush II",
-		"prerequisites": ["Ambush I"],
-		"uniques": ["[+33]% Strength <vs [Heavy Mobile] units>"],
-		"unitTypes": ["Melee","Fighter","Bomber"],
-        "column": 25,
-        "row": 2
-	},
-
-
 	// Water ranged and air units
 	{
 		"name": "Bombardment I",
