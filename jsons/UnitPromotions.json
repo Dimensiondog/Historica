@@ -13,14 +13,14 @@
 		"uniques": ["[+30]% Strength <when fighting in [Open terrain] tiles> <when attacking>"],
 		"unitTypes": ["Melee","Heavy Mobile","Scout","Siege","Ranged","Light Mobile","Anti Mobile"],
         "column": 1,
-        "row": 3
+        "row": 6
     },
 	{
 		"name": "Drill",
 		"uniques": ["[+30]% Strength <when fighting in [Rough terrain] tiles> <when attacking>"],
 		"unitTypes": ["Melee","Heavy Mobile","Scout","Siege","Ranged","Light Mobile","Anti Mobile"],
         "column": 1,
-        "row": 6
+        "row": 3
     },
 	{
 		"name": "Amphibious",
@@ -35,40 +35,40 @@
 		"prerequisites": ["Shock"],
 		"uniques": ["[+30]% Strength <vs [Wounded] units> <when attacking>"],
 		"unitTypes": ["Melee","Heavy Mobile","Scout","Siege","Ranged","Light Mobile","Anti Mobile"],
-        "column": 4,
-        "row": 2
+        "column": 2,
+        "row": 4
     },
 	{
 		"name": "Cover",
 		"prerequisites": ["Drill"],
 		"uniques": ["[+30]% Strength <when fighting in [Rough terrain] tiles> <when attacking>"],
 		"unitTypes": ["Melee","Heavy Mobile","Scout","Siege","Ranged","Light Mobile","Anti Mobile"],
-        "column": 6,
-        "row": 2
+        "column": 2,
+        "row": 6
     },
 	{
 		"name": "Woodsman",
 		"prerequisites": ["Drill"],
 		"uniques": ["[+10]% Strength <when fighting in [Rough terrain] tiles> <when attacking>", "Double movement in [Forest]","Double movement in [Jungle]"],
 		"unitTypes": ["Melee","Heavy Mobile","Scout","Siege","Ranged","Light Mobile","Anti Mobile"],
-        "column": 8,
-        "row": 2
+        "column": 2,
+        "row": 8
     },
 	{
 		"name": "March",
 		"prerequisites": ["Amphibious"],
 		"uniques": ["Unit will heal every turn, even if it performs an action"],
 		"unitTypes": ["Melee","Heavy Mobile","Scout","Siege","Ranged","Light Mobile","Anti Mobile"],
-        "column": 1,
-        "row": 3
+        "column": 3,
+        "row": 1
     },
 	{
 		"name": "Medic",
 		"prerequisites": ["Amphibious"],
 		"uniques": ["All adjacent units heal [+15] HP when healing"],
 		"unitTypes": ["Melee","Heavy Mobile","Scout","Siege","Ranged","Light Mobile","Anti Mobile"],
-        "column": 2,
-        "row": 3
+        "column": 3,
+        "row": 2
     },
 	{
 		"name": "Mobility",
@@ -83,39 +83,39 @@
 		"prerequisites": ["Charge"],
 		"uniques": ["[+1] Sight"],
 		"unitTypes": ["Melee","Heavy Mobile","Scout","Siege","Ranged","Light Mobile","Anti Mobile"],
-        "column": 4,
-        "row": 3
+        "column": 3,
+        "row": 4
     },
 	{
 		"name": "Blitz",
 		"prerequisites": ["Cover"],
 		"uniques": ["[1] additional attacks per turn"],
 		"unitTypes": ["Melee","Heavy Mobile","Scout","Siege","Ranged","Light Mobile","Anti Mobile"],
-        "column": 5,
-        "row": 3
+        "column": 3,
+        "row": 5
     },
 	{
 		"name": "Besiege",
 		"prerequisites": ["Cover"],
 		"uniques": ["[+50]% Strength <vs cities>"],
 		"unitTypes": ["Melee","Heavy Mobile","Scout","Siege","Ranged","Light Mobile","Anti Mobile"],
-        "column": 6,
-        "row": 3
+        "column": 3,
+        "row": 6
     },
 	{
 		"name": "Stalwart",
 		"prerequisites": ["Woodsman"],
 		"uniques": ["[+75]% Strength <when defending>"],
 		"unitTypes": ["Melee","Heavy Mobile","Scout","Siege","Ranged","Light Mobile","Anti Mobile"],
-        "column": 7,
-        "row": 3
+        "column": 3,
+        "row": 7
     },
 	{
 		"name": "Flanking",
 		"prerequisites": ["Woodsman"],
 		"uniques": ["[+20]% to Flank Attack bonuses"],
 		"unitTypes": ["Melee","Heavy Mobile","Scout","Siege","Ranged","Light Mobile","Anti Mobile"],
-        "column": 8,
+        "column": 3,
         "row": 8
     },
 	// Water melee
