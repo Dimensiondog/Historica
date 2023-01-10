@@ -5,8 +5,6 @@
 		"outerColor": [255,255,255]
 //		"innerColor": [255,255,255]
 	},
-
-	{
 		//nations
 	{
 		"name": "Australia",
@@ -60,6 +58,7 @@
 			"San Sebastian","Granada","Mérida","Huelva","Ibiza","Las Palmas","Tenerife"],
         "spyNames": ["Rodrigo", "Esmeralda", "Leon", "Mathilda", "Ramona", "Señor X", "Topolino", "Serpiente", "Garcia", "El Lobo"]
     },
+	{
 		"name": "Babylon",
 		"leaderName": "Nebuchadnezzar II",
 		"adjective": ["Babylonian"],
