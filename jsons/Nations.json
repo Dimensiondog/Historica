@@ -25,7 +25,7 @@
 		"innerColor": [227,227,11],
 		"favoredReligion": "Christianity",
 		"uniqueName": "Land Down Under",
-		"uniques": ["[+35]% [Food] [in all coastal cities]<when not at war>", "[+1 Production] from [Resource] tiles [in all cities]"],
+		"uniques": ["[+35]% [Food] [in all coastal cities]<when not at war>", "[+1 Gold, +1 Production] from [Mine] tiles [in all cities]", "[+1 Food, +1 Production] from [Pasture] tiles [in all cities]"],
 		"cities": ["Canberra","Melbourne","Sydney","Brisbane","Adelaide","Perth","Newcastle","Wollongong","Hobart","Geelong","Townsville",
 			"Cairns","Toowomba","Darwin","Ballarat","Bendigo","Albury","Launceston","Mackay","Rockhampton","Bunbury","Broken Hill","Gold Coast"],
         "spyNames": ["Rodrigo", "Esmeralda", "Leon", "Mathilda", "Ramona", "Señor X", "Topolino", "Serpiente", "Garcia", "El Lobo"]
@@ -50,7 +50,7 @@
 		"innerColor": [255,102,102],
 		"favoredReligion": "Christianity",
 		"uniqueName": "Conquest of the Americas",
-		"uniques": ["May buy [Naval] units with [Faith] [in all cities]", "Receive triple Gold from Barbarian encampments and pillaging Cities", "[+2 Faith] from all [Science] buildings<on foreign continents>"],
+		"uniques": ["May buy [Water] units with [Faith] [in all cities]", "Receive triple Gold from Barbarian encampments and pillaging Cities", "[+2 Faith] from all [Science] buildings<on foreign continents>"],
 		"cities": ["Madrid","Barcelona","Seville","Cordoba","Toledo","Santiago","Salamanca","Murcia","Valencia","Zaragoza","Pamplona",
 			"Vitoria","Santander","Oviedo","Jaen","Logroño","Valladolid","Palma","Teruel","Almeria","Leon","Zamora","Mida",
 			"Lugo","Alicante","Càdiz","Eiche","Alcorcon","Burgos","Vigo","Badajoz","La Coruña","Guadalquivir","Bilbao",
