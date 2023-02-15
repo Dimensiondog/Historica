@@ -516,6 +516,10 @@
 		"uniques": ["Transfer Movement to [Great General]", "[+15]% Strength when stacked with [Great General]"]
 	},
 	{
+		"name": "Sapper",
+		"uniques": ["[25]% Strength bonus for [Melee] units within [2] tiles<vs cities>"]
+	},
+	{
 		"name": "[Zero] ability",
 		"uniques": ["[+33]% Strength <vs [Fighter] units>"]
 	},
