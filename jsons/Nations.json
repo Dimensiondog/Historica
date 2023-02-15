@@ -32,6 +32,30 @@
         "spyNames": ["Rodrigo", "Esmeralda", "Leon", "Mathilda", "Ramona", "Señor X", "Topolino", "Serpiente", "Garcia", "El Lobo"]
     },
 	{
+		"name": "Assyria",
+		"leaderName": "Ashurburnipal",
+		"adjective": ["Assyrian"],
+		"startBias": ["Desert"],
+		"preferredVictoryType": "Domination",
+
+		"startIntroPart1": "Assyria.",
+		"startIntroPart2": "O Wise Ashurburnipal! Will you rebuild the Australian empire and show the world again the greatness of your people? Will you take up the mantle of the Commonwealth, and vanquish your foes under The Queen's watchful eyes? Your adoring subjects await your command! Will you build a civilization that stands the test of time?",
+		"declaringWar": "God will probably forgive you... but I shall not. Prepare for war.",
+		"attacked": "You will pay!",
+		"defeated": "If my defeat is, without any doubt, the will of God, then I will accept it.",
+		"introduction": "God blesses those who deserve it. I am Ashurburnipal.",
+		"neutralHello": "Greetings.",
+		"hateHello": "Well?",
+		"tradeRequest": "I hope you will accept this deal.",
+		"outerColor": [250, 232, 172],
+		"innerColor": [212, 119, 6],
+		"favoredReligion": "Islam",
+		"uniqueName": "Repopulation",
+		"uniques": ["[+35]% [Food] [in all non-occupied cities]<when at war>", "[3] population in a random city<upon conquering a city>", "[Siege] units gain the [Sapper] promotion"],
+		"cities": ["Assur","Nineveh", "Nimrud", "Carchemish"],
+        "spyNames": ["Rodrigo", "Esmeralda", "Leon", "Mathilda", "Ramona", "Señor X", "Topolino", "Serpiente", "Garcia", "El Lobo"]
+    },
+	{
 		"name": "Spain",
 		"leaderName": "Isabella",
 		"adjective": ["Spanish"],
