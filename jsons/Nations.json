@@ -232,7 +232,7 @@
         "spyNames": ["James", "Scarlett", "Mycroft", "Charlotte", "Gwendolyn", "Mr. Eks", "Dr. Grey", "Andrew", "Scott", "Anne"]
     },
 	{
-		"name": "Plantagenat England",
+		"name": "Plantagenet England",
 		"leaderName": "Edward",
 		"adjective": ["Angevin"],
 		"startBias": ["Coast"],
@@ -247,13 +247,40 @@
 		"neutralHello": "Hello, again.",
 		"hateHello": "Oh, it's you!",
 		"tradeRequest": "Would you be interested in a trade agreement with England?",
-		"outerColor": [ 114, 0, 0],
-		"innerColor": [255,255,255],
+		"outerColor": [241, 219, 24],
+		"innerColor": [206, 20, 44],
 		"favoredReligion": "Christianity",
 		"uniqueName": "Magna Carta",
-		"uniques": ["[+4 Gold, +2 Happiness, +4 Culture] per [1] social policies adopted","[10]% [Culture] [in Annexed Cities]",
+		"uniques": ["[+4 Gold, +2 Happiness, +4 Culture] per [1] social policies adopted","[10]% [Culture] [in Annexed Cities]"]
 		"cities": ["London","York","Nottingham","Hastings","Canterbury","Coventry","Warwick","Newcastle","Oxford","Liverpool",
 			"Dover","Brighton","Norwich","Leeds","Reading","Birmingham","Richmond","Exeter","Cambridge","Gloucester",
+			"Manchester","Bristol","Leicester","Carlisle","Ipswich","Portsmouth","Berwick","Bath","Mumbles","Southampton",
+			"Sheffield","Salisbury","Colchester","Plymouth","Lancaster","Blackpool","Winchester","Hull"],
+        "spyNames": ["James", "Scarlett", "Mycroft", "Charlotte", "Gwendolyn", "Mr. Eks", "Dr. Grey", "Andrew", "Scott", "Anne"]
+    },
+	{
+		"name": "United Kingdom",
+		"leaderName": "Elizabeth ll",
+		"adjective": ["British"],
+		"startBias": ["Coast"],
+		"preferredVictoryType": "Diplomatic",
+
+		"startIntroPart1": "Praises upon her serene highness, Queen Elizabeth Gloriana. You lead and protect the celebrated maritime nation of England. England is an ancient land, settled as early as 35,000 years ago. The island has seen countless waves of invaders, each in turn becoming a part of the fabric of the people. Although England is a small island, for many years your people dominated the world stage. Their matchless navy, brilliant artists and shrewd merchants, giving them power and influence far in excess of their mere numbers.",
+		"startIntroPart2": "Queen Elizabeth, will you bring about a new golden age for the English people? They look to you once more to return peace and prosperity to the nation. Will you take up the mantle of greatness? Can you build a civilization that will stand the test of time?",
+		"declaringWar": "By the grace of God, your days are numbered.",
+		"attacked": "We shall never surrender.",
+		"defeated": "You have triumphed over us. The day is yours.",
+		"introduction": "We are pleased to meet you.",
+		"neutralHello": "Hello, again.",
+		"hateHello": "Oh, it's you!",
+		"tradeRequest": "Would you be interested in a trade agreement with England?",
+		"outerColor": [ 0, 27, 105],
+		"innerColor": [255,255,255],
+		"favoredReligion": "Christianity",
+		"uniqueName": "Commmonwealth",
+		"uniques": ["Resting point for Influence with City-States is increased by [25]","Allied City-States provide [Science] equal to [+50]% of what they produce for themselves","Allied City-States provide [Culture] equal to [+50]% of what they produce for themselves"]
+		"cities": ["London","Glasgow","Belfast","Hastings","Canterbury","Coventry","Cardiff","Newcastle","Oxford","Liverpool",
+			"Dover","Londonderry","Norwich","Leeds","Reading","Birmingham","Richmond","Exeter","Cambridge","Gloucester",
 			"Manchester","Bristol","Leicester","Carlisle","Ipswich","Portsmouth","Berwick","Bath","Mumbles","Southampton",
 			"Sheffield","Salisbury","Colchester","Plymouth","Lancaster","Blackpool","Winchester","Hull"],
         "spyNames": ["James", "Scarlett", "Mycroft", "Charlotte", "Gwendolyn", "Mr. Eks", "Dr. Grey", "Andrew", "Scott", "Anne"]
