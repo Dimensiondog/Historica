@@ -2,31 +2,27 @@
 	// Bonus resources
 	{
 		"name": "Cattle",
-		"resourceType": "Strategic",
+		"resourceType": "Bonus",
 		"terrainsCanBeFoundOn": ["Grassland"],
 		"food": 1,
 		"improvement": "Pasture",
 		"improvementStats": {"production": 1},
 		"uniques": ["Generated on every [18] tiles <in [Featureless] [Grassland] tiles>",
 					"Generated on every [22] tiles <in [Featureless] [Grassland] tiles> <in [Hill] Regions>"]
-		"majorDepositAmount": {"sparse": 2, "default": 3, "abundant": 4},
-		"minorDepositAmount": {"sparse": 1, "default": 1, "abundant": 2}
 	},
 	{
 		"name": "Sheep",
-		"resourceType": "Strategic",
+		"resourceType": "Bonus",
 		"terrainsCanBeFoundOn": ["Hill"],
 		"food": 1,
 		"improvement": "Pasture",
 		"improvementStats": {"food": 1},
 		"uniques": ["Generated on every [13] tiles <in [Hill] tiles> <in tiles without [Forest]> <in tiles without [Jungle]>",
 					"Generated on every [10] tiles <in [Hill] tiles> <in tiles without [Forest]> <in tiles without [Jungle]> <in tiles without [Fresh Water]> <in [Hill] Regions>"]
-				"majorDepositAmount": {"sparse": 2, "default": 3, "abundant": 4},
-		"minorDepositAmount": {"sparse": 1, "default": 1, "abundant": 2}
 	},
 	{
 		"name": "Deer",
-		"resourceType": "Strategic",
+		"resourceType": "Bonus",
 		"terrainsCanBeFoundOn": ["Forest","Tundra"], // Tundra only if lowland
 		"food": 1,
 		"improvement": "Camp",
@@ -37,8 +33,6 @@
 					"Generated on every [25] tiles <in [Grassland] [Forest] tiles> <in tiles without [Hill]>",
 					"Generated on every [16] tiles <in [Featureless] [Tundra] tiles> <in [Hill] Regions>",
 					"Generated on every [28] tiles <in [Forest] tiles> <in [Hill] Regions>"]
-		"majorDepositAmount": {"sparse": 2, "default": 3, "abundant": 4},
-		"minorDepositAmount": {"sparse": 1, "default": 1, "abundant": 2}
 	},
 	{
 		"name": "Bananas",
@@ -46,15 +40,13 @@
 		"terrainsCanBeFoundOn": ["Jungle"],
 		"food": 1,
 		"improvement": "Plantation",
-		"improvementStats": {"food": 2,"gold": 2},
+		"improvementStats": {"food": 2,"production": -1,"gold": -1},
 		"uniques": ["Generated on every [14] tiles <in [Jungle] tiles>",
 					"Generated on every [16] tiles <in [Jungle] tiles> <in [Hill] Regions>"]
-				"majorDepositAmount": {"sparse": 2, "default": 3, "abundant": 4},
-		"minorDepositAmount": {"sparse": 1, "default": 1, "abundant": 2}
 	},
 	{
 		"name": "Wheat",
-		"resourceType": "Strategic",
+		"resourceType": "Bonus",
 		"terrainsCanBeFoundOn": ["Plains","Flood plains","Desert"], // Desert only if fresh water
 		"food": 1,
 		"improvement": "Farm",
@@ -62,8 +54,6 @@
 					"Generated on every [10] tiles <in [Desert] [Fresh Water] tiles> <in tiles without [Hill]>",
 					"Generated on every [20] tiles <in [Featureless] [Plains] tiles> <in [Hill] Regions>",
 					"Generated on every [20] tiles <in [Fresh Water] [Desert] tiles> <in tiles without [Hill]> <in [Hill] Regions>"]
-		"majorDepositAmount": {"sparse": 2, "default": 3, "abundant": 4},
-		"minorDepositAmount": {"sparse": 1, "default": 1, "abundant": 2}
 	},
 	{
 		"name": "Stone",
@@ -75,30 +65,24 @@
 		"uniques": ["Generated on every [20] tiles <in [Featureless] [Grassland] tiles> <in tiles without [Fresh Water]>",
 					"Generated on every [15] tiles <in [Featureless] [Tundra] tiles>",
 					"Generated on every [19] tiles <in [Featureless] [Desert] tiles>"]
-		"majorDepositAmount": {"sparse": 2, "default": 4, "abundant": 5},
-		"minorDepositAmount": {"sparse": 1, "default": 2, "abundant": 3}
 	},
 	{
 		"name": "Fish",
-		"resourceType": "Strategic",
+		"resourceType": "Bonus",
 		"terrainsCanBeFoundOn": ["Coast"],
 		"food": 1,
 		"improvement": "Fishing Boats",
 		"uniques": ["Generated on every [10] tiles <in [Featureless] [Coast] tiles>"]
-		"majorDepositAmount": {"sparse": 2, "default": 4, "abundant": 5},
-		"minorDepositAmount": {"sparse": 1, "default": 2, "abundant": 3}
 	},
 
 	{
 		"name": "Bison",
-		"resourceType": "Strategic",
+		"resourceType": "Bonus",
 		"terrainsCanBeFoundOn": ["Plains","Grassland"],
 		"food": 1,
 		"improvement": "Camp",
 		"improvementStats": {"production": 1}
 "uniques": ["Generated on every [20] tiles <in [Featureless] [Grassland] tiles>","Generated on every [20] tiles <in [Featureless] [Plains] tiles>"]
-		"majorDepositAmount": {"sparse": 2, "default": 2, "abundant": 3},
-		"minorDepositAmount": {"sparse": 1, "default": 2, "abundant": 2}
 	},
 
 	
@@ -228,54 +212,44 @@
 	// Luxury resources
 	{
 		"name": "Furs",
-		"resourceType": "Strategic",
+		"resourceType": "Luxury",
 		"terrainsCanBeFoundOn": ["Forest","Tundra"],
 		"gold": 2,
-		"happiness": 2,
 		"improvement": "Camp",
 		"improvementStats": {"gold": 1},
 		"uniques": ["Generated with weight [40] <in [Tundra] Regions>",
 					"Generated with weight [10] <in [Forest] Regions>",
 					"Generated near City States with weight [15]"]
-		"majorDepositAmount": {"sparse": 2, "default": 2, "abundant": 3},
-		"minorDepositAmount": {"sparse": 1, "default": 2, "abundant": 2}
 	},
 	{
 		"name": "Cotton",
-		"resourceType": "Strategic",
+		"resourceType": "Luxury",
 		"terrainsCanBeFoundOn": ["Grassland","Flood plains"],
 		"gold": 2,
-		"happiness": 2,
 		"improvement": "Plantation",
 		"uniques": ["Generated with weight [15] <in [Desert] Regions>",
 					"Generated with weight [30] <in [Grassland] Regions>",
 					"Generated with weight [15] <in [Hybrid] Regions>",
 					"Generated near City States with weight [10]",
 					"Doesn't generate naturally <in [Hill] tiles>"]
-		"majorDepositAmount": {"sparse": 2, "default": 2, "abundant": 3},
-		"minorDepositAmount": {"sparse": 1, "default": 2, "abundant": 2}
 	},
 	{
 		"name": "Dyes",
-		"resourceType": "Strategic",
+		"resourceType": "Luxury",
 		"terrainsCanBeFoundOn": ["Jungle","Forest","Marsh"],
 		"gold": 2,
-		"happiness": 2,
 		"improvement": "Plantation",
 		"uniques": ["Generated with weight [5] <in [Tundra] Regions>",
 					"Generated with weight [5] <in [Jungle] Regions>",
 					"Generated with weight [30] <in [Forest] Regions>",
 					"Generated near City States with weight [10]",
 					"Doesn't generate naturally <in [Hill] tiles>"]
-		"majorDepositAmount": {"sparse": 2, "default": 2, "abundant": 3},
-		"minorDepositAmount": {"sparse": 1, "default": 2, "abundant": 2}
 	},
 	{
 		"name": "Gems",
-		"resourceType": "Strategic",
+		"resourceType": "Luxury",
 		"terrainsCanBeFoundOn": ["Jungle","Forest","Hill"],
 		"gold": 3,
-		"happiness": 2,
 		"improvement": "Mine",
 		"uniques": ["Generated with weight [5] <in [Tundra] Regions>",
 					"Generated with weight [20] <in [Jungle] Regions>",
@@ -284,15 +258,12 @@
 					"Generated with weight [5] <in [Hybrid] Regions>",
 					"Generated near City States with weight [10]",
 					"Doesn't generate naturally <in [Forest] tiles> <in tiles without [Hill]>"]
-		"majorDepositAmount": {"sparse": 2, "default": 2, "abundant": 3},
-		"minorDepositAmount": {"sparse": 1, "default": 2, "abundant": 2}
 	},
 	{
 		"name": "Gold Ore", // Not called "Gold" in order to not conflict with siege type units for translations
-		"resourceType": "Strategic",
+		"resourceType": "Luxury",
 		"terrainsCanBeFoundOn": ["Desert","Hill","Forest","Jungle"],
 		"gold": 2,
-		"happiness": 2,
 		"improvement": "Mine",
 		"uniques": ["Generated with weight [25] <in [Desert] Regions>",
 					"Generated with weight [30] <in [Hill] Regions>",
@@ -301,15 +272,12 @@
 					"Generated near City States with weight [10]",
 					"Doesn't generate naturally <in [Forest] tiles> <in tiles without [Hill]>",
 					"Doesn't generate naturally <in [Jungle] tiles> <in tiles without [Hill]>"]
-		"majorDepositAmount": {"sparse": 2, "default": 2, "abundant": 3},
-		"minorDepositAmount": {"sparse": 1, "default": 2, "abundant": 2}
 	},
 	{
 		"name": "Silver",
-		"resourceType": "Strategic",
+		"resourceType": "Luxury",
 		"terrainsCanBeFoundOn": ["Hill","Forest","Jungle","Tundra","Grassland"],
 		"gold": 2,
-		"happiness": 2,
 		"improvement": "Mine",
 		"uniques": ["Generated with weight [25] <in [Tundra] Regions>",
 					"Generated with weight [30] <in [Hill] Regions>",
@@ -322,58 +290,47 @@
 					"Doesn't generate naturally <in [Grassland] [Fresh Water] tiles>",
 					"Doesn't generate naturally <in [Grassland] [Hill] tiles>"
 		]
-		"majorDepositAmount": {"sparse": 2, "default": 2, "abundant": 3},
-		"minorDepositAmount": {"sparse": 1, "default": 2, "abundant": 2}
 	},
 	{
 		"name": "Incense",
-		"resourceType": "Strategic",
+		"resourceType": "Luxury",
 		"terrainsCanBeFoundOn": ["Plains","Desert","Flood plains"],
 		"gold": 2,
-		"happiness": 2,
 		"improvement": "Plantation",
 		"uniques": ["Generated with weight [35] <in [Desert] Regions>",
 					"Generated with weight [10] <in [Plains] Regions>",
 					"Generated with weight [5] <in [Hybrid] Regions>",
 					"Generated near City States with weight [15]"]
-		"majorDepositAmount": {"sparse": 2, "default": 2, "abundant": 3},
-		"minorDepositAmount": {"sparse": 1, "default": 2, "abundant": 2}
 	},
 	{
 		"name": "Ivory",
-		"resourceType": "Strategic",
-		"terrainsCanBeFoundOn": ["Plains"],
+		"resourceType": "Luxury",
+		"terrainsCanBeFoundOn": ["Plains","Grassland"],
 		"gold": 2,
-		"happiness": 2,
 		"improvement": "Camp",
 		"improvementStats": {"gold": 1},
 		"uniques": ["Generated with weight [35] <in [Plains] Regions>",
+					"Generated with weight [15] <in [Hybrid] Regions>",
 					"Generated near City States with weight [10]",
-					"Doesn't generate naturally <in [Plains] [Fresh Water] tiles>"]
-		"majorDepositAmount": {"sparse": 2, "default": 2, "abundant": 3},
-		"minorDepositAmount": {"sparse": 1, "default": 2, "abundant": 2}
+					"Doesn't generate naturally <in [Grassland] [Fresh Water] tiles>"]
 	},
 	{
 		"name": "Silk",
-		"resourceType": "Strategic",
+		"resourceType": "Luxury",
 		"terrainsCanBeFoundOn": ["Forest","Jungle"],
 		"gold": 2,
-		"happiness": 2,
 		"improvement": "Plantation",
 		"uniques": ["Generated with weight [5] <in [Jungle] Regions>",
 					"Generated with weight [30] <in [Forest] Regions>",
 					"Generated with weight [5] <in [Hybrid] Regions>",
 					"Generated near City States with weight [15]",
 					"Doesn't generate naturally <in [Hill] tiles>"]
-		"majorDepositAmount": {"sparse": 2, "default": 2, "abundant": 3},
-		"minorDepositAmount": {"sparse": 1, "default": 2, "abundant": 2}
 	},
 	{
 		"name": "Spices",
-		"resourceType": "Strategic",
+		"resourceType": "Luxury",
 		"terrainsCanBeFoundOn": ["Jungle","Forest","Marsh"],
 		"gold": 2,
-		"happiness": 2,
 		"improvement": "Plantation",
 		"uniques": ["Generated with weight [30] <in [Jungle] Regions>",
 					"Generated with weight [10] <in [Forest] Regions>",
@@ -383,29 +340,23 @@
 					"Generated near City States with weight [15]",
 					"Doesn't generate naturally <in [Hill] tiles>",
 					"Doesn't generate naturally <in [Tundra] [Forest] tiles>"]
-		"majorDepositAmount": {"sparse": 2, "default": 2, "abundant": 3},
-		"minorDepositAmount": {"sparse": 1, "default": 2, "abundant": 2}
 	},
 	{
 		"name": "Wine",
-		"resourceType": "Strategic",
+		"resourceType": "Luxury",
 		"terrainsCanBeFoundOn": ["Grassland","Plains"],
 		"gold": 2,
-		"happiness": 2,
 		"improvement": "Plantation",
 		"uniques": ["Generated with weight [35] <in [Plains] Regions>",
 					"Generated with weight [15] <in [Hybrid] Regions>",
 					"Generated near City States with weight [10]"]
-		"majorDepositAmount": {"sparse": 2, "default": 2, "abundant": 3},
-		"minorDepositAmount": {"sparse": 1, "default": 2, "abundant": 2}
 	},
 	{
 		"name": "Sugar",
-		"resourceType": "Strategic",
+		"resourceType": "Luxury",
 		"terrainsCanBeFoundOn": ["Flood plains","Grassland","Marsh"],
 		// Technically sugar can also be placed on lowland jungles which then *turn* into marsh.
 		"gold": 2,
-		"happiness": 2,
 		"improvement": "Plantation",
 		"uniques": ["Generated with weight [20] <in [Jungle] Regions>",
 					"Generated with weight [15] <in [Desert] Regions>",
@@ -413,30 +364,24 @@
 					"Generated with weight [5] <in [Hybrid] Regions>",
 					"Generated near City States with weight [10]",
 					"Doesn't generate naturally <in [Grassland] tiles> <in tiles without [Fresh Water]>"]
-		"majorDepositAmount": {"sparse": 2, "default": 2, "abundant": 3},
-		"minorDepositAmount": {"sparse": 1, "default": 2, "abundant": 2}
 	},
 	{
 		"name": "Marble",
-		"resourceType": "Strategic",
+		"resourceType": "Luxury",
 		"terrainsCanBeFoundOn": ["Desert","Plains","Hill","Grassland"],
 		"gold": 2,
-		"happiness": 2,
 		"improvement": "Quarry",
 		"improvementStats": {"production": 1},
 		"uniques": ["[+15]% Production when constructing [All] wonders [in all cities]",
 					"Special placement during map generation",
 					"Doesn't generate naturally <in [Grassland] [Fresh Water] tiles>"]
-		"majorDepositAmount": {"sparse": 2, "default": 2, "abundant": 3},
-		"minorDepositAmount": {"sparse": 1, "default": 2, "abundant": 2}
 	},
 	{
 		"name": "Whales",
-		"resourceType": "Strategic",
+		"resourceType": "Luxury",
 		"terrainsCanBeFoundOn": ["Coast"],
 		"food": 1,
 		"gold": 1,
-		"happiness": 2,
 		"improvement": "Fishing Boats",
 		"uniques": ["Generated with weight [35] <in [Tundra] Regions>",
 					"Generated with weight [10] <in [Forest] Regions>",
@@ -445,15 +390,12 @@
 					"Generated with weight [10] <in [Grassland] Regions>",
 					"Generated with weight [20] <in [Hybrid] Regions>",
 					"Generated near City States with weight [10]"]
-		"majorDepositAmount": {"sparse": 2, "default": 2, "abundant": 3},
-		"minorDepositAmount": {"sparse": 1, "default": 2, "abundant": 2}
 	},
 	{
 		"name": "Pearls",
-		"resourceType": "Strategic",
+		"resourceType": "Luxury",
 		"terrainsCanBeFoundOn": ["Coast"],
 		"gold": 2,
-		"happiness": 2,
 		"improvement": "Fishing Boats",
 		"uniques": ["Generated with weight [20] <in [Jungle] Regions>",
 					"Generated with weight [10] <in [Forest] Regions>",
@@ -463,34 +405,25 @@
 					"Generated with weight [10] <in [Grassland] Regions>",
 					"Generated with weight [20] <in [Hybrid] Regions>",
 					"Generated near City States with weight [15]"]
-		"majorDepositAmount": {"sparse": 2, "default": 2, "abundant": 3},
-		"minorDepositAmount": {"sparse": 1, "default": 2, "abundant": 2}
 	},
 	{
 		"name": "Jewelry",
-		"resourceType": "Strategic",
+		"resourceType": "Luxury",
 		"gold": 2,
-		"happiness": 2,
 		"uniques": ["Can only be created by Mercantile City-States"]
-		"majorDepositAmount": {"sparse": 2, "default": 2, "abundant": 3},
-		"minorDepositAmount": {"sparse": 1, "default": 2, "abundant": 2}
 	},
 	{
 		"name": "Porcelain",
-		"resourceType": "Strategic",
+		"resourceType": "Luxury",
 		"gold": 2,
-		"happiness": 2,
 		"uniques": ["Can only be created by Mercantile City-States"]
-		"majorDepositAmount": {"sparse": 2, "default": 2, "abundant": 3},
-		"minorDepositAmount": {"sparse": 1, "default": 2, "abundant": 2}
 	},
 	{
 		"name": "Citrus",
-		"resourceType": "Strategic",
+		"resourceType": "Luxury",
 		"terrainsCanBeFoundOn": ["Jungle","Forest","Flood plains"],
 		"food": 1,
 		"gold": 1,
-		"happiness": 2,
 		"improvement": "Plantation",
 		"uniques": ["Generated with weight [35] <in [Jungle] Regions>",
 					"Generated with weight [5] <in [Forest] Regions>",
@@ -498,15 +431,12 @@
 					"Generated with weight [5] <in [Hybrid] Regions>",
 					"Generated near City States with weight [15]",
 					"Doesn't generate naturally <in [Tundra] tiles>"]
-		"majorDepositAmount": {"sparse": 2, "default": 2, "abundant": 3},
-		"minorDepositAmount": {"sparse": 1, "default": 2, "abundant": 2}
 	},
 	{
 		"name": "Copper",
-		"resourceType": "Strategic",
+		"resourceType": "Luxury",
 		"terrainsCanBeFoundOn": ["Hill","Forest","Jungle","Grassland","Tundra"],
 		"gold": 2,
-		"happiness": 2,
 		"improvement": "Mine",
 		"uniques": ["Generated with weight [15] <in [Tundra] Regions>",
 					"Generated with weight [5] <in [Jungle] Regions>",
@@ -519,32 +449,26 @@
 					"Doesn't generate naturally <in [Grassland] [Fresh Water] tiles>",
 					"Doesn't generate naturally <in [Jungle] tiles> <in tiles without [Hill]>",
 					"Doesn't generate naturally <in [Forest] tiles> <in tiles without [Hill]> <in tiles without [Tundra]>"]
-		"majorDepositAmount": {"sparse": 2, "default": 4, "abundant": 6},
-		"minorDepositAmount": {"sparse": 1, "default": 2, "abundant": 3}
 	},
 
 	{
 		"name": "Cocoa",
-		"resourceType": "Strategic",
+		"resourceType": "Luxury",
 		"terrainsCanBeFoundOn": ["Jungle","Forest"], 
 		"food": 1,
 		"gold": 1,
-		"happiness": 2,
 		"improvement": "Plantation"
 		"uniques": ["Generated with weight [15] <in [Tundra] Regions>",
 					"Generated with weight [25] <in [Jungle] Regions>",
 					"Generated with weight [25] <in [Forest] Regions> <in tiles without [Hill]> <in tiles without [Tundra]>"]
-		"majorDepositAmount": {"sparse": 2, "default": 2, "abundant": 3},
-		"minorDepositAmount": {"sparse": 1, "default": 2, "abundant": 2}
 	},
 
 	{
 		"name": "Crab",
-		"resourceType": "Strategic",
+		"resourceType": "Luxury",
 		"terrainsCanBeFoundOn": ["Coast"],
 		"food": 1,
 		"gold": 1,
-		"happiness": 2,
 		"improvement": "Fishing Boats",
 		"uniques": ["Generated with weight [30] <in [Tundra] Regions>",
 					"Generated with weight [5] <in [Jungle] Regions>",
@@ -554,16 +478,13 @@
 					"Generated with weight [20] <in [Grassland] Regions>",
 					"Generated with weight [20] <in [Hybrid] Regions>",
 					"Generated near City States with weight [15]"]
-		"majorDepositAmount": {"sparse": 2, "default": 2, "abundant": 3},
-		"minorDepositAmount": {"sparse": 1, "default": 2, "abundant": 2}
 	},
 	{
 		"name": "Salt",
-		"resourceType": "Strategic",
+		"resourceType": "Luxury",
 		"terrainsCanBeFoundOn": ["Desert","Tundra","Plains","Forest"],
 		"gold": 1,
 		"food": 1,
-		"happiness": 2,
 		"improvement": "Mine",
 		"improvementStats": {"food": 1},
 		"uniques": ["Generated with weight [15] <in [Tundra] Regions>",
@@ -574,15 +495,12 @@
 					"Generated with weight [15] <in [Hybrid] Regions>",
 					"Generated near City States with weight [10]",
 					"Doesn't generate naturally <in [Forest] [Hill] tiles>"]
-		"majorDepositAmount": {"sparse": 2, "default": 2, "abundant": 3},
-		"minorDepositAmount": {"sparse": 1, "default": 2, "abundant": 2}
 	},
 	{
 		"name": "Truffles",
-		"resourceType": "Strategic",
+		"resourceType": "Luxury",
 		"terrainsCanBeFoundOn": ["Forest","Marsh","Jungle"],
 		"gold": 2,
-		"happiness": 2,
 		"improvement": "Camp",
 		"improvementStats": {"gold": 1},
 		"uniques": ["Generated with weight [5] <in [Jungle] Regions>",
@@ -593,120 +511,88 @@
 					"Generated near City States with weight [15]",
 					"Doesn't generate naturally <in [Forest] [Hill] tiles>",
 					"Doesn't generate naturally <in [Tundra] [Forest] tiles>"]
-		"majorDepositAmount": {"sparse": 2, "default": 2, "abundant": 3},
-		"minorDepositAmount": {"sparse": 1, "default": 2, "abundant": 2}
 	},
 	{
 		"name": "Amber",
-		"resourceType": "Strategic",
+		"resourceType": "Luxury",
 		"terrainsCanBeFoundOn": [ "Forest", "Tundra", "Grassland", "Plains" ],
 		"gold": 2,
-		"happiness": 2,
 		"improvement": "Mine",
 		"improvementStats": { "gold": 1 }
-		"majorDepositAmount": {"sparse": 2, "default": 2, "abundant": 3},
-		"minorDepositAmount": {"sparse": 1, "default": 2, "abundant": 2}
 	},
 	{
 		"name": "Coffee",
-		"resourceType": "Strategic",
+		"resourceType": "Luxury",
 		"terrainsCanBeFoundOn": [ "Grassland", "Plains" ],
 		"gold": 2,
-		"happiness": 2,
 		"improvement": "Plantation",
 		"improvementStats": { "gold": 1 }
-		"majorDepositAmount": {"sparse": 2, "default": 2, "abundant": 3},
-		"minorDepositAmount": {"sparse": 1, "default": 2, "abundant": 2}
 	},
 	{
 		"name": "Coral",
-		"resourceType": "Strategic",
+		"resourceType": "Luxury",
 		"terrainsCanBeFoundOn": [ "Coast" ],
 		"gold": 2,
-		"happiness": 2,
 		"improvement": "Fishing Boats",
 		"improvementStats": { "gold": 1 }
-		"majorDepositAmount": {"sparse": 2, "default": 2, "abundant": 3},
-		"minorDepositAmount": {"sparse": 1, "default": 2, "abundant": 2}
 	},
 	{
 		"name": "Jade",
-		"resourceType": "Strategic",
+		"resourceType": "Luxury",
 		"terrainsCanBeFoundOn": [ "Grassland", "Plains", "Desert", "Tundra" ],
 		"gold": 2,
-		"happiness": 2,
 		"improvement": "Mine",
 		"improvementStats": { "gold": 1 }
-		"majorDepositAmount": {"sparse": 2, "default": 2, "abundant": 3},
-		"minorDepositAmount": {"sparse": 1, "default": 2, "abundant": 2}
 	},
 	{
 		"name": "Lapis Lazuli",
-		"resourceType": "Strategic",
+		"resourceType": "Luxury",
 		"terrainsCanBeFoundOn": [ "Grassland", "Plains", "Desert", "Tundra", "Hill" ],
 		"gold": 2,
-		"happiness": 2,
 		"improvement": "Mine",
 		"improvementStats": { "gold": 1 }
-		"majorDepositAmount": {"sparse": 2, "default": 2, "abundant": 3},
-		"minorDepositAmount": {"sparse": 1, "default": 2, "abundant": 2}
 	},
 	{
 		"name": "Olives",
-		"resourceType": "Strategic",
+		"resourceType": "Luxury",
 		"terrainsCanBeFoundOn": [ "Grassland", "Plains" ],
 		"gold": 1,
 		"food": 1,
-		"happiness": 2,
 		"improvement": "Plantation",
 		"improvementStats": {
 			"gold": 1,
 			"food": 1
 		}
-		"majorDepositAmount": {"sparse": 2, "default": 2, "abundant": 3},
-		"minorDepositAmount": {"sparse": 1, "default": 2, "abundant": 2}
 	},
 	{
 		"name": "Perfume",
-		"resourceType": "Strategic",
+		"resourceType": "Luxury",
 		"terrainsCanBeFoundOn": [ "Grassland", "Plains" ],
 		"gold": 2,
-		"happiness": 2,
 		"improvement": "Plantation",
 		"improvementStats": { "gold": 1 }
-		"majorDepositAmount": {"sparse": 2, "default": 2, "abundant": 3},
-		"minorDepositAmount": {"sparse": 1, "default": 2, "abundant": 2}
 	},
 	{
 		"name": "Tea",
-		"resourceType": "Strategic",
+		"resourceType": "Luxury",
 		"terrainsCanBeFoundOn": [ "Grassland", "Plains" ],
 		"gold": 2,
-		"happiness": 2,
 		"improvement": "Plantation",
 		"improvementStats": { "gold": 1 }
-		"majorDepositAmount": {"sparse": 2, "default": 2, "abundant": 3},
-		"minorDepositAmount": {"sparse": 1, "default": 2, "abundant": 2}
 	},
 	{
 		"name": "Tobacco",
-		"resourceType": "Strategic",
+		"resourceType": "Luxury",
 		"terrainsCanBeFoundOn": [ "Grassland", "Plains" ],
 		"gold": 2,
-		"happiness": 2,
 		"improvement": "Plantation",
 		"improvementStats": { "gold": 1 }
-		"majorDepositAmount": {"sparse": 2, "default": 2, "abundant": 3},
-		"minorDepositAmount": {"sparse": 1, "default": 2, "abundant": 2}
 	},
 	// Unique res
 	{
 		"name": "Glass",
-		"resourceType": "Strategic",
+		"resourceType": "Luxury",
 		"gold": 2,
-		"happiness": 2,
 		"uniques": ["Can only be created by Mercantile City-States"]
-				"majorDepositAmount": {"sparse": 2, "default": 2, "abundant": 3},
-		"minorDepositAmount": {"sparse": 1, "default": 2, "abundant": 2}
 	}
 ]
