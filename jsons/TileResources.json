@@ -90,7 +90,6 @@
 	{
 		"name": "Horses",
 		"resourceType": "Strategic",
-		"revealedBy": "Animal Husbandry",
 		"terrainsCanBeFoundOn": ["Plains","Grassland","Hill"], // Hill only if plains or grassland
 		"production": 1,
 		"improvement": "Pasture",
@@ -102,7 +101,7 @@
 					"Minor deposits generated with weight [10] <in [Plains] [Hill] tiles> <in tiles without [Forest]> <in tiles without [Jungle]>",
 					"Minor deposits generated with weight [100] <in [Featureless] [Grassland] tiles> <in [Fresh Water] tiles>",
 					"Minor deposits generated with weight [20] <in [Featureless] [Grassland] tiles> <in tiles without [Fresh Water]>",
-					"Minor deposits generated with weight [30] <in [Featureless] [Plains] tiles>"],
+					"Minor deposits generated with weight [30] <in [Featureless] [Plains] tiles>", "stockpiled"],
 		"majorDepositAmount": {"sparse": 4, "default": 4, "abundant": 6},
 		"minorDepositAmount": {"sparse": 1, "default": 2, "abundant": 3}
 	},
@@ -126,7 +125,7 @@
 					"Minor deposits generated with weight [20] <in [Featureless] [Plains] tiles>",
 					"Minor deposits generated with weight [10] <in [Featureless] [Desert] tiles>",
 					"Minor deposits generated with weight [10] <in [Featureless] [Tundra] tiles>",
-					"Minor deposits generated with weight [10] <in [Featureless] [Snow] tiles>"],
+					"Minor deposits generated with weight [10] <in [Featureless] [Snow] tiles>", "stockpiled"],
 		"majorDepositAmount": {"sparse": 4, "default": 6, "abundant": 9},
 		"minorDepositAmount": {"sparse": 1, "default": 2, "abundant": 3}
 	},
@@ -148,7 +147,7 @@
 					"Minor deposits generated with weight [20] <in [Plains] [Hill] tiles>",
 					"Minor deposits generated with weight [30] <in [Desert] [Hill] tiles>",
 					"Minor deposits generated with weight [30] <in [Tundra] [Hill] tiles>",
-					"Minor deposits generated with weight [30] <in [Snow] [Hill] tiles>"],
+					"Minor deposits generated with weight [30] <in [Snow] [Hill] tiles>", "stockpiled"],
 		"majorDepositAmount": {"sparse": 5, "default": 7, "abundant": 10},
 		"minorDepositAmount": {"sparse": 2, "default": 3, "abundant": 3}
 	},
@@ -171,7 +170,7 @@
 					"Minor deposits generated with weight [10] <in [Jungle] tiles> <in tiles without [Hill]>",
 					"Minor deposits generated with weight [10] <in [Featureless] [Desert] tiles>",
 					"Minor deposits generated with weight [20] <in [Featureless] [Tundra] tiles>",
-					"Minor deposits generated with weight [20] <in [Featureless] [Snow] tiles>"],
+					"Minor deposits generated with weight [20] <in [Featureless] [Snow] tiles>", "stockpiled"],
 		"majorDepositAmount": {"sparse": 5, "default": 7, "abundant": 9},
 		"minorDepositAmount": {"sparse": 2, "default": 3, "abundant": 3}
 	},
@@ -187,7 +186,7 @@
 					"Generated with weight [15] <in [Featureless] [Snow] tiles>",
 					"Generated with weight [39] <in [Hill] tiles>",
 					"Minor deposits generated with weight [20] <in [Jungle] tiles>",
-					"Minor deposits generated with weight [10] <in [Featureless] [Desert] tiles>"],
+					"Minor deposits generated with weight [10] <in [Featureless] [Desert] tiles>", "stockpiled"],
 		"majorDepositAmount": {"sparse": 5, "default": 8, "abundant": 10},
 		"minorDepositAmount": {"sparse": 2, "default": 3, "abundant": 3}
 	},
@@ -204,11 +203,58 @@
 					"Generated with weight [70] <in [Forest] tiles> <in tiles without [Hill]>",
 					"Minor deposits generated with weight [10] <in [Forest] tiles>",
 					"Minor deposits generated with weight [10] <in [Featureless] [Tundra] tiles>",
-					"Minor deposits generated with weight [10] <in [Featureless] [Snow] tiles>"],
+					"Minor deposits generated with weight [10] <in [Featureless] [Snow] tiles>", "stockpiled"],
 		"majorDepositAmount": {"sparse": 2, "default": 4, "abundant": 4},
 		"minorDepositAmount": {"sparse": 1, "default": 2, "abundant": 3}
 	},
-	
+	{
+		"name": "Elephants",
+		"resourceType": "Strategic",
+		"terrainsCanBeFoundOn": ["Plains","Jungle"],
+		"gold": 2,
+		"improvement": "Camp",
+		"improvementStats": {"gold": 1},
+		"uniques": ["Generated with weight [35] <in [Plains] Regions>",
+					"Generated on every [12] tiles","<in [Jungle] Regions>"
+					"Generated near City States with weight [10]",
+					 "stockpiled"],
+				"majorDepositAmount": {"sparse": 4, "default": 6, "abundant": 9},
+		"minorDepositAmount": {"sparse": 1, "default": 2, "abundant": 3}
+	},
+		{
+		"name": "Camels",
+		"resourceType": "Strategic",
+		"terrainsCanBeFoundOn": ["Desert"],
+		"production": 1,
+		"improvement": "Pasture",
+		"improvementStats": {"gold": 2},
+		"uniques": ["Generated on every [12] tiles","<in [Desert] Regions>"
+					"Generated near City States with weight [10]", "stockpiled"],
+					"majorDepositAmount": {"sparse": 4, "default": 6, "abundant": 9},
+		"minorDepositAmount": {"sparse": 1, "default": 2, "abundant": 3}
+	},
+		{
+		"name": "Copper",
+		"resourceType": "Strategic",
+		"terrainsCanBeFoundOn": ["Hill","Forest","Jungle","Grassland","Tundra"],
+		"production": 1,
+		"gold": 1,
+		"improvement": "Mine",
+		"revealedBy": "Bronze Working",
+		"uniques": ["Generated with weight [15] <in [Tundra] Regions>",
+					"Generated with weight [5] <in [Jungle] Regions>",
+					"Generated with weight [5] <in [Forest] Regions>",
+					"Generated with weight [10] <in [Desert] Regions>",
+					"Generated with weight [30] <in [Hill] Regions>",
+					"Generated with weight [20] <in [Grassland] Regions>",
+					"Generated with weight [20] <in [Hybrid] Regions>",
+					"Generated near City States with weight [10]",
+					"Doesn't generate naturally <in [Grassland] [Fresh Water] tiles>",
+					"Doesn't generate naturally <in [Jungle] tiles> <in tiles without [Hill]>",
+					"Doesn't generate naturally <in [Forest] tiles> <in tiles without [Hill]> <in tiles without [Tundra]>", "stockpiled"],
+					"majorDepositAmount": {"sparse": 4, "default": 6, "abundant": 9},
+		"minorDepositAmount": {"sparse": 1, "default": 2, "abundant": 3}
+	},
 	// Luxury resources
 	{
 		"name": "Furs",
@@ -301,18 +347,6 @@
 					"Generated with weight [10] <in [Plains] Regions>",
 					"Generated with weight [5] <in [Hybrid] Regions>",
 					"Generated near City States with weight [15]"]
-	},
-	{
-		"name": "Ivory",
-		"resourceType": "Luxury",
-		"terrainsCanBeFoundOn": ["Plains","Grassland"],
-		"gold": 2,
-		"improvement": "Camp",
-		"improvementStats": {"gold": 1},
-		"uniques": ["Generated with weight [35] <in [Plains] Regions>",
-					"Generated with weight [15] <in [Hybrid] Regions>",
-					"Generated near City States with weight [10]",
-					"Doesn't generate naturally <in [Grassland] [Fresh Water] tiles>"]
 	},
 	{
 		"name": "Silk",
@@ -432,25 +466,6 @@
 					"Generated near City States with weight [15]",
 					"Doesn't generate naturally <in [Tundra] tiles>"]
 	},
-	{
-		"name": "Copper",
-		"resourceType": "Luxury",
-		"terrainsCanBeFoundOn": ["Hill","Forest","Jungle","Grassland","Tundra"],
-		"gold": 2,
-		"improvement": "Mine",
-		"uniques": ["Generated with weight [15] <in [Tundra] Regions>",
-					"Generated with weight [5] <in [Jungle] Regions>",
-					"Generated with weight [5] <in [Forest] Regions>",
-					"Generated with weight [10] <in [Desert] Regions>",
-					"Generated with weight [30] <in [Hill] Regions>",
-					"Generated with weight [20] <in [Grassland] Regions>",
-					"Generated with weight [20] <in [Hybrid] Regions>",
-					"Generated near City States with weight [10]",
-					"Doesn't generate naturally <in [Grassland] [Fresh Water] tiles>",
-					"Doesn't generate naturally <in [Jungle] tiles> <in tiles without [Hill]>",
-					"Doesn't generate naturally <in [Forest] tiles> <in tiles without [Hill]> <in tiles without [Tundra]>"]
-	},
-
 	{
 		"name": "Cocoa",
 		"resourceType": "Luxury",
