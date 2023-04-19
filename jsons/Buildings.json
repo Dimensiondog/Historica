@@ -91,7 +91,7 @@
 		"food": 2,
 		"maintenance": 1,
 		"hurryCostModifier": 25,
-		"uniques": ["[+1 Gold, +2 Food] from every [Bonus resource]<in this city>"],
+		"uniques": ["[+1 Gold, +2 Food] from [Bonus resource] tiles [in this city]"],
 		"requiredTech": "Pottery"
 	},
 	{
