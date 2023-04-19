@@ -1,7 +1,7 @@
 [
 	{
 		"name":"Scientist",
-		"science":3,
+		"science":2,
 		"greatPersonPoints": {"Great Scientist":3},
 		"color": [0,0,255]
 	},
@@ -16,6 +16,25 @@
 		"culture":2,
 		"greatPersonPoints": {"Great Artist":3},
 		"color": [160,32,240]
+	},
+	{
+		"name":"Writer",
+		"culture":2,
+		"greatPersonPoints": {"Great Writer":3},
+		"color": [160,32,240]
+	},
+	{
+		"name":"Musician",
+		"culture":2,
+		"greatPersonPoints": {"Great Musician":3},
+		"color": [160,32,240]
+	},
+	{
+		"name":"Civil Servant",
+		"culture":1:,
+		"gold":1,
+		"greatPersonPoints": {"Grand Ambassador":3},
+		"color": [19, 117, 156]
 	},
 	{
 		"name":"Priest",
