@@ -31,7 +31,7 @@
 	},
 	{
 		"name":"Civil Servant",
-		"culture":1:,
+		"culture":1,
 		"gold":1,
 		"greatPersonPoints": {"Grand Ambassador":3},
 		"color": [19, 117, 156]
