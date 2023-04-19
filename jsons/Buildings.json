@@ -65,7 +65,7 @@
 		"faith": 2,
 		"happiness": 2,
 		"hurryCostModifier": 25,
-		"requiredTech": "Philosophy"
+		"requiredTech": "Mysticism"
 	},
 	{
 		"name": "Mud Pyramid Mosque",
@@ -76,7 +76,7 @@
 		"uniques": ["Gain a free [Pantheon] belief"],
 		"culture": 2,
 		"faith": 2,
-		"requiredBuilding": "Mysticism",
+		"requiredTech": "Mysticism"
 	},
 	{
 		"name": "Lodge",
