@@ -1439,7 +1439,7 @@
 		"range": 3,
 		"cost": 425,
 		"requiredTech": "Rocketry",
-		"requiredResource": "Aluminum",
+		"requiredResource": "Aluminium",
 		"uniques": ["[+200]% Strength <vs cities> <when attacking>","No defensive terrain bonus",
 			"[-1] Sight", "Never appears as a Barbarian unit", "Costs [3] [Iron]", "Costs [1] [Oil]", "Instantly consumes [25] [Iron]"],
 		"attackSound": "artillery"
@@ -1478,7 +1478,7 @@
 		"strength": 60,
 		"cost": 425,
 		"requiredTech": "Computers",
-		"requiredResource": "Aluminum",
+		"requiredResource": "Aluminium",
 		"uniques": ["[+100]% Strength <vs [Armored] units>", "No defensive terrain bonus", "Can move after attacking",
 			"All tiles cost 1 movement", "Ignores Zone of Control", "Unable to capture cities", "Never appears as a Barbarian unit", "Costs [6] [Aluminium]"],
 		"attackSound": "machinegun"
@@ -1528,7 +1528,7 @@
 		"strength": 100,
 		"cost": 425,
 		"requiredTech": "Lasers",
-		"requiredResource": "Aluminum",
+		"requiredResource": "Aluminium",
 		"upgradesTo": "Giant Death Robot",
 		"uniques": ["Can move after attacking", "No defensive terrain bonus", "Never appears as a Barbarian unit", "Costs [1] [Iron]", "Costs [5] [Oil]"],
 		"attackSound": "tankshot"
@@ -1543,7 +1543,7 @@
 		"interceptRange": 10,
 		"cost": 425,
 		"requiredTech": "Lasers",
-		"requiredResource": "Aluminum",
+		"requiredResource": "Aluminium",
 		"uniques": ["[100]% chance to intercept air attacks", "[+150]% Strength <vs [Bomber] units>", "[+150]% Strength <vs [Helicopter] units>", "Costs [1] [Aluminium]", "Costs [5] [Oil]"],
 		"attackSound": "jetgun"
 	},
@@ -1567,7 +1567,7 @@
 		"range": 20,
 		"cost": 425,
 		"requiredTech": "Stealth",
-		"requiredResource": "Aluminum",
+		"requiredResource": "Aluminium",
 		"uniques": ["Damage taken from interception reduced by [100]%", "Cannot be carried by [Carrier] units", "[+4] Sight", "Can see over obstacles", "Costs [1] [Iron]", "Costs [5] [Uranium]"],
 		"attackSound": "bombing"
 	},
