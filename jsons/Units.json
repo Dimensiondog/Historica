@@ -1575,9 +1575,33 @@
 	/* Great people */
 
 	{
+		"name": "Great Musician",
+		"unitType": "Civilian",
+		"uniques": ["Empire enters a [10]-turn Golden Age <by consuming this unit>", "Great Person - [Music]", "Unbuildable", "Uncapturable"],
+		"movement": 2
+	},
+	{
+		"name": "Great Writer",
+		"unitType": "Civilian",
+		"uniques": ["Free Social Policy<by consuming this unit>""Great Person - [Writing]", "Unbuildable", "Uncapturable"],
+		"movement": 2
+	},
+	{
 		"name": "Great Artist",
 		"unitType": "Civilian",
-		"uniques": ["Empire enters a [8]-turn Golden Age <by consuming this unit>", "Can instantly construct a [Landmark] improvement <by consuming this unit>", "Great Person - [Culture]", "Unbuildable", "Uncapturable"],
+		"uniques": ["Can instantly construct a [Landmark] improvement <by consuming this unit>", "Great Person - [Art]", "Unbuildable", "Uncapturable"],
+		"movement": 2
+	},
+	{
+		"name": "Grand Ambassador",
+		"unitType": "Civilian",
+		"uniques": ["Resting point for Influence with City-States is increased by [25]<by consuming this unit>","Great Person - [Diplomacy]", "Unbuildable", "Uncapturable"],
+		"movement": 2
+	},
+	{
+		"name": "Great Explorer",
+		"unitType": "Civilian",
+		"uniques": ["From a randomly chosen tile [20] tiles away from the ruins, reveal tiles up to [20] tiles away with [65]% chance<by consuming this unit>","Great Person - [Exploration]", "Unbuildable", "Uncapturable"],
 		"movement": 2
 	},
 	{
