@@ -14,6 +14,117 @@
 		"uniques": ["Indicates the capital city"]
 	},
 	{
+		"name": "Well",
+		"maintenance": 2,
+		"food": 2,
+		"production": 3,
+		"hurryCostModifier": 25,
+		"uniques": ["Must not be on [River]", "[+10]% Food is carried over after population increases [in this city]"],
+		"requiredTech": "Agriculture"
+	},
+	{
+		"name": "Water Mill",
+		"maintenance": 2,
+		"food": 2,
+		"hurryCostModifier": 25,
+		"uniques": ["Must be on [River]", "[+1 Production] from [River] tiles [in this city]"],
+		"requiredTech": "The Wheel"
+	},
+	{
+		"name": "Barracks",
+		"hurryCostModifier": 25,
+		"maintenance": 1,
+		"uniques": ["New [Military] units start with [10] Experience [in this city]", "Destroyed when the city is captured", "[15]% Production when constructing [Military] units [in this city]"]
+		"requiredTech": "Militias"
+	},
+	{
+		"name": "Krepost",
+		"replaces": "Barracks",
+		"uniqueTo": "Russia",
+		"hurryCostModifier": 25,
+		"maintenance": 1,
+		"uniques": ["[-25]% Culture cost of natural border growth [in this city]","[-25]% Gold cost of acquiring tiles [in this city]",
+			"New [Military] units start with [10] Experience [in this city]", "Destroyed when the city is captured", "[15]% Production when constructing [Military] units [in this city]],
+		"requiredTech": "Militias"
+	},
+	{
+		"name": "Temple",
+		"faith": 2,
+		"maintenance": 2,
+		"hurryCostModifier": 25,
+		"requiredTech": "Mysticism",
+		"specialistSlots": {"Priest": 1},
+		"uniques": ["Hidden when religion is disabled", "Destroyed when the city is captured", "Gain a free [Pantheon] belief"]
+	},
+	{
+		"name": "Burial Tomb",
+		"replaces": "Temple",
+		"uniqueTo": "Egypt",
+		"maintenance": 0,
+		"uniques": ["Doubles Gold given to enemy if city is captured", "Gain a free [Pantheon] belief"],
+		"faith": 2,
+		"happiness": 2,
+		"hurryCostModifier": 25,
+		"requiredTech": "Philosophy"
+	},
+	{
+		"name": "Mud Pyramid Mosque",
+		"replaces": "Temple",
+		"uniqueTo": "Songhai",
+		"maintenance": 2,
+		"hurryCostModifier": 25,
+		"uniques": ["Gain a free [Pantheon] belief"],
+		"culture": 2,
+		"faith": 2,
+		"requiredBuilding": "Mysticism",
+	},
+	{
+		"name": "Lodge",
+		"culture": 2,
+		"hurryCostModifier": 40,
+		"maintenance": 1,
+		"uniques": ["[+20]% growth [in this city]"]
+		"requiredTech": "Trapping"
+	},
+	{
+		"name": "Granary",
+		"food": 2,
+		"maintenance": 1,
+		"hurryCostModifier": 25,
+		"uniques": ["[+1 Gold, +2 Food] from every [Bonus resource]<in this city>"],
+		"requiredTech": "Pottery"
+	},
+	{
+		"name": "Herbalist",
+		"Science": 2,
+		"hurryCostModifier": 40,
+		"maintenance": 1,
+		"uniques": ["[+1 Food] per [3] population [in all cities]"]
+		"requiredTech": "Calendar"
+	},
+	{
+		"name": "Library",
+		"hurryCostModifier": 25,
+		"maintenance": 1,
+		"uniques": ["[+1 Science] per [2] population [in this city]"],
+		"requiredTech": "Writing"
+	},
+	{
+		"name": "Stone Works",
+		"production": 2,
+		"maintenance": 1,
+		"hurryCostModifier": 0,
+		"uniques": ["[+20]% Production when constructing [All] buildings [in this city]"],
+		"requiredTech": "Masonry"
+	},
+	{
+		"name": "Council",
+		"maintenance": 1,
+		"hurryCostModifier": 0,
+		"uniques": ["Gifts of Gold to City-States generate [+10]% more Influence"],
+		"requiredTech": "Masonry"
+	},
+	{
 		"name": "Palisades",
 		"cityStrength": 3,
 		"cityHealth": 25,
@@ -26,7 +137,7 @@
 		"cost": 40,
 		"hurryCostModifier": 40,
 		"maintenance": 1,
-		"uniques": ["Destroyed when the city is captured"]
+		"uniques": ["[-20]% Culture cost of natural border growth [in this city]"]
 	},
 	{
 		"name": "Stele",
@@ -38,26 +149,6 @@
 		"hurryCostModifier": 40,
 		"maintenance": 1,
 		"uniques": ["Destroyed when the city is captured"] //"Hidden when religion is disabled"
-	},
-	{
-		"name": "Lodge",
-		"gold": 1,
-		"requiredNearbyImprovedResources": ["Deer", "Furs", "Truffles","Elephants"],
-		"hurryCostModifier": 40,
-		"maintenance": 1,
-		"uniques": ["[+1 Production] from [Deer] tiles [in this city]","[+1 Production] from [Furs] tiles [in this city]",
-			    "[+1 Production] from [Elephants] tiles [in this city]","[+1 Production] from [Truffles] tiles [in this city]"]
-		"requiredTech": "Trapping"
-	},
-	{
-		"name": "Herbalist",
-		"food": 2,
-		"requiredNearbyImprovedResources": ["Incense", "Citrus", "Wine","Spices"],
-		"hurryCostModifier": 40,
-		"maintenance": 1,
-		"uniques": ["[+1 Production] from [Incense] tiles [in this city]","[+1 Production] from [Wine] tiles [in this city]",
-			    "[+1 Production] from [Citrus] tiles [in this city]","[+1 Production] from [Spices] tiles [in this city]"]
-		"requiredTech": "Calendar"
 	},
 	{
 		"name": "Forge",
@@ -141,6 +232,14 @@
 		"requiredTech": "Writing"
 	},
 	{
+		"name": "Market",
+		"gold": 2,
+		"specialistSlots": {"Merchant": 1},
+		"hurryCostModifier": 25,
+		"uniques": ["[+2 Gold] from [Luxury resource] tiles [in this city]"],
+		"requiredTech": "Trade"
+	},
+	{
 		"name": "Clergical Guild",
 		"maintenance": 2,
 		"hurryCostModifier": 30,
@@ -202,16 +301,6 @@
 	},
 
 	// Column 1
-	{
-		"name": "Granary",
-		"food": 2,
-		"maintenance": 1,
-		"hurryCostModifier": 25,
-		"uniques": ["[+1 Food] from [Deer] tiles [in this city]",
-			"[+1 Food] from [Bananas] tiles [in this city]",
-			"[+1 Food] from [Wheat] tiles [in this city]"],
-		"requiredTech": "Pottery"
-	},
 	{
 		"name": "Shrine",
 		"faith": 1,
@@ -286,32 +375,12 @@
 	},
 	// Column 2
 	{
-		"name": "Stone Works",
-		"happiness": 1,
-		"production": 1,
-		"requiredNearbyImprovedResources": ["Marble", "Stone", "Salt"],
-		"maintenance": 1,
-		"hurryCostModifier": 0,
-		"uniques": ["Must not be on [Plains]",
-			"[+1 Production] from [Stone] tiles [in this city]",
-			"[+1 Production] from [Marble] tiles [in this city]"
-			   "[+1 Production] from [Salt] tiles [in this city]"],
-		"requiredTech": "Masonry"
-	},
-	{
 		"name": "Stonehenge",
 		"faith": 5,
 		"isWonder": true,
 		"greatPersonPoints": {"Great Engineer": 1},
 		"requiredTech": "Mysticism",
 		"quote": "'Time crumbles things; everything grows old and is forgotten under the power of time' - Aristotle"
-	},
-	{
-		"name": "Library",
-		"hurryCostModifier": 25,
-		"maintenance": 1,
-		"uniques": ["[+1 Science] per [2] population [in this city]"],
-		"requiredTech": "Writing"
 	},
 	{
 		"name": "Cultural Library",
@@ -336,24 +405,6 @@
 		"happiness": 2,
 		"hurryCostModifier": 25,
 		"requiredTech": "Trapping"
-	},
-	{
-		"name": "Well",
-		"maintenance": 2,
-		"food": 1,
-		"production": 2,
-		"hurryCostModifier": 25,
-		"uniques": ["Must not be on [River]", "[+1 Production] per [5] population [in this city]"],
-		"requiredTech": "Agriculture"
-	},
-	{
-		"name": "Water Mill",
-		"maintenance": 2,
-		"food": 2,
-		"production": 3,
-		"hurryCostModifier": 25,
-		"uniques": ["Must be on [River]", "[+1 Production] per [4] population [in this city]"],
-		"requiredTech": "The Wheel"
 	},
 	{
 		"name": "Floating Gardens",
@@ -403,23 +454,6 @@
 			"[+2 Gold] from [Marble] tiles [in this city]", "[+2 Gold] from [Stone] tiles [in this city]"],
 		"requiredTech": "Masonry",
 		"quote": "'The whole earth is the tomb of heroic men and their story is not given only on stone over their clay but abides everywhere without visible symbol woven into the stuff of other men's lives.' - Pericles"
-	},
-	{
-		"name": "Barracks",
-		"hurryCostModifier": 25,
-		"maintenance": 1,
-		"uniques": ["New [Military] units start with [15] Experience [in this city]", "Destroyed when the city is captured"],
-		"requiredTech": "Militias"
-	},
-	{
-		"name": "Krepost",
-		"replaces": "Barracks",
-		"uniqueTo": "Russia",
-		"hurryCostModifier": 25,
-		"maintenance": 1,
-		"uniques": ["[-25]% Culture cost of natural border growth [in this city]","[-25]% Gold cost of acquiring tiles [in this city]",
-			"New [Military] units start with [10] Experience [in this city]", "Destroyed when the city is captured"],
-		"requiredTech": "Militias"
 	},
 	{
 		"name": "Statue of Zeus",
@@ -520,39 +554,6 @@
 	},
 	// Column 4
 	{
-		"name": "Temple",
-		"faith": 2,
-		"requiredBuilding": "Shrine",
-		"maintenance": 2,
-		"hurryCostModifier": 25,
-		"requiredTech": "Philosophy",
-		"specialistSlots": {"Priest": 1},
-		"uniques": ["Hidden when religion is disabled", "Destroyed when the city is captured"]
-	},
-	{
-		"name": "Burial Tomb",
-		"replaces": "Temple",
-		"uniqueTo": "Egypt",
-		"maintenance": 0,
-		"uniques": ["Doubles Gold given to enemy if city is captured"],
-		"faith": 2,
-		"happiness": 1,
-		"requiredBuilding": "Shrine",
-		"hurryCostModifier": 25,
-		"requiredTech": "Philosophy"
-	},
-	{
-		"name": "Mud Pyramid Mosque",
-		"replaces": "Temple",
-		"uniqueTo": "Songhai",
-		"maintenance": 2,
-		"hurryCostModifier": 25,
-		"culture": 2,
-		"faith": 2,
-		"requiredBuilding": "Shrine",
-		"requiredTech": "Philosophy"
-	},
-	{
 		"name": "National College",
 		"cost": 125,
 		"science": 3,
@@ -588,14 +589,6 @@
 		"isNationalWonder": true,
 		"uniques": ["Requires a [Monument] in all cities", "[+25]% Great Person generation [in this city]", "Cost increases by [30] per owned city"],
 		"requiredTech": "Drama"
-	},
-	{
-		"name": "Market",
-		"gold": 2,
-		"specialistSlots": {"Merchant": 1},
-		"hurryCostModifier": 25,
-		"percentStatBonus": {"gold": 25},
-		"requiredTech": "Trade"
 	},
 	{
 		"name": "Caravnsary",
