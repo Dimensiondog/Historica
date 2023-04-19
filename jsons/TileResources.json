@@ -214,8 +214,8 @@
 		"gold": 2,
 		"improvement": "Camp",
 		"improvementStats": {"gold": 1},
-		"uniques": ["Generated with weight [35] <in [Plains] Regions>",
-					"Generated on every [12] tiles","<in [Jungle] Regions>"
+		"uniques": ["Generated with weight [10] <in [Plains] Regions>",
+					"Generated with weight [20] <in [Jungle] Regions>"
 					"Generated near City States with weight [10]",
 					 "Stockpiled"],
 				"majorDepositAmount": {"sparse": 4, "default": 6, "abundant": 9},
@@ -228,7 +228,7 @@
 		"production": 1,
 		"improvement": "Pasture",
 		"improvementStats": {"gold": 2},
-		"uniques": ["Generated on every [12] tiles","<in [Desert] Regions>"
+		"uniques": ["Generated with weight [30] <in [Desert] Regions>"
 					"Generated near City States with weight [10]", "Stockpiled"],
 					"majorDepositAmount": {"sparse": 4, "default": 6, "abundant": 9},
 		"minorDepositAmount": {"sparse": 1, "default": 2, "abundant": 3}
