@@ -156,7 +156,7 @@
 		"name": "Cistern",
 		"hurryCostModifier": 40,
 		"maintenance": 1,
-		"uniques": ["Must not be on [River]", "[+15]% Food is carried over after population increases [in this city]", "[+1 Production] from [Farm] tiles without [River] [in this cities]"]
+		"uniques": ["Must not be on [River]", "[+15]% Food is carried over after population increases [in this city]", "[+1 Production] from [Farm] tiles without [River] [in this city]"]
 		"requiredTech": "Sanitation"
 	},
 	{
