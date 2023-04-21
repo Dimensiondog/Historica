@@ -36,7 +36,7 @@
                 "name": "Organisation",
                 "uniques": ["[+1] Movement <for [Civilian] units>",
                     "[+3 Production] [in all cities]",
-                   "[+25]% Production when constructing [Civilian] units [in all cities]",
+                   "[+25]% Production when constructing [Civilian] units [in all cities]","Gain [15] [Culture]<upon discovering [All]>"
                 ],
                 "row": 1,
                 "column": 9
@@ -80,7 +80,7 @@
                 "uniques": [
                     "[-25]% tile improvement construction time",
                     "Free [Worker] appears",
-                    "[+3 Gold] [in all cities]",
+                    "[+3 Gold] [in all cities]","Gain [15] [Culture]<upon discovering [All]>"
                 ],
                 "requires": ["Cultural Superioty"],
                 "row": 2,
@@ -128,13 +128,16 @@
     {
         "name": "Democracy",
                 "requires": ["Liberty","Crown Guard"],
+ "uniques": [     
+ "Gain [15] [Culture]<upon discovering [All]>","Gain [20] [Science]<upon adopting [All]>"
+                ],
                 "row": 3,
                 "column": 5
     }
             {
                 "name": "Expertise",
                 "uniques": [     
- "[+15]% Production when constructing [All] buildings [in all cities]"
+ "[+15]% Production when constructing [All] buildings [in all cities]", "Gain [15] [Culture]<upon discovering [All]>"
                 ],
                 "requires": ["Liberty","Tributaries"],
                 "row": 3,
@@ -170,7 +173,7 @@
                 "uniques": [
                    "[+1 Happiness] per [15] population [in all cities]",
 "[+1 Happiness] [in all cities]",
-"[-10]% Unhappiness from [Population] [in all cities]",
+"[-10]% Unhappiness from [Population] [in all cities]","Gain [15] [Culture]<upon discovering [All]>"
                 ],
                 "requires": ["Grandiose","Democracy"],
                 "row": 4,
@@ -180,7 +183,7 @@
                 "name": "Fraternity",
                 "uniques": [
                     "[+3 Science] from each Trade Route",
-                    "[+3 Food] [in all cities]"
+                    "[+3 Food] [in all cities]","Gain [15] [Culture]<upon discovering [All]>"
                 ],
                 "requires": ["Democracy","Expertise"],
                 "row": 4,
