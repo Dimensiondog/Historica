@@ -299,7 +299,7 @@
                 "name": "Divine Right",
                 "uniques": ["[+1 Food] [in all cities]",
                     "[+25]% of excess happiness converted to [Culture]",
-                    "[-3.75]% Unhappiness from [Population] [in all cities]"
+                    "[-3]% Unhappiness from [Population] [in all cities]"
                 ],
                 "requires": ["Nobility","Serfdom"],
                 "row": 6,
@@ -316,7 +316,7 @@
             },
             {
                 "name": "Free Trade",
-                "uniques": ["[-3.75]% Unhappiness from [Population] [in all cities]",
+                "uniques": ["[-3]% Unhappiness from [Population] [in all cities]",
 "[Gold] cost of purchasing items in cities [-5]%", "[Great Merchant] is earned [+50]% faster"
                 ],
                 "row": 7,
